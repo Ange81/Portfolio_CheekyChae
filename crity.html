@@ -381,7 +381,230 @@ In order to solve this issue, Bookmarks and Downloads were brought one level abo
             </picture>
           </div>
         </div>
-
+        <div>
+          <div>
+            <h3>User Testing</h3>
+            <p>A detailed usability test plan was developed in order to better understand how users interact with the prototype. Issues were analysed and prioritised based on the severity of an error.</p>
+          </div>
+          <div>
+            <div>
+              <picture>
+                <source width="323" height="190" srcset="img/ux_cs_pg/crity/usertest/1x/Usability Test@1x.png" media="(max-width:767px)">
+                  <img width="646" height="380" src="img/ux_cs_pg/crity/usertest/2x/Usability Test@2x.png" alt="Usability Test Plan & Analysis">
+                </picture>
+            </div>
+          <div>
+            <table>
+              <tr>
+                <th>High Priority Issues</th>
+                <th>Suggested Changes</th>
+                <th>Reason</th>
+              </tr>
+              <tr>
+                <td>Users could not exit the filter page (Severity: High)</td>
+                <td>Introduce a floating “Done” or “Apply” button to guide users on exiting the filter page.</td>
+                <td>All users initially expected to see a button to exit the page which makes this issue a high priority with high severity.</td>
+              </tr>
+              <tr>
+                <td>Users did not understand why they had to select recommended routes on the filter page (Severity: High)</td>
+                <td>
+                  <ul>
+                    <li>Delete the “recommendation routes” option.</li>
+                    <li>On the map, have buttons where users can toggle between “Recommended routes” vs “All routes”. Default should be recommended routes.</li>
+                  </ul>
+                </td>
+                <td>Users found it confusing that there was a settings page to understand preference but user would have to filter recommended routes again from the filter page. This indicates a disconnect between the settings and the filters page. This is a flaw in the logic and needs to be addressed.</td>
+              </tr>
+              <tr>
+                <td>Confusion with the hierarchy between routes vs spots (Severity: High)</td>
+                <td>Use visual hierarchy for spots/routes, especially on the bookmark pages where people seemed to have most trouble identifying the spots tab.</td>
+                <td>Users actively mentioned how easy and intuitive the layout on “My Trips” was due to the simple icons used for Spots, Routes, Cities, and Countries but struggled on the “Bookmarks” where simple text form was used for “Routes” and “Spots”.</td>
+              <tr>
+                <tr>
+                  <td>Making the route start/end and location icons bigger on the map (Severity: Low)</td>
+                  <td>Adjust the UI elements on the map to make the route and current location clearer for the user.</td>
+                  <td>Users mentioned the map on the audio pages is not clear. Since map is an essential part of the app, changes are necessary.</td>
+                <tr>
+                  <tr>
+                    <td>Add key GPS functionalities to the maps (Severity: Medium)</td>
+                    <td>Add “Directions” function on the map which is a function that will guide the user to the start of the route and the spots.</td>
+                    <td>Each user was asked what they would expect on a travel/scavenger app, and most participants answered a GPS or a map. Since the map is an essential feature of the product, it would be critical to have some of the basic map/GPS functions that users would expect.</td>
+                  <tr>
+            </table>
+          </div>
+          <div>
+            <h3>Iterations</h3>
+            <p>Based on the usability test results and high priority issues that were identified, the following changes were made on the mid-fidelity prototype:</p>
+          </div>
+          <div>
+            <div>
+              <h4>Filter Page</h4>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Filter_Before@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_Before@2x.png" alt="FilterBefore">
+              </picture>
+              <figcaption>Before</figcaption>
+              </figure>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Filter_After@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" alt="FilterAfter">
+              </picture>
+              <figcaption>After</figcaption>
+              </figure>
+              <ul>
+                <li>Added a “Done” button to allow users to exit.</li>
+                <li>Took out “Recommended Routes”</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Homepage</h4>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Homepage_Before@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Homepage_Before@2x.png" alt="HomepageBefore">
+              </picture>
+              <figcaption>Before</figcaption>
+              </figure>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Homepage_After@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Homepage_After@2x.png" alt="HomepageAfter">
+              </picture>
+              <figcaption>After</figcaption>
+              </figure>
+              <ul>
+                <li>Recommended routes became a default on the Homepage</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Bookmarks Page</h4>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Bookmarks_Before@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Bookmarks_Before@2x.png" alt="BookmarksBefore">
+              </picture>
+              <figcaption>Before</figcaption>
+              </figure>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Bookmarks_After@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Bookmarks_After@2x.png" alt="BookmarksAfter">
+              </picture>
+              <figcaption>After</figcaption>
+              </figure>
+              <ul>
+                <li>Icons were used to visualise hierarchy between Routes and Spots</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Audio Page</h4>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_AudioPage_Before@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_AudioPage_Before@2x.png" alt="AudioBefore">
+              </picture>
+              <figcaption>Before</figcaption>
+              </figure>
+              <figure>
+                <picture>
+                  <source width="180" height="247" srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_AudioPageC_After2@1x.png" media="(max-width:767px)">
+                    <img width="360" height="494" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_AudioPageC_After2@2x.png" alt="AudioAfter">
+              </picture>
+              <figcaption>After</figcaption>
+              </figure>
+              <ul>
+                <li>Modified UI elements on the map to illustrate the hierarchy between Routes and Spots</li>
+                <li>Added navigation function on the map</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3> More Iterations for High-Fidelity Prototype</h3>
+              <p>As part of the iterative design process, there were further changes to the design based on user feedback which included preference tests as well. The following are a couple of the tests that took place that made some significant changes to the design:</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h4>Preference between dark/light mode</h4>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/preferencetest/1x/PreferenceTest_Onboarding_Option1@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/preferencetest/2x/PreferenceTest_Onboarding_Option1@2x.png" alt="PreferenceTest1Original">
+                </picture>
+                <figcaption>Option 1 (Original)</figcaption>
+              </figure>
+              <figure>
+                <picture>
+                  <source width="106" height="231" srcset="img/ux_cs_pg/crity/preferencetest/1x/PreferenceTest_Onboarding_Option2@1x.png" media="(max-width:767px)">
+                    <img width="212" height="462" src="img/ux_cs_pg/crity/preferencetest/2x/PreferenceTest_Onboarding_Option2@2x.png" alt="PreferenceTest1New">
+                </picture>
+                <figcaption>Option 2</figcaption>
+              </figure>
+            </div>
+            <div>
+              <h6>Results for Preference Test</h6>
+              <div>
+                <picture>
+                  <source srcset="https://via.placeholder.com/109x109?text=Piechart" media="(max-width:767px)">
+                    <img src="https://via.placeholder.com/318x318?text=Piechart" alt="Piechart">
+                  </picture>
+                <p>Some of the common reasons why people preferred option 2 were:
+                  <ul>
+                    <li>Feels lighter</li>
+                    <li>Feels more friendly</li>
+                    <li>Feels more inviting</li>
+                    <li>It’s more clearer and cleaner</li>
+                    <li>The other designs feels like it’s an app for night time</li>
+                  </ul>
+                </p>
+                <h6>Changes</h6>
+                <p>The new design should have the lighter mode for all the onboarding/settings pages.</p>
+              </div>
+            </div>
+        </div>
+        <div>
+          <div>
+            <h4>Preference between route card designs</h4>
+            <figure>
+              <picture>
+                <source width="106" height="231" srcset="img/ux_cs_pg/crity/preferencetest/1x/PreferenceTest_Homepage_Option1@1x.png" media="(max-width:767px)">
+                  <img width="212" height="462" src="img/ux_cs_pg/crity/preferencetest/2x/PreferenceTest_Homepage_Option1@2x.png" alt="PreferenceTest2Original">
+              </picture>
+              <figcaption>Option 1 (Original)</figcaption>
+            </figure>
+            <figure>
+              <picture>
+                <source width="106" height="231" srcset="img/ux_cs_pg/crity/preferencetest/1x/PreferenceTest_Homepage_Option2@1x.png" media="(max-width:767px)">
+                  <img width="212" height="462" src="img/ux_cs_pg/crity/preferencetest/2x/PreferenceTest_Homepage_Option2@2x.png" alt="PreferenceTest2New">
+              </picture>
+              <figcaption>Option 2</figcaption>
+            </figure>
+          </div>
+          <div>
+            <h6>Results for Preference Test</h6>
+            <div>
+              <picture>
+                <source srcset="https://via.placeholder.com/109x109?text=Piechart" media="(max-width:767px)">
+                  <img src="https://via.placeholder.com/318x318?text=Piechart" alt="Piechart">
+                </picture>
+              <p>Some of the common reasons why people preferred option 2 were:
+                <ul>
+                  <li>I like to see the picture</li>
+                  <li>It’s more engaging</li>
+                  <li>Prefer the images to get a feeling of where I am going</li>
+                  <li>Looks neater</li>
+                  <li>It’s more structured</li>
+                </ul>
+              </p>
+              <h6>Changes</h6>
+              <p>Change all the route card designs (explore pages/bookmark pages) to make the image more visible and reduce the text amount to only key information.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
