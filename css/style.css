@@ -24,38 +24,61 @@ h1, h2, h3, h4 {
 h1{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
-  font-weight: 800
+  font-weight: 800;
+  font-size: 5.4vw;
 }
 
 h2{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 600;
+  font-size: 5.4vw
 }
 
 h3{
   font-family: 'Karla', san-serif;
   font-size: 1.5em;
   font-weight: 600;
+  font-size: 5.4vw
 }
 
 h4{
   font-family: 'Karla', san-serif;
   font-size: 1.5em;
   font-weight: 400;
+  font-size: 5.4vw
 }
 
 h5{
   font-family: 'Karla', san-serif;
   font-size: 2em;
   font-weight: 400;
+  font-size: 6vw
 }
 
 h6{
   font-family: 'Karla', san-serif;
   font-weight: 600;
+  font-size: 5.4vw
 }
 
 img{
   width: 100%
+}
+
+.container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio*/
+}
+
+.responsive-iframe{
+  position: absolute;
+  top: 0;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  height: 100%;
 }
