@@ -66,6 +66,21 @@ img{
   width: 100%
 }
 
+a{
+  color: #17BEBB;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  color: #F87575;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #707070;
+  text-decoration: underline;
+}
+
 .container{
   position: relative;
   overflow: hidden;
