@@ -113,7 +113,7 @@ a:active{
 
 .button:hover, .button:focus{
   display:inline-block;
-  background-color: #17BEBB;
+  background-color: rgba(23, 190, 187, 0.8);
   color: #ffffff;
   font-family: 'Karla', san-serif;
   font-weight: 600;
