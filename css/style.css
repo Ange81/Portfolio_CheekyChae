@@ -99,6 +99,23 @@ a:active{
   height: 100%;
 }
 
+#project_hero{
+
+}
+
+#project_overview{
+
+}
+
+#project_process{
+
+}
+
+.project_process{
+  background-color: #F87575;
+  color: #FFFFFF;
+}
+
 .button{
   display:inline-block;
   background-color: #17BEBB;
