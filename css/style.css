@@ -18,53 +18,53 @@ body{
   color: #707070;}
 
 h1, h2, h3, h4 {
-  line-height: 1.2
+  line-height: 1.2;
+}
+
+h5{
+  line-height: 1.5;
 }
 
 h1{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 800;
-  font-size: 5.4vw;
 }
 
 h2{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 600;
-  font-size: 5.4vw
 }
 
 h3{
   font-family: 'Karla', san-serif;
   font-size: 1.5em;
   font-weight: 600;
-  font-size: 5.4vw
 }
 
 h4{
   font-family: 'Karla', san-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 400;
-  font-size: 5.4vw
 }
 
 h5{
   font-family: 'Karla', san-serif;
-  font-size: 2em;
-  font-weight: 400;
-  font-size: 6vw
+  font-size: 4vw;
+  font-weight: 800;
 }
 
 h6{
   font-family: 'Karla', san-serif;
+  font-size: 1em;
   font-weight: 600;
-  font-size: 5.4vw
 }
 
 img{
   width: 100%
 }
+
 
 a{
   color: #17BEBB;
@@ -99,6 +99,12 @@ a:active{
   height: 100%;
 }
 
+#home_hero{
+
+}
+
+
+
 #project_hero{
 
 }
@@ -111,8 +117,12 @@ a:active{
 
 }
 
-.project_process{
+.project_process {
   background-color: #F87575;
+  color: #FFFFFF;
+}
+
+.project_process a {
   color: #FFFFFF;
 }
 
