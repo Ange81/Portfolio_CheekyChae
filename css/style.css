@@ -1,7 +1,7 @@
 /*
 Color Used
-Primary Color: hex(#FDF0D5), hex(#17BEBB), hex(#F87575)
-Secondary Color: rgba(23, 190, 187, 0.4), rgba(253, 240, 213, 0.5)
+Primary Color: yello - hex(#FDF0D5), blue - hex(#17BEBB), pink - hex(#F87575)
+Secondary Color: blue - rgba(23, 190, 187, 0.4), yellow - rgba(253, 240, 213, 0.5)
 Font Color: hex(#707070) */
 
 /*
@@ -81,6 +81,14 @@ a:active{
   text-decoration: underline;
 }
 
+.nav{
+  background-color: #FDF0D5;
+  color: #707070
+}
+
+.footer{
+  background-color: #FDF0D5;
+}
 
 .container{
   position: relative;
@@ -88,6 +96,7 @@ a:active{
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio*/
 }
+
 
 .responsive-iframe{
   position: absolute;
@@ -99,32 +108,12 @@ a:active{
   height: 100%;
 }
 
-#home_hero{
-
-}
-
-
-
-#project_hero{
-
-}
-
-#project_overview{
-
-}
-
-#project_process{
-
-}
 
 .project_process {
   background-color: #F87575;
   color: #FFFFFF;
 }
 
-.project_process a {
-  color: #FFFFFF;
-}
 
 .button{
   display:inline-block;
@@ -159,4 +148,41 @@ a:active{
   border-radius: 14px;
   border-bottom: 0px;
   text-decoration: none;
+}
+
+
+#homepage{
+
+}
+
+#home_hero{
+
+}
+
+#home_project1{
+
+}
+
+#home_project2{
+
+}
+
+#home_project3{
+
+}
+
+#aboutpage{
+
+}
+
+#project_hero{
+
+}
+
+#project_overview{
+
+}
+
+#project_process{
+
 }
