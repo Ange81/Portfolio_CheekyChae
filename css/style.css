@@ -12,15 +12,34 @@ Paragraphs: Lato Regular & Bold
 
 /*Layout Styling*/
 .container{
-  padding: 0 15px;
+  padding: 0 15px; /*add padding on left & right for each content block*/
 }
 
 .row{
-  margin: 25px 0;
+  margin: 25px 0; /*add margins between content blocks in the homepage Projects section*/
 }
 
+#uxui_projects .row{
+  padding-bottom:25px; border-bottom: 1px  solid #707070;
+}
+
+#home_hero h1{
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+
+
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; /*makes sure border and padding are included in width so entire width does not overflow*/
 }
 body{
   font-family: 'Lato', san-serif;
@@ -104,6 +123,11 @@ a:active{
   color: #707070
 }
 
+header .nav{
+  padding: 10px 0;
+}
+
+
 .footer{
   background-color: #FDF0D5;
 }
@@ -115,6 +139,12 @@ a:active{
   padding-top: 56.25%; /* 16:9 Aspect Ratio*/
 }
 
+.container-iframem {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 200%; /* 8:16 Aspect Ratio*/
+}
 
 .responsive-iframe{
   position: absolute;
