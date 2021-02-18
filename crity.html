@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>CheekyChae - Case Study: Crity</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon_package_v0.16/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/logo/favicon_package_v0.16/favicon-16x16.png">
@@ -11,13 +13,20 @@
     <link rel="mask-icon" href="img/logo/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <!--normalize css-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--normalize css-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body id="projectcrity">
     <!--header section-->
-    <header class="nav">
-      <div>
+    <header id="nav">
+      <div class="nav container">
         <a href="index.html">
         <picture>
           <source width="187" height="126" srcset="img/logo/Logo_Simplified.svg" media="(max-width:767px)">
@@ -38,19 +47,17 @@
     <main>
       <div>
         <!--hero section-->
-        <div id="project_hero">
+        <div id="project_hero" class="container">
           <h1>UX Case Study: CrITY</h1>
           <div>
             <div>
               <picture>
                 <source srcset="img/ux_cs_pg/crity/herobanner/1x/HeroBanner_1@1x.png" media="(max-width:767px)">
-                  <img src="img/ux_cs_pg/crity/herobanner/2x/HeroBanner_1@2x.png" alt="mockups">
+                <img style="width:40%;" src="img/ux_cs_pg/crity/herobanner/1x/HeroBanner_1@1x.png" alt="mockups">
                 </picture>
-              </div>
-            <div>
               <picture>
                 <source srcset="img/ux_cs_pg/crity/branding/1x/Crity_Logo@1x.png" media="(max-width:767px)">
-                <img src="img/ux_cs_pg/crity/branding/2x/Crity_Logo@2x.png" alt="mockuips">
+                <img style="width:30%;" src="img/ux_cs_pg/crity/branding/1x/Crity_Logo@1x.png" alt="mockups">
               </picture>
               <h2>C<i>r</i>ITY</h2>
               <h2>A travel app designed for discovering hidden spots in a city</h2>
@@ -60,31 +67,32 @@
 
         <!--overview section-->
         <div id="project_overview">
-          <div>
-            <h3>Overview</h3>
-              <p>An end-to-end design project with the goal of creating a scavenger hunt app that enables players to hunt for real objects and locations.</p>
-            <h3>Contributions</h3>
-              <p>Strategy, Competitive Analysis, User Research, Usability Testing, Information Architecture, Wireframing, Prototyping, Illustration</p>
-          </div>
-          <div>
-            <h3>Challenges & Goals</h3>
-              <p>
-                <ul>
-                  <li>Apply the design thinking process to create a scavenger hunt app.</li>
-                  <li>Analyse the industry and the competitive landscape to understand not only the strength of the competitors, but also the gaps to identify unique opportunities.</li>
-                  <li>Starting from a wireframe, create a prototype by working through an iterative process of continuously testing and updating based on user feedback.</li>
-              </p>
-          </div>
-          <div>
-            <h3>Tools Used</h3>
-              <p>Adobe XD, Miro, Google Forms, Excel, Adobe Illustrator, Adobe Photoshop, Procreate, Optimal Workshop</p>
-            <h3>Duration</h3>
-              <p>May 1st, 2020 ~ Oct 28th, 2020 (approx. 6 months)</p>
-          </div>
+          <div class="container">
+            <div>
+              <h3>Overview</h3>
+                <p>An end-to-end design project with the goal of creating a scavenger hunt app that enables players to hunt for real objects and locations.</p>
+                <h3>Contributions</h3>
+                <p>Strategy, Competitive Analysis, User Research, Usability Testing, Information Architecture, Wireframing, Prototyping, Illustration</p>
+              </div>
+              <div>
+                <h3>Challenges & Goals</h3>
+                <p>
+                  <ul>
+                    <li>Apply the design thinking process to create a scavenger hunt app.</li>
+                    <li>Analyse the industry and the competitive landscape to understand not only the strength of the competitors, but also the gaps to identify unique opportunities.</li>
+                    <li>Starting from a wireframe, create a prototype by working through an iterative process of continuously testing and updating based on user feedback.</li>
+                  </p>
+              </div>
+              <div>
+                <h3>Tools Used</h3>
+                <p>Adobe XD, Miro, Google Forms, Excel, Adobe Illustrator, Adobe Photoshop, Procreate, Optimal Workshop</p>
+                <h3>Duration</h3>
+                <p>May 1st, 2020 ~ Oct 28th, 2020 (approx. 6 months)</p>
+              </div>
         </div>
 
         <!--process section-->
-        <div id="project_process" class="project_process">
+        <div id="project_process" class="project_process container">
           <h3>The Process</h3>
             <ol>
               <a href="#problem" class="project_process"><li>Understanding the Problem</li></a>
@@ -97,23 +105,26 @@
               <a href="#next" class="project_process"><li>What's Next?</li></a>
             </ol><br>
         </div>
-        <div>
-          <h3 id="problem">Understanding the Problem</h3>
-            <p>A problem statement not only defined and narrowed down the project goals and scope, but also kept the design process focused and cohesive.<br>
+
+        <div id="problem" class="container">
+          <div>
+            <h3>Understanding the Problem</h3>
+              <p>A problem statement not only defined and narrowed down the project goals and scope, but also kept the design process focused and cohesive.<br>
               I have decided to focus my design based on peoples’ interest in learning through gaming opportunities. This further developed into combining the idea of a travel experience that requires a user to learn about a local area, and a scavenger hunt experience that requires a user to search for hidden objects or spots.<br>
               After some basic research, the problem statement was defined as follows:</p>
-        </div>
-        <div>
-          <h5>Gamers, who love travelling, want a fun and exclusive experience that helps them learn about historical facts of a location that is not well known to the public.</h5>
-        </div>
-        <div>
-          The hypothesis was that following guide books can be cumbersome, and walking tours can be restricted by the schedule or weather conditions. Both options also do not deliver the interactive experience a gamer may seek for.
-        </div>
+            </div>
+            <div>
+              <h5>Gamers, who love travelling, want a fun and exclusive experience that helps them learn about historical facts of a location that is not well known to the public.</h5>
+            </div>
+            <div>
+              <p>The hypothesis was that following guide books can be cumbersome, and walking tours can be restricted by the schedule or weather conditions. Both options also do not deliver the interactive experience a gamer may seek for.</p>
+            </div>
+          </div>
 
         <!--competitor analysis section-->
-        <div>
+        <div id="competitors" class="container">
           <div>
-            <h3 id="competitors">Competitor Analysis</h3>
+            <h3>Competitor Analysis</h3>
               <p>As the idea combines the entertainment aspects of a scavenger hunt game and travelling, and the educational aspects of learning about an area and its history, multiple products and services from different areas were reviewed for the  competitive analysis such as:
                 <ul>
                   <li>Game industry focused on scavenger hunts</li>
@@ -125,13 +136,17 @@
               </p>
           </div>
           <div>
-            <table>
+            <picture>
+              <source srcset="img/ux_cs_pg/crity/competitors/1x/competitortable@1x.png" media="(max-width:767px)">
+              <img style="width:80%;" src="img/ux_cs_pg/crity/competitors/2x/competitortable@2x.png" alt="mockups">
+            </picture>
+            <!--table>
               <tr>
                 <th>Details</th>
-                <th><img src="img/ux_cs_pg/crity/competitors/1x/Competitor_GeoCache@1x.png" alt="Geocaching"></th>
-                <th><img src="img/ux_cs_pg/crity/competitors/1x/Competitor_voicemaplogo@1x.png" alt="VoiceMap"></th>
-                <th><img src="img/ux_cs_pg/crity/competitors/1x/Competitor_BookSample@1x.jpg" alt="London's Hidden Walks"></th>
-                <th><img src="img/ux_cs_pg/crity/competitors/1x/Competitor_VirginExperiencelogo@1x.jpg" alt="Virgin Experience"></th>
+                <th><img style="width:48px" src="img/ux_cs_pg/crity/competitors/1x/Competitor_GeoCache@1x.png" alt="Geocaching"></th>
+                <th><img style="width:48px" src="img/ux_cs_pg/crity/competitors/1x/Competitor_voicemaplogo@1x.png" alt="VoiceMap"></th>
+                <th><img style="width:47px; height:67px;"src="img/ux_cs_pg/crity/competitors/1x/Competitor_BookSample@1x.jpg" alt="London's Hidden Walks"></th>
+                <th><img style="width:79px; height:77px;" src="img/ux_cs_pg/crity/competitors/1x/Competitor_VirginExperiencelogo@1x.jpg" alt="Virgin Experience"></th>
               </tr>
               <tr>
                 <td>Name</td>
@@ -154,7 +169,7 @@
                 <td>Book</td>
                 <td>Service</td>
               <tr>
-            </table>
+            </table-->
           </div>
           <div>
             <h5>Through competitor analysis and market research, it was clear that there was an opportunity to capture both the fun and learning experience through creating an app that guides users to discover and learn about hidden spots within a city at their own pace and convenience.</h5>
@@ -163,10 +178,12 @@
             <p>A market analysis for a broader look at the competitive landscape was conducted as well which categorised potential competitors into 6 different competitor types. The following is a quadrant analysis that maps the different competitor types based on two key measurements: entertainment and education, which are the key elements for the app.</p>
           </div>
           <div>
-            <picture>
-              <source srcset="img/ux_cs_pg/crity/competitors/1x/quadrant@1x.png media="(max-width:767px)">
-              <img src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png" alt="quadrant">
-            </picture>
+            <img style="width:50%;" src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png"  alt="quadrant">
+
+            <!--picture>
+              <source srcset="img/ux_cs_pg/crity/competitors/1x/quadrant@1x.png" media="(max-width:767px)">
+              <img style="width:40%;" src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png" alt="quadrant">
+            </picture-->
           </div>
           <div>
             <ul>
@@ -184,19 +201,20 @@
         </div>
 
         <!--persona development section-->
-        <div>
+        <div id="persona" class="container">
           <div>
-            <h3 id="persona">Persona Development</h3>
+            <h3>Persona Development</h3>
             <p>Personas were developed using both quantitative data collected from surveys and qualitative information from user interviews.</p>
           </div>
           <div>
             <h4>Survey</h4>
             <p>A user survey was conducted with 26 respondents in total and with interesting differences between the two age groups:</p>
             <div>
-              <picture>
+              <img style="width:70%;" src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
+              <!--picture>
                 <source srcset="img/ux_cs_pg/crity/persona/1x/UserSurveyPie@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
-              </picture>
+              </picture-->
               <p>Regardless of age group<br>
                 <ul>
                   <li>96% has some form of planning for their travels</li>
@@ -210,48 +228,52 @@
             <div>
               <h4>User Interviews</h4>
               <p>4 individuals were interviewed, and based on their feedback, an affinity map was created. A total of 7 categories (pink post-its) were created to group the different observations and quotes from the interviews (yellow post-its), which were further synthesised into insights (blue post-its).</p>
-              <picture>
+              <img style="width:60%;" src="img/ux_cs_pg/crity/persona/2x/AffinityMap@2x.jpg" alt="AffinityMap">
+              <!--picture>
                 <source srcset="img/ux_cs_pg/crity/persona/1x/AffinityMap@1x.jpg" media="(max-width:767px)">
                   <img src="img/ux_cs_pg/crity/persona/2x/AffinityMap@2x.jpg" alt="AffinityMap">
-              </picture>
+              </picture-->
             </div>
           <div>
             <h4>Personas & User Journey</h4>
               <p>2 personas were developed as a result of the survey and user interviews.  User journeys for each of the persona were also developed based on the persona’s goals & needs, motivations, frustrations, and lifestyle.</p>
           </div>
           <div>
-            <picture>
+            <img style="width:50%;" src="img/ux_cs_pg/crity/persona/2x/Persona1_Hannah@2x.jpg" alt="Persona1: Hannah">
+            <!--picture>
               <source srcset="img/ux_cs_pg/crity/persona/1x/Persona1_Hannah@1x.jpg" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/persona/2x/Persona1_Hannah@2x.jpg" alt="Persona1: Hannah">
-            </picture>
+            </picture-->
             <p>For Hannah's User Journey, click <a href="https://www.scribd.com/document/491062448/Hannah-User-Journey?secret_password=0LgGVLXHtgmNoYRSb46Q" target="_blank">here</a>.</p>
           </div>
           <div>
-            <picture>
+            <img style="width:50%;" src="img/ux_cs_pg/crity/persona/2x/Persona2_Young@2x.jpg" alt="Persona2: Young">
+            <!--picture>
               <source srcset="img/ux_cs_pg/crity/persona/1x/Persona2_Young@1x.jpg" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/persona/2x/Persona2_Young@2x.jpg" alt="Persona2: Young">
-            </picture>
+            </picture-->
             <p>For Young's User Journey, click <a href="https://www.scribd.com/document/491062494/Young-User-Journey?secret_password=TcECB4eX26zmbi75Wv3z" target="_blank">here</a>.</p>
           </div>
         </div>
 
         <!--User Flow section-->
-        <div>
+        <div id="ia" class="container">
           <div>
-            <h3 id="ia">User Flow</h3>
+            <h3>User Flow</h3>
             <p>User flows for each persona were defined based on the hypothetical journey map which was a reflection of their anticipated behaviour and thinking.</p>
           </div>
           <div>
             <h4>Hannah's User Flow</h4>
-              <picture>
+            <img style="width:40%;" src="img/ux_cs_pg/crity/userflow/2x/UserFlow_Hannah@2x.png" alt="Hanna's User Flow">
+              <!--picture>
                 <source srcset="img/ux_cs_pg/crity/userflow/1x/UserFlow_Hannah@1x.png" media="(max-width:767px)">
                   <img src="img/ux_cs_pg/crity/userflow/2x/UserFlow_Hannah@2x.png" alt="Hanna's User Flow">
-              </picture>
+              </picture-->
               <div>
                 <h6>Legend</h6>
               </div>
             <div>
-              <svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="235" viewBox="0 0 600 235">
+              <svg style="width:60%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="235" viewBox="0 0 600 235">
               <defs>
               <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 61 60">
                 <image width="61" height="60" xlink:href="data:image/png;base64,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"/>
@@ -286,7 +308,7 @@
         </div>
 
         <!--information architecture section-->
-        <div>
+        <div class="container">
           <div>
             <h3>Information Architecture</h3>
           </div>
@@ -363,9 +385,9 @@
         </div>
 
         <!--wireframing & prototyping section-->
-        <div>
+        <div id="wireframe" class="container">
           <div>
-            <h3 id="wireframe">Wireframing</h3>
+            <h3>Wireframing</h3>
             <p>The initial wireframes and prototypes were developed for two tasks:
               <ul>
                 <li>Scenario 1: Searching and downloading routes</li>
@@ -437,9 +459,9 @@
         </div>
 
         <!--User Testing section-->
-        <div>
+        <div id="testing" class="container">
           <div>
-            <h3 id="testing">User Testing</h3>
+            <h3>User Testing</h3>
             <p>A detailed usability test plan was developed in order to better understand how users interact with the prototype. Issues were analysed and prioritised based on the severity of an error.</p>
           </div>
           <div>
@@ -495,20 +517,21 @@
           <div>
             <div>
               <h4>Filter Page</h4>
-              <figure>
-                <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Filter_Before@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_Before@2x.png" alt="FilterBefore">
-              </picture>
-              <figcaption>Before</figcaption>
+              <img width="60%" src="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" alt="FilterBefore">
+              <!--figure-->
+                <!--picture>
+                  <source width="100%" srcset="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" media="(max-width:767px)">
+
+              </picture-->
+              <!--figcaption>Before</figcaption>
               </figure>
               <figure>
                 <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Filter_After@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" alt="FilterAfter">
+                  <source width="100%" srcset="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" media="(max-width:767px)">
+                    <img width="20%" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" alt="FilterAfter">
               </picture>
               <figcaption>After</figcaption>
-              </figure>
+              </figure-->
               <ul>
                 <li>Added a “Done” button to allow users to exit.</li>
                 <li>Took out “Recommended Routes”</li>
@@ -516,10 +539,11 @@
             </div>
             <div>
               <h4>Homepage</h4>
-              <figure>
-                <picture>
+              <img width="60%" src="img/ux_cs_pg/crity/usertest/1x/homepageiteration@1x.png" alt="HomepageBefore">
+              <!--figure-->
+                <!--picture>
                   <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Homepage_Before@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Homepage_Before@2x.png" alt="HomepageBefore">
+
               </picture>
               <figcaption>Before</figcaption>
               </figure>
@@ -529,7 +553,7 @@
                     <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Homepage_After@2x.png" alt="HomepageAfter">
               </picture>
               <figcaption>After</figcaption>
-              </figure>
+              </figure-->
               <ul>
                 <li>Recommended routes became a default on the Homepage</li>
               </ul>
@@ -664,15 +688,15 @@
         </div>
 
         <!--design language system section-->
-        <div>
-          <h3 id="final">Design Language System</h3>
+        <div id="final" class="container">
+          <h3>Design Language System</h3>
         </div>
-        <div class="container">
+        <div class="container-iframe">
           <iframe class="responsive-iframe" src="https://xd.adobe.com/embed/797d39ad-1bdc-45f4-9d02-eb7a5eb3976d-2c2e/" frameborder="0" allowfullscreen title="Crity Design Language System"></iframe>
         </div>
 
         <!--final design section-->
-        <div>
+        <div class="container">
           <div>
             <h3>Final Design</h3>
             <p>Here are some of the key features and callouts on the design decisions:</p>
@@ -864,9 +888,9 @@
 
 
         <!--what's next section-->
-        <div>
+        <div id="next" class="container">
           <div>
-            <h3 id="next">What's Next?</h3>
+            <h3>What's Next?</h3>
             <p>There is still a lot of room for improvement for this project. The following are the list of things I would have liked to explore had I been given the time:</p>
           </div>
           <div>
@@ -895,15 +919,15 @@
 
       <!--footer section-->
       <footer id="contact" class="footer">
-        <div>
+        <div class="container">
           <div>
             <h2>Get in Touch</h2>
             <p>Want to connect? Please reach out!</p>
           </div>
           <div>
             <a href="mailto:angela@cheekychae.com" class="button">
-              <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 225"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M276.94,0H22.06C9.89,0,0,10.55,0,23.51v178C0,214.45,9.89,225,22.06,225H276.94c12.17,0,22.06-10.55,22.06-23.51v-178C299,10.55,289.11,0,276.94,0ZM182.28,112.45,280,41.93V183ZM276.76,19a2.83,2.83,0,0,1,1.93,1L149.15,113.5,19.6,20a2.85,2.85,0,0,1,1.94-1ZM18,183v-141l97.71,70.52Zm3.54,23a2.9,2.9,0,0,1-1.94-1l112.26-81,11.82,8.52a7.62,7.62,0,0,0,.9.46c.29.16.56.3.86.43a9.33,9.33,0,0,0,3.7.88h0a9.37,9.37,0,0,0,3.7-.88c.3-.13.57-.27.86-.43a8.48,8.48,0,0,0,.9-.46L166.43,124l112.26,81a2.83,2.83,0,0,1-1.93,1Z"/></g></g></svg>
-            Angela@CheekyChae.com</a>
+              <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 225"><defs><style>.cls-2{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-2" d="M276.94,0H22.06C9.89,0,0,10.55,0,23.51v178C0,214.45,9.89,225,22.06,225H276.94c12.17,0,22.06-10.55,22.06-23.51v-178C299,10.55,289.11,0,276.94,0ZM182.28,112.45,280,41.93V183ZM276.76,19a2.83,2.83,0,0,1,1.93,1L149.15,113.5,19.6,20a2.85,2.85,0,0,1,1.94-1ZM18,183v-141l97.71,70.52Zm3.54,23a2.9,2.9,0,0,1-1.94-1l112.26-81,11.82,8.52a7.62,7.62,0,0,0,.9.46c.29.16.56.3.86.43a9.33,9.33,0,0,0,3.7.88h0a9.37,9.37,0,0,0,3.7-.88c.3-.13.57-.27.86-.43a8.48,8.48,0,0,0,.9-.46L166.43,124l112.26,81a2.83,2.83,0,0,1-1.93,1Z"/></g></g></svg>
+            &nbsp Angela@CheekyChae.com</a>
           </div><br>
           <div> <!--social media icons-->
               <a href="https://www.linkedin.com/in/angelachae/" alt="LinkedIn" target="_blank">
