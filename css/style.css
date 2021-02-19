@@ -138,11 +138,6 @@ footer{
   background-color: #FDF0D5;
 }
 
-.project_process {
-  background-color: #F87575;
-  color: #FFFFFF;
-}
-
 .copyright{
   padding: 10px;
   margin-bottom: 0px;
@@ -242,6 +237,24 @@ img{
 }
 
 
+.project_process {
+  background-color: #F87575;
+  color: #FFFFFF;
+}
+
+.project_process > ol > a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.project_process > ol > a:hover, a:focus {
+  color: #FFFFFF
+}
+
+.project_process > ol {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 
 
