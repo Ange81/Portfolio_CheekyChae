@@ -6,41 +6,11 @@ Font Color: hex(#707070) */
 
 /*
 Fonts Used
-Headings: Karla Regular & Bold
-Paragraphs: Lato Regular & Bold
+Headings: Karla Regular & Bold (weight: 400, 600, 800)
+Paragraphs: Lato Regular & Bold (weight: 400,700)
 */
 
-/*Layout Styling*/
-.container{
-  padding: 0 15px; /*add padding on left & right for each content block*/
-}
-
-.row{
-  margin: 25px 0; /*add margins between content blocks in the homepage Projects section*/
-}
-
-#uxui_projects .row{
-  padding-bottom:25px; border-bottom: 1px  solid #707070;
-}
-
-#home_hero h1{
-  text-align: center;
-}
-
-nav > ul {
-  list-style-type: none;
-  padding: 0 15px;
-}
-
-nav > ul > li {
-  display: inline-block;
-}
-
-
-
-*{
-  box-sizing: border-box; /*makes sure border and padding are included in width so entire width does not overflow*/
-}
+/*General Styling*/
 body{
   font-family: 'Lato', san-serif;
   font-size: 16px;
@@ -48,14 +18,8 @@ body{
   line-height: 1.5;
   color: #707070;}
 
-header{
-  background-color: #FDF0D5;
-}
 
-footer{
-  background-color: #FDF0D5;
-}
-
+/*Typography*/
 h1, h2, h3, h4 {
   line-height: 1.2;
 }
@@ -100,10 +64,6 @@ h6{
   font-weight: 600;
 }
 
-img{
-  width:100%;
-}
-
 a{
   color: #17BEBB;
   text-decoration: none;
@@ -119,17 +79,81 @@ a:active{
   text-decoration: underline;
 }
 
-.nav{
-  color: #707070
+/*Componant Styling*/
+
+main{
+  padding-top: 100px;
 }
 
-header .nav{
-  padding: 10px 0;
+nav {
+  padding: 10px 0 0;
+  display: inline-block;
+  width: 100%;
 }
 
+nav > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a{
+  color: #707070;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight:400;
+}
+
+nav > ul > li > a:hover, a:focus {
+  font-weight: 600;
+  color: #17BEBB
+}
+
+nav > ul > li > a:active {
+  font-weight: 600;
+  text-decoration: underline;
+  color: rgba(23, 190, 187, 0.4);
+}
+
+header{
+  background-color: #FDF0D5;
+  position: fixed;
+  box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.20);
+  display: inline-block;
+  width: 100%;
+}
+
+footer{
+  background-color: #FDF0D5;
+}
+
+.container{
+  padding: 0 15px; /*add padding on left & right for each content block*/
+}
 
 .footer{
   background-color: #FDF0D5;
+}
+
+.project_process {
+  background-color: #F87575;
+  color: #FFFFFF;
+}
+
+.copyright{
+  padding: 10px;
+  margin-bottom: 0px;
+}
+/*Global Styling*/
+*{
+  box-sizing: border-box; /*makes sure border and padding are included in width so entire width does not overflow*/
+}
+
+img{
+  width:100%;
 }
 
 .container-iframe{
@@ -156,13 +180,6 @@ header .nav{
   height: 100%;
 }
 
-
-.project_process {
-  background-color: #F87575;
-  color: #FFFFFF;
-}
-
-
 .button{
   display:inline-block;
   background-color: #17BEBB;
@@ -173,7 +190,6 @@ header .nav{
   border-radius: 14px;
   border-bottom: 2px solid #0B6765;
 }
-
 
 .button:hover, .button:focus{
   display:inline-block;
@@ -197,6 +213,48 @@ header .nav{
   border-bottom: 0px;
   text-decoration: none;
 }
+
+
+/*Page Specific Styling*/
+.row{
+  margin: 25px 0; /*add margins between content blocks in the homepage Projects section*/
+}
+
+#uxui_projects .row{
+  padding-bottom:25px; border-bottom: 1px  solid #707070;
+}
+
+#home_hero h1{
+  text-align: center;
+}
+
+#home_hero {
+  background-color: #FDF0D5;
+  padding: 15px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#project_hero {
+  padding: 15px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #homepage{
