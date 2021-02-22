@@ -32,13 +32,14 @@ h1{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 800;
+  padding-top: 80px;
 }
 
 h2{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 600;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 h3{
@@ -83,7 +84,7 @@ a:active{
 /*Componant Styling*/
 
 main{
-  padding-top: 100px;
+  padding-top: 15px;
 }
 
 nav {
@@ -120,6 +121,7 @@ nav > ul > li > a:active {
 }
 
 header{
+  text-align: center;
   background-color: #FDF0D5;
   position: fixed;
   box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.20);
@@ -143,6 +145,8 @@ footer{
   padding: 10px;
   margin-bottom: 0px;
 }
+
+
 /*Global Styling*/
 *{
   box-sizing: border-box; /*makes sure border and padding are included in width so entire width does not overflow*/
@@ -257,9 +261,60 @@ img{
   padding-left: 0;
 }
 
+#aboutpage > main > div > div > h1{
+  margin-top:0px;
+}
+
+/*Media Queries*/
+
+/*================================
+Medium Devices (640px and larger)
+==================================
+*/
+
+@media only screen and (min-width: 640px){
+  header{
+    text-align: unset;
+  }
+  nav > ul{
+      width: auto;
+      float: right;
+  }
+  nav > a > picture{
+    width: auto;
+    float: left;
+    margin-top: 6px;
+  }
+  main{
+    padding-top: 0px;
+  }
+
+  h1{
+    padding-top: 50px;
+  }
 
 
+}
 
+
+/*================================
+Large Devices (1024px and larger)
+==================================
+*/
+
+@media only screen and (min-width: 1024px){
+
+}
+
+
+/*================================
+X-Large Devices (1440px and larger)
+==================================
+*/
+
+@media only screen and (min-width: 1440px){
+
+}
 
 
 
