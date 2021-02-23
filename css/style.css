@@ -228,7 +228,7 @@ img{
   padding-bottom:25px; border-bottom:1px  solid #707070;
 }
 
-#home_hero h1{
+#home_hero{
   text-align: center;
 }
 
@@ -299,8 +299,31 @@ Medium Devices (640px and larger)
   h1{
     padding-top: 50px;
   }
+  h2{
+    padding-top: 100px;
+  }
 
+  .col-md-6{
+    width:50%;
+  }
 
+  [class*="col-"]{
+    float: left;
+    padding: 10px;
+  }
+  .row::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+[id*="home_project"] h3{
+  margin-top: 0px;
+}
+
+  #skills_tools h3{
+    margin-top:0px;
+  }
 }
 
 
@@ -310,6 +333,12 @@ Large Devices (1024px and larger)
 */
 
 @media only screen and (min-width: 1024px){
+  .col-lg-8{
+    width:60%;
+  }
+  .col-lg-4{
+    width:40%;
+  }
 
 }
 
