@@ -44,50 +44,51 @@
 
     <!--main section-->
     <main>
-      <div id="project_hero" >
+      <div>
         <!--hero section-->
-        <div class="container">
+        <div  id="project_hero" class="container row">
           <h1>UX Case Study: CrITY</h1>
           <div>
             <div>
-              <picture>
+              <picture id="hero_image" class="col-md-8 col-lg-8">
                 <source srcset="img/ux_cs_pg/crity/herobanner/1x/HeroBanner_1@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/herobanner/2x/HeroBanner_1@2x.png" alt="mockups">
                 </picture>
-              <picture id="crity_logo">
+            </div>
+            <div  class="col-md-4 col-lg-4">
+              <picture id="project_logo">
                 <source srcset="img/ux_cs_pg/crity/branding/1x/Crity_Logo@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/branding/1x/Crity_Logo@1x.png" alt="Crity_logo">
               </picture>
-              <h2>C<i>r</i>ITY</h2>
-              <h2>A travel app designed for discovering hidden spots in a city</h2>
+              <h3>A travel app designed for discovering hidden spots in a city</h3>
             </div>
           </div>
         </div>
 
         <!--overview section-->
         <div id="project_overview">
-          <div class="container">
-            <div>
+          <div class="container row">
+            <div class="col-lg-6">
               <h3>Overview</h3>
                 <p>An end-to-end design project with the goal of creating a scavenger hunt app that enables players to hunt for real objects and locations.</p>
                 <h3>Contributions</h3>
                 <p>Strategy, Competitive Analysis, User Research, Usability Testing, Information Architecture, Wireframing, Prototyping, Illustration</p>
-              </div>
-              <div>
+                <h3>Duration</h3>
+                <p>May 1st, 2020 ~ Oct 28th, 2020 (approx. 6 months)</p>
+            </div>
+            <div class="col-lg-6">
                 <h3>Challenges & Goals</h3>
                 <p>
                   <ul>
                     <li>Apply the design thinking process to create a scavenger hunt app.</li>
-                    <li>Analyse the industry and the competitive landscape to understand not only the strength of the competitors, but also the gaps to identify unique opportunities.</li>
-                    <li>Starting from a wireframe, create a prototype by working through an iterative process of continuously testing and updating based on user feedback.</li>
-                  </p>
-              </div>
-              <div>
+                    <li>Analyse the industry and the competitive landscape to understand the strength of the competitors, and identify unique opportunities.</li>
+                    <li>Create a prototype by working through an iterative process based on user testing and feedback.</li>
+                  </ul>
+                </p>
                 <h3>Tools Used</h3>
                 <p>Adobe XD, Miro, Google Forms, Excel, Adobe Illustrator, Adobe Photoshop, Procreate, Optimal Workshop</p>
-                <h3>Duration</h3>
-                <p>May 1st, 2020 ~ Oct 28th, 2020 (approx. 6 months)</p>
-              </div>
+            </div>
+          </div>
         </div>
 
         <!--process section-->
@@ -470,45 +471,7 @@
                   <img src="img/ux_cs_pg/crity/usertest/2x/Usability Test@2x.png" alt="Usability Test Plan & Analysis">
                 </picture>
             </div>
-          <div>
-            <table>
-              <tr>
-                <th>High Priority Issues</th>
-                <th>Suggested Changes</th>
-                <th>Reason</th>
-              </tr>
-              <tr>
-                <td>Users could not exit the filter page (Severity: High)</td>
-                <td>Introduce a floating “Done” or “Apply” button to guide users on exiting the filter page.</td>
-                <td>All users initially expected to see a button to exit the page which makes this issue a high priority with high severity.</td>
-              </tr>
-              <tr>
-                <td>Users did not understand why they had to select recommended routes on the filter page (Severity: High)</td>
-                <td>
-                  <ul>
-                    <li>Delete the “recommendation routes” option.</li>
-                    <li>On the map, have buttons where users can toggle between “Recommended routes” vs “All routes”. Default should be recommended routes.</li>
-                  </ul>
-                </td>
-                <td>Users found it confusing that there was a settings page to understand preference but user would have to filter recommended routes again from the filter page. This indicates a disconnect between the settings and the filters page. This is a flaw in the logic and needs to be addressed.</td>
-              </tr>
-              <tr>
-                <td>Confusion with the hierarchy between routes vs spots (Severity: High)</td>
-                <td>Use visual hierarchy for spots/routes, especially on the bookmark pages where people seemed to have most trouble identifying the spots tab.</td>
-                <td>Users actively mentioned how easy and intuitive the layout on “My Trips” was due to the simple icons used for Spots, Routes, Cities, and Countries but struggled on the “Bookmarks” where simple text form was used for “Routes” and “Spots”.</td>
-              <tr>
-                <tr>
-                  <td>Making the route start/end and location icons bigger on the map (Severity: Low)</td>
-                  <td>Adjust the UI elements on the map to make the route and current location clearer for the user.</td>
-                  <td>Users mentioned the map on the audio pages is not clear. Since map is an essential part of the app, changes are necessary.</td>
-                <tr>
-                  <tr>
-                    <td>Add key GPS functionalities to the maps (Severity: Medium)</td>
-                    <td>Add “Directions” function on the map which is a function that will guide the user to the start of the route and the spots.</td>
-                    <td>Each user was asked what they would expect on a travel/scavenger app, and most participants answered a GPS or a map. Since the map is an essential feature of the product, it would be critical to have some of the basic map/GPS functions that users would expect.</td>
-                  <tr>
-            </table>
-          </div>
+
           <div>
             <h3>Iterations</h3>
             <p>Based on the usability test results and high priority issues that were identified, the following changes were made on the mid-fidelity prototype:</p>

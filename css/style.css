@@ -218,6 +218,11 @@ img{
   text-decoration: none;
 }
 
+[class*="col-"]{
+  float: left;
+  padding: 10px;
+}
+
 
 /*Page Specific Styling*/
 .row{
@@ -245,12 +250,37 @@ img{
   width: 100%;
 }
 
+#aboutpage h2{
+  padding-top:0px;
+}
+
 #project_hero {
-  padding: 15px 0;
   display: inline-block;
   width: 100%;
 }
 
+#hero_image {
+  margin: 0 auto;
+}
+
+#project_logo{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+#project_hero h3{
+  padding:0px;
+  margin-top: 0px;
+  width:50%
+  float: right;
+}
+
+.row::after{
+  content:"";
+  clear: both;
+  display: table;
+}
 
 .project_process {
   background-color: #F87575;
@@ -303,27 +333,35 @@ Medium Devices (640px and larger)
     padding-top: 100px;
   }
 
-  .col-md-6{
+  .col-md-50{
     width:50%;
   }
 
-  [class*="col-"]{
-    float: left;
-    padding: 10px;
-  }
-  .row::after{
-    content:"";
-    clear: both;
-    display: table;
+  .col-md-60{
+    width:60%;
   }
 
-[id*="home_project"] h3{
-  margin-top: 0px;
+  .col-md-40{
+    width:40%;
+  }
+
+  .col-md-full{
+    width:100%
+  }
+
+
+  [id*="home_project"] h3{
+    margin-top: 0px;
 }
 
   #skills_tools h3{
     margin-top:0px;
   }
+
+  #project_logo {
+    width:100%;
+  }
+
 }
 
 
@@ -333,11 +371,24 @@ Large Devices (1024px and larger)
 */
 
 @media only screen and (min-width: 1024px){
-  .col-lg-8{
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .col-lg-60{
     width:60%;
   }
-  .col-lg-4{
+  .col-lg-40{
     width:40%;
+  }
+
+  .col-lg-50{
+    width:50%;
+  }
+
+  .col-lg-full{
+    width:100%;
   }
 
 }
