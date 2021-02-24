@@ -145,6 +145,12 @@ footer{
   background-color: #FDF0D5;
 }
 
+.footer h2{
+  display: inline-block;
+  width: 100%;
+  padding-top: 0px;
+}
+
 .copyright{
   padding: 10px;
   margin-bottom: 0px;
@@ -250,7 +256,12 @@ img{
   width: 100%;
 }
 
-#aboutpage h2{
+
+#my_story h2{
+  padding-top:0px;
+}
+
+#skills_tools h2{
   padding-top:0px;
 }
 
@@ -264,7 +275,7 @@ img{
 }
 
 #project_logo{
-    width: 40%;
+    width: 50%;
     float: left;
     padding: 10px;
 }
@@ -272,7 +283,7 @@ img{
 #project_hero h3{
   padding:0px;
   margin-top: 0px;
-  width:50%
+  width:50%;
   float: right;
 }
 
@@ -390,6 +401,11 @@ Large Devices (1024px and larger)
   .col-lg-full{
     width:100%;
   }
+
+  h1{
+    padding-top: 80px;
+  }
+
 
 }
 
