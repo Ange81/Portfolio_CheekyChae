@@ -59,7 +59,7 @@ h4{
 
 h5{
   font-family: 'Karla', san-serif;
-  font-size: 4vw;
+  font-size: 1.2em;
   font-weight: 800;
 }
 
@@ -67,6 +67,10 @@ h6{
   font-family: 'Karla', san-serif;
   font-size: 1em;
   font-weight: 600;
+}
+
+.footnote{
+  font-size: 0.8em;
 }
 
 a{
@@ -166,6 +170,10 @@ img{
   width:100%;
 }
 
+ul{
+  padding-left: 15px
+}
+
 .container-iframe{
   position: relative;
   overflow: hidden;
@@ -224,10 +232,6 @@ img{
   text-decoration: none;
 }
 
-[class*="col-"]{
-  float: left;
-  padding: 10px;
-}
 
 
 /*Page Specific Styling*/
@@ -312,6 +316,57 @@ img{
   padding-left: 0;
 }
 
+#projectcrity #competitors #quadrant ul {
+  list-style-type: none;
+}
+
+#projectcrity #competitors #quadrant ul img {
+  width: 30px;
+  height: 27px;
+  padding: 0 5px 0 0 ;
+  float: left;
+}
+
+#projectcrity #competitors #quadrant ul li {
+  width: 90%;
+  float: right;
+}
+
+#projectcrity #competitors #quadrant ul div {
+  display: inline-block;
+  width: 100%;
+}
+
+
+#projectcrity #user_flow #legend img {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+#projectcrity #ia #card_sorting ul {
+    list-style-type: none;
+  }
+
+#projectcrity #ia #card_sorting ul img {
+    width: 30px;
+    height: 27px;
+    padding: 0 5px 0 0 ;
+    float: left;
+  }
+
+#projectcrity #ia #card_sorting ul li {
+    width: 90%;
+    float: right;
+  }
+
+
+#projectcrity #ia #card_sorting ul div {
+    display: inline-block;
+    width: 100%;
+  }
+
 
 /*Media Queries*/
 
@@ -360,10 +415,15 @@ Medium Devices (640px and larger)
     width:100%
   }
 
+  [class*="col-"]{
+    float: left;
+    padding: 10px;
+  }
+
 
   [id*="home_project"] h3{
     margin-top: 0px;
-}
+  }
 
   #skills_tools h3{
     margin-top:0px;
@@ -371,6 +431,15 @@ Medium Devices (640px and larger)
 
   #project_logo {
     width:100%;
+  }
+
+  #projectcrity #user_flow #legend img {
+      float:left;
+      width: 100%;
+    }
+
+  #projectcrity #user_flow #young_userflow {
+    float: right;
   }
 
 }
