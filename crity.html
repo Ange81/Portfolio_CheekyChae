@@ -100,7 +100,7 @@
               <a href="#problem" class="project_process"><li>Understanding the Problem</li></a>
               <a href="#competitors" class="project_process"><li>Competitive Analysis</li></a>
               <a href="#persona" class="project_process"><li>Persona Development</li></a>
-              <a href="#ia" class="project_process"><li>User Flow & Information Architecture</li></a>
+              <a href="#user_flow" class="project_process"><li>User Flow & Information Architecture</li></a>
               <a href="#wireframe" class="project_process"><li>Wireframing & Prototyping</li></a>
               <a href="#testing" class="project_process"><li>User Testing & Iterations</li></a>
               <a href="#final" class="project_process"><li>Design Language System & High Fidelity</li></a>
@@ -126,10 +126,10 @@
         <div id="competitors" class="container">
           <div>
             <h3>Competitor Analysis</h3>
-              <p>As the idea combines the entertainment aspects of a scavenger hunt game and travelling, and the educational aspects of learning about an area and its history, multiple products and services from different areas were reviewed for the  competitive analysis such as:
+              <p>As the idea combines the entertainment aspects of a gaming and travelling, and the educational aspects of learning about a location, multiple products and services were reviewed for the  competitive analysis such as:
                 <ul>
                   <li>Game industry focused on scavenger hunts</li>
-                  <li>Tourism apps focused on Walking Tours</li>
+                  <li>Tour apps focused on Walking Tours</li>
                   <li>Tour guide books focused on hidden spots/locations in a city</li>
                   <li>Walking Tour Guides</li>
                 </ul>
@@ -143,32 +143,35 @@
             </picture>
           </div>
           <div>
+            <p class="footnote">* For details of the four competitor prfoiles and SWOT analysis, please click <a href="https://www.scribd.com/document/490610359/Competitors-Profile-SWOT?secret_password=xKxeDOh5UcOE60qem5Fh" target="_blank">here</a>.</p>
+          </div>
+          <div>
             <h5>Through competitor analysis and market research, it was clear that there was an opportunity to capture both the fun and learning experience through creating an app that guides users to discover and learn about hidden spots within a city at their own pace and convenience.</h5>
           </div>
           <div>
             <p>A market analysis for a broader look at the competitive landscape was conducted as well which categorised potential competitors into 6 different competitor types. The following is a quadrant analysis that maps the different competitor types based on two key measurements: entertainment and education, which are the key elements for the app.</p>
           </div>
           <div>
-            <img style="width:50%;" src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png"  alt="quadrant">
+          <div id="quadrant" clas="row">
+            <div class="col-md-40">
+              <picture>
+                <source srcset="img/ux_cs_pg/crity/competitors/1x/quadrant@1x.png" media="(max-width:767px)">
+                  <img src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png" alt="quadrant">
+                </picture>
+              </div>
+              <div class="row col-md-60">
+                <ul>
+                  <div><img src="img/icons/A@2x.png" alt="A."><li>Guide books focused on major tour sites: A very competitive space which may deliver value in the context of learning, but because authors tend to pack in a lot of information in text form, there is a lack of the entertainment element. There is also a lack of interactiveness which would make this option less interesting for gamers.</li></div>
+                  <div><img src="img/icons/B@2x.png" alt="B."><li>Guided walking tours: Also a very competitive space. While the educational element may be high, the fun element can be dependent on the tour guide. Also, rather than the travellers actively participating on tasks, the information flow is usually one way which makes it less interesting for gamers.</li></div>
+                  <div><img src="img/icons/C@2x.png" alt="C."><li>Walking tour mobile apps: Depending on the app, there is some storytelling which can make it interesting and engaging, but primarily the educational aspect is much stronger and the information flow tends to be one way. Some of the competitors in this space are VoiceMap, SideWalk, and GPSmyCity.</li></div>
+                  <div><img src="img/icons/D@2x.png" alt="D."><li>Guide books focused on hidden spots: Users are asked to search for hidden spots that may make this experience engaging. However, there is a lack of interactiveness which makes it less interesting for gamers.</li></div>
+                  <div><img src="img/icons/E@2x.png" alt="E."><li>Scavenger Hunt Apps that focuses on tourism: Since these apps target both the gaming and tourism markets, the idea is very similar to the project. However, most apps in the market are mainly focused on team competition which minimises the experience of actually learning something. Some of the competitors would be Let’s Roam, CityHunt, and Live the City.</li></div>
+                  <div><img src="img/icons/F@2x.png" alt="F."><li>Scavenger Hunt Apps that focuses on gaming: There is a strong element of entertainment that is specifically targeted for gamers. However, the goal for these apps are not designed to learn something new. Some of the competitors would be Geocaching and GooseChase.</li></div>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-            <!--picture>
-              <source srcset="img/ux_cs_pg/crity/competitors/1x/quadrant@1x.png" media="(max-width:767px)">
-              <img style="width:40%;" src="img/ux_cs_pg/crity/competitors/2x/quadrant@2x.png" alt="quadrant">
-            </picture-->
-          </div>
-          <div>
-            <ul>
-              <li>A. Tour guide books focused on major tour sites: This is a very competitive space which may deliver a lot of value in the context of learning, but because authors tend to pack in a lot of information related to major tour sites, there is a lack of the fun element. There is also a lack of interactiveness with the reader which would make this option less interesting for gamers.</li>
-              <li>B. Physical walking tours led by tour guides: This is also a very competitive space. While the educational element may be high, the fun element can be dependent on the tour guide. Also, rather than the travellers actively participating on tasks, the information flow is usually one way which makes it less interesting for gamers.</li>
-              <li>C. Walking tour mobile apps: Depending on the app, there is a bit of storytelling to some of these apps which makes it a little bit more interesting and engaging, but primarily the educational aspect is much stronger and the information flow tends to be one way which is from the app to the user. Some of the competitors in this space are VoiceMap, SideWalk, and GPSmyCity.</li>
-              <li>D. Tour guide books focused on hidden spots: There is an element of searching for hidden spots rather than the obvious and famous tourist attractions that may make this option interesting. However, there is a lack of interactiveness which makes it less interesting for gamers.</li>
-              <li>E. Scavenger Hunt Apps that has a focus on tourism: In the sense that these apps target both the gaming and tourism markets, the idea is very similar to this project. However, the apps currently out in the market are mainly focused on quiz solving and team play which minimises the experience of actually learning something. Some of the competitors would be Let’s Roam, CityHunt, and Live the City.</li>
-              <li>F. Scavenger Hunt Apps: As these apps are focused on gaming, there is a strong element of fun and entertainment that is specifically targeted for gamers. However, the goal for these apps are not designed to learn something new which decreases the educational factor. Some of the competitors would be Geocaching and GooseChase.</li>
-            </ul>
-          </div>
-          <div>
-            <p>For details of the four competitor prfoiles ansd SWOT analysis, please click <a href="https://www.scribd.com/document/490610359/Competitors-Profile-SWOT?secret_password=xKxeDOh5UcOE60qem5Fh" target="_blank">here</a>.</p>
-          </div>
         </div>
 
         <!--persona development section-->
@@ -180,118 +183,105 @@
           <div>
             <h4>Survey</h4>
             <p>A user survey was conducted with 26 respondents in total and with interesting differences between the two age groups:</p>
-            <div>
-              <img style="width:70%;" src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
-              <!--picture>
-                <source srcset="img/ux_cs_pg/crity/persona/1x/UserSurveyPie@1x.png" media="(max-width:767px)">
-                <img src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
-              </picture-->
-              <p>Regardless of age group<br>
-                <ul>
-                  <li>96% has some form of planning for their travels</li>
-                  <li>81% search information about a question or discovery on the spot when traveling</li>
-                  <li>85% uses the GPS when navigating</li>
-                  <li>81% have not played a scavenger hunt game when traveling. However, 91% of those respondents said a game would help learn more about the city.</li>
-                </ul>
-              </p>
+            <div class="row">
+              <div class="col-md-60">
+                <picture>
+                  <source srcset="img/ux_cs_pg/crity/persona/1x/UserSurveyPie@1x.png" media="(max-width:767px)">
+                    <img src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
+                  </picture>
+                </div>
+                <div class="col-md-40">
+                  <p>Regardless of age group<br>
+                    <ul>
+                      <li>96% has some form of planning for their travels</li>
+                      <li>81% search information about a question or discovery on the spot when traveling</li>
+                      <li>85% uses the GPS when navigating</li>
+                      <li>81% have not played a scavenger hunt game when traveling. However, 91% of those respondents said a game would help learn more about the city.</li>
+                    </ul>
+                  </p>
+                </div>
             </div>
             </div>
-            <div>
-              <h4>User Interviews</h4>
-              <p>4 individuals were interviewed, and based on their feedback, an affinity map was created. A total of 7 categories (pink post-its) were created to group the different observations and quotes from the interviews (yellow post-its), which were further synthesised into insights (blue post-its).</p>
-              <img style="width:60%;" src="img/ux_cs_pg/crity/persona/2x/AffinityMap@2x.jpg" alt="AffinityMap">
-              <!--picture>
-                <source srcset="img/ux_cs_pg/crity/persona/1x/AffinityMap@1x.jpg" media="(max-width:767px)">
-                  <img src="img/ux_cs_pg/crity/persona/2x/AffinityMap@2x.jpg" alt="AffinityMap">
-              </picture-->
+            <div class="row">
+              <div class="col-md-50">
+                <h4>User Interviews</h4>
+                <p>4 individuals were interviewed, and based on their feedback, an affinity map was created. A total of 7 categories (pink post-its) were created to group the different observations and quotes from the interviews (yellow post-its), which were further synthesised into insights (blue post-its).</p>
+              </div>
+              <div class="col-md-50">
+                <picture>
+                  <source srcset="img/ux_cs_pg/crity/persona/1x/AffinityMap@1x.jpg" media="(max-width:767px)">
+                    <img src="img/ux_cs_pg/crity/persona/2x/AffinityMap@2x.jpg" alt="AffinityMap">
+                </picture>
+              </div>
             </div>
           <div>
             <h4>Personas & User Journey</h4>
               <p>2 personas were developed as a result of the survey and user interviews.  User journeys for each of the persona were also developed based on the persona’s goals & needs, motivations, frustrations, and lifestyle.</p>
           </div>
-          <div>
-            <img style="width:50%;" src="img/ux_cs_pg/crity/persona/2x/Persona1_Hannah@2x.jpg" alt="Persona1: Hannah">
-            <!--picture>
-              <source srcset="img/ux_cs_pg/crity/persona/1x/Persona1_Hannah@1x.jpg" media="(max-width:767px)">
-                <img src="img/ux_cs_pg/crity/persona/2x/Persona1_Hannah@2x.jpg" alt="Persona1: Hannah">
-            </picture-->
-            <p>For Hannah's User Journey, click <a href="https://www.scribd.com/document/491062448/Hannah-User-Journey?secret_password=0LgGVLXHtgmNoYRSb46Q" target="_blank">here</a>.</p>
-          </div>
-          <div>
-            <img style="width:50%;" src="img/ux_cs_pg/crity/persona/2x/Persona2_Young@2x.jpg" alt="Persona2: Young">
-            <!--picture>
-              <source srcset="img/ux_cs_pg/crity/persona/1x/Persona2_Young@1x.jpg" media="(max-width:767px)">
-                <img src="img/ux_cs_pg/crity/persona/2x/Persona2_Young@2x.jpg" alt="Persona2: Young">
-            </picture-->
-            <p>For Young's User Journey, click <a href="https://www.scribd.com/document/491062494/Young-User-Journey?secret_password=TcECB4eX26zmbi75Wv3z" target="_blank">here</a>.</p>
-          </div>
+          <div class="row">
+            <div class="col-md-50">
+              <picture>
+                <source srcset="img/ux_cs_pg/crity/persona/1x/Persona1_Hannah@1x.jpg" media="(max-width:767px)">
+                  <img src="img/ux_cs_pg/crity/persona/2x/Persona1_Hannah@2x.jpg" alt="Persona1: Hannah">
+                </picture>
+                <p class="footnote">For Hannah's User Journey, click <a href="https://www.scribd.com/document/491062448/Hannah-User-Journey?secret_password=0LgGVLXHtgmNoYRSb46Q" target="_blank">here</a>.</p>
+              </div>
+              <div class="col-md-50">
+                <picture>
+                  <source srcset="img/ux_cs_pg/crity/persona/1x/Persona2_Young@1x.jpg" media="(max-width:767px)">
+                    <img src="img/ux_cs_pg/crity/persona/2x/Persona2_Young@2x.jpg" alt="Persona2: Young">
+                  </picture>
+                  <p class="footnote">For Young's User Journey, click <a href="https://www.scribd.com/document/491062494/Young-User-Journey?secret_password=TcECB4eX26zmbi75Wv3z" target="_blank">here</a>.</p>
+              </div>
+            </div>
         </div>
 
         <!--User Flow section-->
-        <div id="ia" class="container">
+        <div id="user_flow" class="container">
           <div>
             <h3>User Flow</h3>
             <p>User flows for each persona were defined based on the hypothetical journey map which was a reflection of their anticipated behaviour and thinking.</p>
           </div>
-          <div>
+          <div class="row">
+          <div class="col-md-50">
             <h4>Hannah's User Flow</h4>
-            <img style="width:40%;" src="img/ux_cs_pg/crity/userflow/2x/UserFlow_Hannah@2x.png" alt="Hanna's User Flow">
-              <!--picture>
+            <picture>
                 <source srcset="img/ux_cs_pg/crity/userflow/1x/UserFlow_Hannah@1x.png" media="(max-width:767px)">
                   <img src="img/ux_cs_pg/crity/userflow/2x/UserFlow_Hannah@2x.png" alt="Hanna's User Flow">
-              </picture-->
-              <div>
-                <h6>Legend</h6>
-              </div>
-            <div>
-              <svg style="width:60%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="235" viewBox="0 0 600 235">
-              <defs>
-              <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 61 60">
-                <image width="61" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA8CAYAAADVPrJMAAAACXBIWXMAACE3AAAhNwEzWJ96AAAHWElEQVRogdWba2xURRTHzxKkVVtoFSxUpQ8IAWzKUok81JSihIYY2gY+qDFpY1xNjEY0MfEDce8aP5iQKBgTEzdKa4zxG61BUsOrDVgVEVqCFBFoC0Jbi2wpFQEJa/5352xnd+9rd+de8Z/sZu7u7Mz87sycmbvnjC8ajZKXCmrhAiLyS1X2h7RAv5dtcA1awK0UL794TbP5WSduAhF1E1FHSAt0u9E2pdACtEm8FpnlK3mgKJ4eGrlE16//Y5Z1gIhaiahZ5Q1QAh3UwqVEpBFRo/x50YxCmj9vNs0snkEFhflUXDzdtIxr127QhfMj1H/mPA0OR2jg3GDyzegU8M3ZtjcraCNYgC5bWkELK8opN3dKVo07/ksf9fb20dFjp+WP0ftNIS3QkWm5GUMHtbBGPnqDopSP68qKObR8RaVlb2YqjIKu/d30w6Hjcu+3CfhR16FF77bynMX8rF27whXYZDF853c9scYTjUWJGkNaoDWdctKCDmrheh9RS5Roak7OHVS/rpoWPlSWFUgmunDhIrVu76DhkQj/emtIC2x0WpRj6KAWhkXeRmLePvPsGioszPcE0kzf7DhABw/18rctRLTRyXB3BC0DY+6u37DKFYhMdPjQCWrbsZ9/iXG/0g58kl09tzMwVLVkPr30YgNhugk7Y7ukWfZ0UAtjN7WPblNgWZjnzS072Lq3hLRAk1le056GlfbFloXbHhjC6lG7ehlfNooRaiir4d0KKw2jZQZ889RhGtv8iuLmGwv1oD4rYahXPyp2vz76MKiF/UbZDaH1jQfRIswTWGkjoQF/PFFHY5u+otFNz7kKjPJRD+qzA1+1+pHY3j62adpilCcFWt98YKcFM/h4leGyxMC3hv7Wr8c3t7sGjnJRPoT6nIA3rK9hw1ZtNMyNelrDXcLdWvFYZcqXycAsN8BlYJYTcHTUsiUL9bSPaKt4+osrAVpsMfWHh5U1DxsWaATMUgluBMxi8Oh4xPB7EsN8av7dBLuETYv8XXJPYy7rc6J8zv2Ghd3zcdCysSrArYDldvjyCi3z1FRXxRI+el7+PA6NIeAjaiCLXoZy175A07e/Z1lZNuBOgFE/2mEnWHP0NkXpQXluyz1dj6GATGa9zHILXCUwa3HlXE7WcyIBGm/Ll1Y4Kkw1uBvA0OIlCzhZxwZNhq7D24I0HhVVgbsFTMKSY4MlhG11DFrssfXxn+7jYrbgbgKzSkpmcnICmi9KJ75MS07BL726LmGZ8QIYKiuL2yh9W8rQWJ+pcFpexgU7Ab/6SReNPL1aB/cKGJo18VdWNd4miwsdurTc2mrbKQZOdLHhLdOcN3b106DfT7fO/WVZmipgEvOaBWOW0NMqxD0+aeadpqV5CcySHAx+hi7Bm9367FRo8H172izBzeQGcLJs/y7KVJPnVqUN7gUwuQlNErjvrsm2ee/98m1PgMltaGi8+X2KXr1pm+/Kts8tn5pUiqEv4y0SuaK0cCfLEgtWnZczt8XQuhs0cmlMSXVO12EvweESFhpNGN6jCnoaDUbD0wVmuQXOjj/4uRlad3sODl3MqmAGRsOtVPDRy5ZWXTX4mdPnOal7/hKG98DAUMYFOwEGKJalvMA7tsuZSvChwT85qTcuoafhBYQ7NF05BQYoL0tO1nFV4H39g5zsiEMLh5fe9cePnUmrwHSAASrLC3B04slTZ/lS92PLhkx3fPWeGHBcYDbALLfBpU7s4dAtGVq/C7grTtZrFcAsN8G7u09yMu7NjEOLu4AIHjoy4eg2lEpglhvgsNoDvw/zZSq0kP6/NwJazAyaG8As1eAd+37mZIvsqE+AFmFKnVjI9+w+aFiQW8AsVeBJvawltNEgv54BsRxwdCdrin++aUXZArOcgKMdVh6O9vbvOYleTuilFGjR27ozHhE8ySp49wvKe7M25XNVwCwrcNSPdphp766D+p4DIVfJfixDaKEm/AA/RASPHbhqYJYRuB0wRifHmYkYs5SgG0NoZIwK7yWGOSJ4ksXgbgGzZHA7YBhfxJ0ItZkF1dkF2sCT/xoc3E2NTxlGBd4a7qNJRe4H0NnVA+DPPv2aA+osQ6ts48iCWhh3q84K/L+WDCxCJ6utQqWd/F0EF2cPljEMHUTm/p+BKY2IwQKxTdU9BGueXGoYmuG15Ngxp8COoSX4Zg7PmDd3Nq3fUJN1THem6jpwlL7d/SP/ukeEQTuK/s8k9Bnr3gdIY54jYA0ef6+E3m3f2SXvttKO+84oyF0EpTVzzDf8v7W1y5V5SIyEJ7+9e36KR/mL4RwMaQHDWDErZXucQfMRvS4ieHT/NoJbVBxlYMFwHjlyUv4jgESYs5bp0aasD64II7dRhicx58tKZ1FpeXFayxysMR4WcHbj19/OJh9eaROwWZ3cUXZEScDXi71uyvEkeA1zcnNoVlHqQ0Lk8jhdHh03O67Ex5S2qDq05sphNBGEVy8dRrM7hJasTvEnXqsbB9I8OXYoboL8MhIgR906dRcXEf0L4zhCIVgGoO4AAAAASUVORK5CYII="/>
-              </pattern>
-            </defs>
-            <g id="Group_334" data-name="Group 334" transform="translate(-202 -6411)">
-              <text id="User_decision_point" data-name="User decision point" transform="translate(389 6618)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">User decision point</tspan></text>
-              <text id="Success_criteria" data-name="Success criteria" transform="translate(398 6493)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Success criteria</tspan></text>
-              <text id="Yes" transform="translate(640 6434)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Yes</tspan></text>
-              <text id="No" transform="translate(640 6501)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">No</tspan></text>
-              <text id="When_route_is_complete" data-name="When route is complete" transform="translate(633 6557)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">When route is complete</tspan></text>
-              <text id="Entry_point" data-name="Entry point" transform="translate(398 6436)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Entry point</tspan></text>
-              <text id="User_action_or_page" data-name="User action or page" transform="translate(398 6550)" fill="#707070" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">User action or page</tspan></text>
-              <image id="Asset_6" data-name="Asset 6" width="163" height="64" transform="translate(202 6582)" xlink:href="data:image/png;base64,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"/>
-              <image id="Asset_7" data-name="Asset 7" width="180" height="41" transform="translate(202 6525)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAApCAYAAACcNQOvAAAACXBIWXMAAAsSAAALEgHS3X78AAADEklEQVR4nO3d3UtTYRwH8Kc9Z/Ps5eiZOpdbxpgU2pWYSUQv2KKLIgIpwSiCyusurOvNf0G8m1cRRC8I1kVdWGCpUIllkZTk9GZrvg+Hcy/neOIZnVBz0k258/D9wO4Ge+D35fB7duD326NpGtlJMBTeW+2uOKppmi2TzVXt+GWAf0CgpqwgCLHVVDqyklyd7Ap1pAv9SsFA9/Q8PpbJ5E7sr3Fbav1eKjsl4q/1ol7w38ViCyS9liEzkSgZ+zip2mxidHZ+ua8r1JHYepY/Ah0MhWXJbr1VX+9zBM40E1G0oIJQVCa+TJOBgXc5u00cutlxcXDj2TYFmrUXVrHkRtvlgAVPYyhm6XSWPHn0Uo3PLn6/c/fqA/2ovwMdDIXFUsl+u739rNXjqUQxwRDu33uuZjLZ1/qT2qQfuqzUfq3lVCPCDIZyqS1AlxPJk6xVJnqgg6GwT3LY3I1NdagmGAq747W2tlC3y9lK9EC7Xc7TgcARAaUEI2L3PUVRq1nbnA90cnWtGpdAMLKmw/VmV6XcSDXilWv2uZsbGg5QVBSMKpdTSCQSVdkTWq7xVJpRSTAyj9dF2JtsE6oIPNBfACLQwBUEGriCQANXEGjgCgINXEGggSsINHAFgQauINDAFQQauIJAA1cQaOAKAg1cQaCBKwg0cAWBBq4g0MAVBBq4gkADF9hoMPIr0Imp6ZiCsoKRxaLzRCyxzJjYSNKVZCqHaoKRsVG7iqrO5VsOs5nG2YhSAKMa/fBNmV9IjOUDvbi00j88PI62AwxpbPQrcditMTbZPx9o1nYoihoZGfqEioKhsMvgwKv3CpvoTzb+yxGfW+obefs5FZmKoqJgCCzMvb3965TSp/p6iq0T/PNDz9mcaIzWhWKmh9laYhncuJZiux0rYrksXa8oL6s6f+E4dTolFBaKCmuN34yM5wRKn3V2XtnUJxfcgtXd/fDg+rp2TqAm6VCdj/r8GLcLuyexnCRTkajKPnKZY+LH7OKL7da7/c2eQrlUsu+320Q/6gm7RdO0VHxuie0onCl4BkLIT2HJIBwyzLgMAAAAAElFTkSuQmCC"/>
-              <image id="Asset_8" data-name="Asset 8" width="10" height="25" transform="translate(613 6536)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAZCAYAAAAIcL+IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAtUlEQVQ4jWP4//8/Cn7MJpzwmE3YAF2ciQETKDAwMAigi2JTiBWMKhxViAFYnrCLKECTFgyA2AZP2EWQ1T5gfMwm7MDAwLCfgIGKTDI/3xxgYGDYiEfRRJmfbx4wgpI51Pr7WBR9BDlF5uebD2DPgHQwMDA0YlHYAFIEYoBNBIEn7CKgfALSwA9VdFHm5xsDmA548EB1FiCZhsxmwJZdLzxmE96ALs6CxV0JDAwMYHfBAQMDAwBCsl+Mkjcg9gAAAABJRU5ErkJggg=="/>
-              <image id="Asset_9" data-name="Asset 9" width="180" height="41" transform="translate(202 6468)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAApCAYAAACcNQOvAAAACXBIWXMAAAsSAAALEgHS3X78AAACxklEQVR4nO3dTWsTQRgH8GdndjebNr60NqYqpaVI9eBB8AUPPYh48BsUDx5z8qAgHsRqEyz25MFzb9Kz4DdQEQ/Wk4eCPbT1hWq11EjaZJPZmZFJsyWlaW7S7PD/nRcy8Px5GCbwPI7WmjqZKswGRDQoePl8xw8B/iOmvSWugq/FQr7U6Vf2DfTDJ8/HiPR1Iqev4q56kVOhyNlCzeBABCpLnuwTvsoI5UTvnj66+77dOfYE2nRkycJbkoUnNvxPTLANVBC6BtM+HYrGqFcMVbhKvSgW8j9bz7Yr0M0w3/nrL6a33CVUEbqWp/ppoHbRdOu5mcl7X+Jz7gQ6DvPv4EMaXRmSwHTrXHh1V6hZfO6IVybK/jLCDImhnDqtpz56XKUmmo8X24GeKsyOKBJDZfczqgmJYhrwlvetR/DyDYoDLfjmtZK/4KKUkERld9E8652hONAOucdrfA3FhEQyV4+Ql3xz0+CaTg1W3fVLVfc7QzkhqRj5zNU9jQ4dSLbJUUlIsvhPP3RlsAoCDVZBoMEqCDRYBYEGqyDQYBUEGqyCQINVEGiwCgINVkGgwSoINFgFgQarINBgFQQarIJAg1UQaLAKAg1WQaDBKgg0WGV7jIH2UFWwAisW8itpma2jnJBkaXmyMUO6eeXQJa4zKCgkVlrmQq6CxfjKMX+kfk6inJBEvdEoaYp+FQv5sBHo6ce35wPZXzUzdwGSxIzUPSxO1z2ZeUmtrxxc+XPZ8Io0HwAkRX/tstSkX8e7V3YCvT3aX73K1sbr6NTQ7UzjHQjHpa8yC637VvbsWHkw/WyYaf/mprccYF40dKOUzNGx2gUpWeXtzOT9N61HbLsFy0xDNwOkHfLOVvlaUOWrJNifxthSgINgQuzro5QRw0KT+mHuzO1WvHXcU9jcuzKmHDHqkDuCSsJBMa8YRGzFk70L++4qJKJ/pWsLs7jQFnEAAAAASUVORK5CYII="/>
-              <image id="Asset_10" data-name="Asset 10" width="180" height="41" transform="translate(202 6411)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAApCAYAAACcNQOvAAAACXBIWXMAAAsSAAALEgHS3X78AAAB30lEQVR4nO3dvUoDQRSG4c+IoGJhJYIQIUUawVJQBBHETsHKxnavY2evYy0E7bwBsUohNoIINmJhkUIsA1oE/yITZyXRxE7cObwPpAgEMnBelskGdkY6nY6GSV0+LqkuqSapKqky9MPA33mWdC/pTtJt5pL2sG8aGHQIeTuEPM6gUCI+5htJJ4PC/hF06vJFSVuSxpgiSuxF0nHmktveJfYFnbp8TdIqMSMSPurTzCUXxXK/9sSpy+vEjMj4VjdTl88Xy+4GHfbMO8SMCPlmd4tlF1foDUkTTBORmkxdvq6eoBeYJCK37Jc/2tHcrKQl7jEjcu+NxuV1JdxrHmWaiJzfS1d90DNMEkbU2GbAFIKGKQQNUwgaphA0TCFomELQMIWgYQpBwxSChikEDVMIGqYQNEwhaJhC0DCFoGEKQcMUgoYpBA1TCBqmVMIjSgELrnzQzfDQOyBmr5JalcwlLYKGAW3fcrGHPmOiiNibpHMVPwozl/g3T0wUkXoMDffd5TgK+xAgJr7Zg2K9X0FnLnmQdEjUiIhv9TD8DuwadMaKfxrpnqQpJosS81vk/d6YNewULH2GvdJzRAVP9kcZvITXWbFn/u7Xcwr1GfZ0OKOwxkjxj/wfgM3vV+Q+kj4ABnVyKkky69sAAAAASUVORK5CYII="/>
-              <image id="Asset_4_3x" data-name="Asset 4@3x" width="35" height="35" transform="translate(595 6411)" xlink:href="data:image/png;base64,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"/>
-              <rect id="Asset_5_3x" data-name="Asset 5@3x" width="35" height="35" transform="translate(595 6475)" fill="url(#pattern)"/>
-            </g>
-          </svg>
-        </div>
+            </picture>
           </div>
-          <div>
+          <div id="young_userflow" class="col-md-50">
             <h4>Young's User Flow</h4>
             <picture>
               <source srcset="img/ux_cs_pg/crity/userflow/1x/UserFlow_Young@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/userflow/2x/UserFlow_Young@2x.png" alt="Young's User Flow">
             </picture>
           </div>
+          <div class="col-md-50">
+            <picture id="legend">
+                <source srcset="img/ux_cs_pg/crity/userflow/1x/legend@1x.jpg" media="(max-width:767px)">
+                  <img src="img/ux_cs_pg/crity/userflow/2x/legend@2x.jpg" alt="legend">
+            </picture>
+          </div>
+          </div>
         </div>
 
         <!--information architecture section-->
-        <div class="container">
+        <div id="ia" class="container">
           <div>
             <h3>Information Architecture</h3>
           </div>
-          <div>
+          <div class="row">
+          <div class="col-md-40">
             <h4>Initial Draft</h4>
             <p>Initial draft of the sitemap was based on the user journey and user flow from the previous phase of the design process. There were 5 main navigation categories: Home, Routes, Profile, Preference Settings, and Info/Help.</p>
           </div>
-          <div>
+          <div class="col-md-60">
             <picture>
               <source srcset="img/ux_cs_pg/crity/sitemap/1x/Sitemap_InitialDraft@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/sitemap/2x/Sitemap_InitialDraft@2x.png" alt="Initial Sitemap">
             </picture>
+          </div>
           </div>
           <div>
             <p>However, since the initial draft was based on a hypothesis, an open card sorting was conducted to build the Information Architecture based on how potential users would actually categorise the different elements.</p>
@@ -299,29 +289,30 @@
           <div>
             <p>There were 26 cards in total and the summary of the analysis is as follows:</p>
           </div>
-          <div>
-            <picture>
-              <source srcset="img/ux_cs_pg/crity/sitemap/1x/CardSorting@1x.png" media="(max-width:767px)">
-                <img src="img/ux_cs_pg/crity/sitemap/2x/CardSorting@2x.png" alt="Card Sorting Insights">
-            </picture>
-          </div>
-          <div>
-            <div>
+          <div id="card_sorting" class="row">
+            <div class="col-md-50">
+              <picture>
+                <source srcset="img/ux_cs_pg/crity/sitemap/1x/CardSorting@1x.png" media="(max-width:767px)">
+                  <img src="img/ux_cs_pg/crity/sitemap/2x/CardSorting@2x.png" alt="Card Sorting Insights">
+                </picture>
+            </div>
+            <div class="col-md-50">
               <h6>Insights</h6>
               <ul>
-                <li>A. Sections planned for “Routes” were grouped together by participants.</li>
-                <li>B. Participants anticipated that “Number of completed tour routes” and “Number of visited cities” would fall under travel statistics.</li>
-                <li>C. Participants grouped the three together indicating that they should fall under the same category.</li>
-                <li>D. Sections planned for “Info/Help” were always grouped together by participants.</li>
-                <li>E. Cards related to settings were not grouped together as much as one would expected. The idea is to have these settings control the filters for a customised experience which is difficult to explain through a card sorting activity. User testing will provide more insight.</li>
+                <div><img src="img/icons/A@2x.png" alt="A."><li>Sections planned for “Routes” were grouped together by participants.</li></div>
+                <div><img src="img/icons/B@2x.png" alt="B."><li>Participants anticipated that “Number of completed tour routes” and “Number of visited cities” would fall under travel statistics.</li></div>
+                <div><img src="img/icons/C@2x.png" alt="C."><li>Participants grouped the three together indicating that they should fall under the same category.</li></div>
+                <div><img src="img/icons/D@2x.png" alt="D."><li>Sections planned for “Info/Help” were always grouped together by participants.</li></div>
+                <div><img src="img/icons/E@2x.png" alt="E."><li>Cards related to settings were not grouped together as much as one would expected. The idea is to have these settings control the filters for a customised experience which is difficult to explain through a card sorting activity. User testing will provide more insight.</li></div>
               </ul>
             </div>
+          </div>
             <div>
               <h6>Conclusion</h6>
               <p>There were no major discrepancies on the groupings of cards compared to the original site map. However, there was a question of how sections were labelled. For example, instead of “Route”, participants seemed to consider this section related to a personalised experience. Revisions were made based on this insight.</p>
             </div>
-          </div>
-          <div>
+          <div class="row">
+          <div id="revised_sitemap" class="col-md-50">
             <h4>Revised Sitemap</h4>
             <p>
               There were multiple revisions to the sitemap with insights based on the card sorting results. One key learning was not only just the importance of a personalised experience but how the labels can reflect such experience.
@@ -333,12 +324,15 @@
               </ul>
             </p>
           </div>
-          <div>
+          <div class="col-md-50">
             <picture>
               <source srcset="img/ux_cs_pg/crity/sitemap/1x/Sitemap_Revised_V2@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/sitemap/2x/Sitemap_Revised_V2@2x.png" alt="Revised Sitemap">
             </picture>
           </div>
+          </div>
+          <div class="row">
+          <div class="col-md-50">
           <div>
             <h4>Final Sitemap</h4>
             <p>Although revisions were results based on the card sorting results, the “Favourites” section required users to click multiple times to reach the audio tour that they have bookmarked or downloaded. Since the audio tour was an essential feature of the app, this was not ideal.
@@ -350,8 +344,11 @@
                 <img src="img/ux_cs_pg/crity/sitemap/2x/Sitemap_Final@2x.png" alt="Final Sitemap">
             </picture>
           </div>
+          </div>
+          <div class="col-md-50">
           <div>
             <h5>The information architecture took several iterations based on both hypothesis and user research. It was critical to not only implement changes based on user feedback, but also to consider what makes most sense from a practical point of view.</h5>
+          </div>
           </div>
         </div>
 
@@ -366,7 +363,9 @@
           </div>
           <div>
             <div>
-              <h4>Scenario 1: Searching and downloading routes<h4>
+              <h4>Scenario 1<h4>
+            </div>
+            <div>
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/wireframe/1x/Wireframing_ScenarioA@1x.png" media="(max-width:767px)">
                     <img src="img/ux_cs_pg/crity/wireframe/2x/Wireframing_ScenarioA@2x.png" alt="Wireframe1">
@@ -386,9 +385,10 @@
               </ol>
             </div>
           </div>
+
           <div>
             <div>
-              <h4>Scenario 2: Getting a recommended list and bookmarking a route</h4>
+              <h4>Scenario 2</h4>
               <picture>
                 <source srcset="img/ux_cs_pg/crity/wireframe/1x/Wireframing_ScenarioB@1x.png" media="(max-width:767px)">
                   <img src="img/ux_cs_pg/crity/wireframe/2x/Wireframing_ScenarioB@2x.png" alt="Wireframe2">
@@ -414,14 +414,14 @@
             <p>The following are the two tasks on a mid fidelity prototype which was used for the usability testing.</p>
           </div>
           <div>
-            <h4>Scenario 1: Searching and downloading routes</h4>
+            <h4>Scenario 1</h4>
             <picture>
               <source srcset="img/ux_cs_pg/crity/midfiprototype/1x/Prototyping_ScenarioA@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/midfiprototype/2x/Prototyping_ScenarioA@2x.png" alt="MidfiPrototype2">
             </picture>
           </div>
           <div>
-            <h4>Scenario 2: Getting a recommended list and bookmarking a route</h4>
+            <h4>Scenario 2</h4>
             <picture>
               <source srcset="img/ux_cs_pg/crity/midfiprototype/1x/Prototyping_ScenarioB@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/midfiprototype/2x/Prototyping_ScenarioB@2x.png" alt="MidfiPrototype2">
@@ -447,92 +447,52 @@
             <h3>Iterations</h3>
             <p>Based on the usability test results and high priority issues that were identified, the following changes were made on the mid-fidelity prototype:</p>
           </div>
-          <div>
-            <div>
+            <div class="row">
+            <div class="col-md-50">
               <h4>Filter Page</h4>
-              <img width="60%" src="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" alt="FilterBefore">
-              <!--figure-->
-                <!--picture>
-                  <source width="100%" srcset="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" media="(max-width:767px)">
-
-              </picture-->
-              <!--figcaption>Before</figcaption>
-              </figure>
-              <figure>
-                <picture>
-                  <source width="100%" srcset="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" media="(max-width:767px)">
-                    <img width="20%" src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Filter_After@2x.png" alt="FilterAfter">
-              </picture>
-              <figcaption>After</figcaption>
-              </figure-->
+                    <picture>
+                      <source srcset="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" media="(max-width:767px)">
+                        <img src="img/ux_cs_pg/crity/usertest/2x/filteriteration@2x.png" alt="Filter_iterations">
+                    </picture>
               <ul>
                 <li>Added a “Done” button to allow users to exit.</li>
                 <li>Took out “Recommended Routes”</li>
               </ul>
             </div>
-            <div>
+            <div class="col-md-50">
               <h4>Homepage</h4>
-              <img width="60%" src="img/ux_cs_pg/crity/usertest/1x/homepageiteration@1x.png" alt="HomepageBefore">
-              <!--figure-->
-                <!--picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Homepage_Before@1x.png" media="(max-width:767px)">
-
-              </picture>
-              <figcaption>Before</figcaption>
-              </figure>
-              <figure>
                 <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Homepage_After@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Homepage_After@2x.png" alt="HomepageAfter">
+                  <source srcset="img/ux_cs_pg/crity/usertest/1x/homepageiteration@1x.png" media="(max-width:767px)">
+                  <img src="img/ux_cs_pg/crity/usertest/2x/homepageiteration@2x.png" alt="Homepage_iterations">
               </picture>
-              <figcaption>After</figcaption>
-              </figure-->
               <ul>
                 <li>Recommended routes became a default on the Homepage</li>
               </ul>
             </div>
-            <div>
+            </div>
+            <div class="row">
+            <div class="col-md-50">
               <h4>Bookmarks Page</h4>
-              <figure>
                 <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Bookmarks_Before@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Bookmarks_Before@2x.png" alt="BookmarksBefore">
+                  <source srcset="img/ux_cs_pg/crity/usertest/1x/bookmarksiteration@1x.png" media="(max-width:767px)">
+                    <img src="img/ux_cs_pg/crity/usertest/2x/bookmarksiteration@2x.png" alt="Bookmarks_iterations">
               </picture>
-              <figcaption>Before</figcaption>
-              </figure>
-              <figure>
-                <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_Bookmarks_After@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_Bookmarks_After@2x.png" alt="BookmarksAfter">
-              </picture>
-              <figcaption>After</figcaption>
-              </figure>
               <ul>
                 <li>Icons were used to visualise hierarchy between Routes and Spots</li>
               </ul>
             </div>
-            <div>
+            <div class="col-md-50">
               <h4>Audio Page</h4>
-              <figure>
                 <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_AudioPage_Before@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_AudioPage_Before@2x.png" alt="AudioBefore">
+                  <source srcset="img/ux_cs_pg/crity/usertest/1x/audio_iterations@1x.png" media="(max-width:767px)">
+                    <img src="img/ux_cs_pg/crity/usertest/2x/audio_iterations@2x.png" alt="Audio_iterations">
               </picture>
-              <figcaption>Before</figcaption>
-              </figure>
-              <figure>
-                <picture>
-                  <source srcset="img/ux_cs_pg/crity/usertest/1x/UserTesting_AudioPageC_After2@1x.png" media="(max-width:767px)">
-                    <img src="img/ux_cs_pg/crity/usertest/2x/UserTesting_AudioPageC_After2@2x.png" alt="AudioAfter">
-              </picture>
-              <figcaption>After</figcaption>
-              </figure>
               <ul>
                 <li>Modified UI elements on the map to illustrate the hierarchy between Routes and Spots</li>
                 <li>Added navigation function on the map</li>
               </ul>
               </div>
-            </div>
+              </div>
           </div>
           <div>
             <div>
