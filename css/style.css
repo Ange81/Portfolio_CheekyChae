@@ -208,6 +208,7 @@ ul{
   padding: 10px;
   border-radius: 14px;
   border-bottom: 2px solid #0B6765;
+  transition: 0.2s opacity;
 }
 
 .button:hover, .button:focus{
@@ -219,6 +220,7 @@ ul{
   padding: 10px;
   border-radius: 14px;
   border-bottom: 2px solid #0B6765;
+  opacity: 0.8;
 }
 
 .button:active{
@@ -606,57 +608,12 @@ Large Devices (1024px and larger)
 }
 
 
-/*================================
-X-Large Devices (1440px and larger)
-==================================
-*/
+/*animations*/
 
-@media only screen and (min-width: 1440px){
-
-}
-
-
-
-
-
-
-
-
-
-
-
-#homepage{
-
-}
-
-#home_hero{
-
-}
-
-#home_project1{
-
-}
-
-#home_project2{
-
-}
-
-#home_project3{
-
-}
-
-#aboutpage{
-
-}
-
-#project_hero{
-
-}
-
-#project_overview{
-
-}
-
-#project_process{
-
-}
+@keyframes halo_movement {}
+@keyframes wing_movement {}
+@keyframes horn1_movement{}
+@keyframes horn2_movement{}
+@keyframes tail_movement{}
+@keyframes doublec_movement{}
+@keyframes appear{}
