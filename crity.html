@@ -551,14 +551,14 @@
             <h3>Final Design</h3>
             <p>Here are some of the key features and callouts on the design decisions:</p>
           </div>
-          <div class="row">
+          <div class="flex-container row">
             <div class="col-md-50">
             <picture>
               <source srcset="img/ux_cs_pg/crity/finalproduct/1x/onboarding@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/finalproduct/2x/onboarding@2x.png" alt="Onboarding">
             </picture>
             </div>
-            <div>
+            <div class="col-md-50">
               <h4>Onboarding</h4>
               <ul>
                 <li>Hand-drawn illustrations are used to describe the key features and benefits of the app.</li>
@@ -580,7 +580,7 @@
             </picture>
             </div>
           </div>
-          <div class="row">
+          <div class="flex-container row">
             <div id="img_recommended_routes" class="col-md-33">
             <picture>
               <source srcset="img/ux_cs_pg/crity/finalproduct/1x/recommended_routes@1x.png" media="(max-width:767px)">
@@ -609,7 +609,7 @@
             </picture>
             </div>
           </div>
-          <div class="row">
+          <div class="flex-container row">
             <div class="col-md-67">
             <picture>
               <source srcset="img/ux_cs_pg/crity/finalproduct/1x/location_search@1x.png" media="(max-width:767px)">
@@ -656,35 +656,41 @@
             </div>
           </div>
           <div class="row">
-
+            <div class="flex-container">
               <div id="img_bookmarks" class="col-md-33">
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/finalproduct/1x/bookmarks@1x.png" media="(max-width:767px)">
                     <img src="img/ux_cs_pg/crity/finalproduct/2x/bookmarks@2x.png" alt="Bookmarks">
                   </picture>
                 </div>
-                <div class="col-md-25">
+                <div class="col-md-67">
                   <h4>Bookmarks</h4>
                   <ul>
                     <li>The bookmark icon on the navigation bar takes users can access bookmarked routes.</li>
                     <li>The “Bookmarks” page has two tabs: 1) bookmarked routes, and 2) bookmarked spots. Bookmarked spots will be covered later.</li>
                     <li>A visual hierarchy is used for routes and spots using icons.</li>
                     <li>From the “Bookmarks” section, a user can start an audio or download the route.</li>
-                  </div>
-                <div id="img_summary_dashboard" class="col-md-17">
+                </div>
+              </div>
+            </div>
+            <div  id="summary_dashboard" class="row">
+              <div class="flex-container">
+                <div id="img_summary_dashboard" class="col-md-17" style="float: right;">
                   <picture id="img_summary_dashboard">
                     <source srcset="img/ux_cs_pg/crity/finalproduct/1x/summary_dashboard@1x.png" media="(max-width:767px)">
                       <img src="img/ux_cs_pg/crity/finalproduct/2x/summary_dashboard@2x.png" alt="My Trips">
                     </picture>
                   </div>
-                  <div class="col-md-25">
+                  <div class="col-md-67" style="float: right;">
                     <h4>Summary and Dashboard</h4>
                     <ul>
                         <li>Users can get a quick statistics of their travels.</li>
                         <li>There is a gamification feature on the dashboard to illustrate how the user compares with other players.</li>
                         <li>Users can share their experience on social media.</li>
                     </div>
-          </div>
+              </div>
+            </div>
+
           <div class="row">
             <div class="col-md-67">
               <h4>Audio Map View</h4>
@@ -700,6 +706,7 @@
             </div>
           </div>
           <div class="row">
+            <div class="flex-container">
             <div class="col-md-67">
               <picture>
                 <source srcset="img/ux_cs_pg/crity/finalproduct/1x/spot_discovery@1x.png" media="(max-width:767px)">
@@ -711,9 +718,11 @@
                 <ul>
                     <li>As the audio guides the user to hidden spot locations, the user is presented with two options: 1) an option to tap on “I found the spot!”, which will confirm a user’s action with a “+1 Spot!” sign, 2) an option to get help if user is lost.</li>
                     <li>Once user finds a hidden spot, user then has an option to find out more about the spot.</li>
-                </div>
+              </div>
           </div>
+        </div>
           <div class="row">
+            <div class="flex-container">
             <div class="col-md-50">
               <picture>
                 <source srcset="img/ux_cs_pg/crity/finalproduct/1x/bookmark_spots@1x.png" media="(max-width:767px)">
@@ -726,12 +735,14 @@
                     <li>Users may want to save the details of the spots for later. In such case, users can either bookmark the spot from the audio page, or the spots details page.</li>
                     <li>Users can later access the bookmarked spots from the “Bookmarks” page.</li>
                 </div>
+              </div>
           </div>
           <div><h6>Final prototype</h6></div>
           <div class="container-iframem">
             <iframe class="responsive-iframe" src="https://xd.adobe.com/embed/c9696367-11b6-4845-99f6-b330ac65eab9-9c3a/?fullscreen" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
+
 
 
         <!--what's next section-->
