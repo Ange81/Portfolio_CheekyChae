@@ -317,6 +317,11 @@ ul{
   padding-left: 0;
 }
 
+.flex-container {
+  display:flex;
+  flex-direction: column-reverse;
+}
+
 #projectcrity #competitors #quadrant ul {
   list-style-type: none;
 }
@@ -341,9 +346,9 @@ ul{
 
 #projectcrity #user_flow #legend img {
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 80%;
+    display: block;
   }
 
 #projectcrity #ia #card_sorting ul {
@@ -382,21 +387,25 @@ ul{
   #projectcrity #final #img_recommended_routes img {
     width: 67%;
     margin: auto;
+    display: block;
   }
 
   #projectcrity #final #img_bookmarks img {
     width: 67%;
     margin: auto;
+    display: block;
   }
 
   #projectcrity #final #img_summary_dashboard img {
     width: 33%;
     margin: auto;
+    display: block;
   }
 
   #projectcrity #final #img_audio_map_view img {
     width: 67%;
     margin: auto;
+    display: block;
   }
 
 /*Media Queries*/
@@ -428,6 +437,16 @@ Medium Devices (640px and larger)
   }
   h2{
     padding-top: 100px;
+  }
+
+  .flex-container {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .col-md-50{
@@ -480,7 +499,7 @@ Medium Devices (640px and larger)
     width:100%;
   }
 
-  #projectcrity #competitors #img_competitors img {
+  #projectcrity #competitors #img_competitors {
     width: 80%;
     margin: auto;
     }
@@ -510,15 +529,13 @@ Medium Devices (640px and larger)
   #projectcrity #ia #card_sorting img{
     width: 50%;
     margin: auto;
+    display: block;
   }
 
   #projectcrity #testing > div > picture > img {
     width: 60%;
     margin: auto;
-  }
-
-  #projectcrity #final #img_summary_dashboard > img{
-    margin-top:71.58px;
+    display: block;
   }
 
   #projectcrity #final #img_recommended_routes img {
@@ -537,6 +554,10 @@ Medium Devices (640px and larger)
     width: 100%;
   }
 
+  #projectcrity #final #summary_dashboard {
+    margin: auto;
+  }
+
 }
 
 
@@ -549,6 +570,11 @@ Large Devices (1024px and larger)
   .container{
     max-width: 1200px;
     margin: auto;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 
   .col-lg-60{
@@ -573,6 +599,7 @@ Large Devices (1024px and larger)
   #projectcrity #competitors #img_competitors img {
     width: 60%;
     margin: auto;
+    display: block;
     }
 
 
