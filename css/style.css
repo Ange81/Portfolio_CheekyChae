@@ -171,7 +171,8 @@ img{
 }
 
 ul{
-  padding-left: 15px
+  padding-left: 20px;
+  overflow: hidden;
 }
 
 .container-iframe{
@@ -232,12 +233,12 @@ ul{
   text-decoration: none;
 }
 
-
-
-/*Page Specific Styling*/
 .row{
   margin: 25px 0; /*add margins between content blocks*/
 }
+
+/*Page Specific Styling*/
+
 
 #uxui_projects .row{
   padding-bottom:25px; border-bottom:1px  solid #707070;
@@ -367,6 +368,36 @@ ul{
     width: 100%;
   }
 
+  #projectcrity #preference_test #piechart1 {
+    width: 60%;
+    margin: auto;
+  }
+
+  #projectcrity #preference_test #piechart2 {
+    width: 60%;
+    margin: auto;
+  }
+
+
+  #projectcrity #final #img_recommended_routes img {
+    width: 67%;
+    margin: auto;
+  }
+
+  #projectcrity #final #img_bookmarks img {
+    width: 67%;
+    margin: auto;
+  }
+
+  #projectcrity #final #img_summary_dashboard img {
+    width: 33%;
+    margin: auto;
+  }
+
+  #projectcrity #final #img_audio_map_view img {
+    width: 67%;
+    margin: auto;
+  }
 
 /*Media Queries*/
 
@@ -411,6 +442,22 @@ Medium Devices (640px and larger)
     width:40%;
   }
 
+  .col-md-33{
+    width:33.3%;
+  }
+
+  .col-md-67{
+    width:66.7%;
+  }
+
+  .col-md-25{
+    width:25%;
+  }
+
+  .col-md-17{
+    width:16.7%;
+  }
+
   .col-md-full{
     width:100%
   }
@@ -433,6 +480,11 @@ Medium Devices (640px and larger)
     width:100%;
   }
 
+  #projectcrity #competitors #img_competitors img {
+    width: 80%;
+    margin: auto;
+    }
+
   #projectcrity #user_flow #legend img {
       float:left;
       width: 100%;
@@ -440,6 +492,49 @@ Medium Devices (640px and larger)
 
   #projectcrity #user_flow #young_userflow {
     float: right;
+  }
+
+  #projectcrity #persona #user_interviews h4 {
+    margin-top: 0px;
+  }
+
+  #projectcrity #ia h4 {
+    margin-top: 0px;
+  }
+
+  #projectcrity #ia h6 {
+    margin: 0px;
+  }
+
+
+  #projectcrity #ia #card_sorting img{
+    width: 50%;
+    margin: auto;
+  }
+
+  #projectcrity #testing > div > picture > img {
+    width: 60%;
+    margin: auto;
+  }
+
+  #projectcrity #final #img_summary_dashboard > img{
+    margin-top:71.58px;
+  }
+
+  #projectcrity #final #img_recommended_routes img {
+    width: 100%;
+  }
+
+  #projectcrity #final #img_bookmarks img {
+    width: 100%;
+  }
+
+  #projectcrity #final #img_summary_dashboard img {
+    width: 100%;
+  }
+
+  #projectcrity #final #img_audio_map_view img {
+    width: 100%;
   }
 
 }
@@ -453,7 +548,7 @@ Large Devices (1024px and larger)
 @media only screen and (min-width: 1024px){
   .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .col-lg-60{
@@ -474,6 +569,11 @@ Large Devices (1024px and larger)
   h1{
     padding-top: 80px;
   }
+
+  #projectcrity #competitors #img_competitors img {
+    width: 60%;
+    margin: auto;
+    }
 
 
 }
