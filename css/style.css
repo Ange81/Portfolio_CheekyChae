@@ -609,6 +609,10 @@ Large Devices (1024px and larger)
 
 /*animations*/
 .etop {
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 
 }
 
@@ -633,9 +637,6 @@ Large Devices (1024px and larger)
   animation-timing-function: ease-in-out;
 }
 
-.c2{
-
-}
 
 .horn1{
   animation-name: horns_movement;
@@ -652,36 +653,54 @@ Large Devices (1024px and larger)
 }
 
 .ae{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .y{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .h1{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .h2{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .two_e{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .h2{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .k{
-
+  animation-name: appear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
-.c1{
-
-}
 
 .wing{
   animation-name: wing_movement;
@@ -699,11 +718,12 @@ Large Devices (1024px and larger)
 
 
 @keyframes halo_movement {
-  0% {fill: #F8D40D; transform: scale(0.1); opacity:0;}
+  0% {fill: #F8D40D; opacity:0;}
   50% {fill: #F8D40D; opacity:0.5;}
-  90% {fill: #F8D40D; opacity:0.9}
-  100% {fill: black; transform: scale(1); opacity: 1;}
+  70% {fill: #F8D40D; opacity:0.9}
+  80% {fill: black; opacity: 1;}
 }
+
 @keyframes wing_movement {
   0% {fill: #7E7F9A; transform: skew(30deg,20deg); opacity:0;}
   50% {fill: #7E7F9A; transform: skew(10deg,20deg); opacity: 0.5;}
@@ -712,17 +732,21 @@ Large Devices (1024px and larger)
 }
 
 @keyframes horns_movement{
-  0% {fill: red; transform: scale(0.1); opacity:0;}
+  0% {fill: red; opacity:0;}
   50% {fill: red; opacity:0.5;}
-  90% {fill: red; opacity:0.9}
-  100% {fill: black; transform: scale(1); opacity: 1;}
+  70% {fill: red; opacity:0.9}
+  80% {fill: black; opacity: 1;}
 }
 
 @keyframes tail_movement{
-  0% {fill: red; transform: skew(20deg); opacity:0;}
-  50% {fill: red; opacity: 0.5; transform: skew(-20deg);}
-  70% {fill: red; opacity: 0.9; transform: skew(20deg);}
+  0% {fill: red; transform: skew(0deg,2deg); opacity:0;}
+  50% {fill: red; opacity: 0.5; transform: skew(2deg,1deg);}
+  70% {fill: red; opacity: 0.9; transform:}
   80% {fill: black; transform: skew(0deg); opacity:1;}
 }
-@keyframes doublec_movement{}
-@keyframes appear{}
+
+@keyframes appear{
+  0% {opacity:0;}
+  80% {opacity:0;}
+  100% {fill: #black; opacity: 1;}
+}
