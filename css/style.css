@@ -277,17 +277,18 @@ ul{
   width: 100%;
 }
 
-#hero_image {
-  margin: 0 auto;
+#hero_image img{
+  display: block;
+  margin: auto;
 }
 
-#project_logo{
+#project_logo img{
     width: 50%;
     float: left;
     padding: 10px;
 }
 
-#project_hero h3{
+#project_logo h3{
   padding:0px;
   margin-top: 0px;
   width:50%;
@@ -497,9 +498,7 @@ Medium Devices (640px and larger)
     margin-top:0px;
   }
 
-  #project_logo {
-    width:100%;
-  }
+
 
   #projectcrity #competitors #img_competitors {
     width: 80%;
@@ -609,11 +608,121 @@ Large Devices (1024px and larger)
 
 
 /*animations*/
+.etop {
 
-@keyframes halo_movement {}
-@keyframes wing_movement {}
-@keyframes horn1_movement{}
-@keyframes horn2_movement{}
-@keyframes tail_movement{}
+}
+
+.arrow{
+  animation-name: tail_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.tail1{
+  animation-name: tail_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.tail2{
+  animation-name: tail_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.c2{
+
+}
+
+.horn1{
+  animation-name: horns_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.horn2{
+  animation-name: horns_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.ae{
+
+}
+
+.y{
+
+}
+
+.h1{
+
+}
+
+.h2{
+
+}
+
+.two_e{
+
+}
+
+.h2{
+
+}
+
+.k{
+
+}
+
+.c1{
+
+}
+
+.wing{
+  animation-name: wing_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.halo{
+  animation-name: halo_movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes halo_movement {
+  0% {fill: #F8D40D; transform: scale(0.1); opacity:0;}
+  50% {fill: #F8D40D; opacity:0.5;}
+  90% {fill: #F8D40D; opacity:0.9}
+  100% {fill: black; transform: scale(1); opacity: 1;}
+}
+@keyframes wing_movement {
+  0% {fill: #7E7F9A; transform: skew(30deg,20deg); opacity:0;}
+  50% {fill: #7E7F9A; transform: skew(10deg,20deg); opacity: 0.5;}
+  70% {fill: #7E7F9A; transform: skew(30deg,10deg); opacity: 0.9;}
+  80% {fill: black; transform: skew(0deg,0deg); opacity:1;}
+}
+
+@keyframes horns_movement{
+  0% {fill: red; transform: scale(0.1); opacity:0;}
+  50% {fill: red; opacity:0.5;}
+  90% {fill: red; opacity:0.9}
+  100% {fill: black; transform: scale(1); opacity: 1;}
+}
+
+@keyframes tail_movement{
+  0% {fill: red; transform: skew(20deg); opacity:0;}
+  50% {fill: red; opacity: 0.5; transform: skew(-20deg);}
+  70% {fill: red; opacity: 0.9; transform: skew(20deg);}
+  80% {fill: black; transform: skew(0deg); opacity:1;}
+}
 @keyframes doublec_movement{}
 @keyframes appear{}
