@@ -35,7 +35,7 @@ h1{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 800;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 h2{
@@ -244,7 +244,6 @@ ul{
 
 /*Page Specific Styling*/
 
-
 #uxui_projects .row{
   padding-bottom:25px; border-bottom:1px  solid #707070;
 }
@@ -266,7 +265,6 @@ ul{
   width: 100%;
 }
 
-
 #my_story h2{
   padding-top:0px;
 }
@@ -279,6 +277,7 @@ ul{
   display: inline-block;
   width: 100%;
 }
+
 
 #hero_image img{
   display: block;
@@ -440,7 +439,7 @@ Medium Devices (640px and larger)
   }
 
   h1{
-    padding-top: 50px;
+    padding-top: 80px;
   }
   h2{
     padding-top: 100px;
@@ -501,8 +500,6 @@ Medium Devices (640px and larger)
   #skills_tools h3{
     margin-top:0px;
   }
-
-
 
   #projectcrity #competitors #img_competitors {
     width: 80%;
