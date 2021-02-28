@@ -134,6 +134,7 @@ header{
   box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.20);
   display: inline-block;
   width: 100%;
+  z-index: 2;
 }
 
 footer{
@@ -180,13 +181,15 @@ ul{
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio*/
+  z-index:-1;
 }
 
 .container-iframem {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 200%; /* 8:16 Aspect Ratio*/
+  padding-top: 217%; /* 8:16 Aspect Ratio*/
+  z-index:1;
 }
 
 .responsive-iframe{
@@ -410,6 +413,7 @@ ul{
     margin: auto;
     display: block;
   }
+
 
 /*Media Queries*/
 
