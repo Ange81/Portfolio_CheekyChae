@@ -61,6 +61,8 @@ h5{
   font-family: 'Karla', san-serif;
   font-size: 1.2em;
   font-weight: 800;
+  text-align: center;
+  clear: both;
 }
 
 h6{
@@ -413,9 +415,6 @@ ul{
     display: block;
   }
 
-  #project_rebelharvest #competitors h5 {
-     text-align: center;
-  }
 
 /*Media Queries*/
 
@@ -567,9 +566,7 @@ Medium Devices (640px and larger)
      margin-top: 60px;
   }
 
-  #project_rebelharvest #competitors h5 {
-     clear: both;
-  }
+
 
   #problem h5 {
     margin-top:100px;
@@ -578,6 +575,10 @@ Medium Devices (640px and larger)
   #problem_p {
     clear: both;
     margin-top: 0;
+  }
+
+  #project_rebelharvest #affinity_map {
+    margin-top:50px;
   }
 }
 
@@ -761,12 +762,12 @@ Large Devices (1024px and larger)
 @keyframes tail_movement{
   0% {fill: red; transform: skew(0deg,2deg); opacity:0;}
   50% {fill: red; opacity: 0.5; transform: skew(2deg,1deg);}
-  70% {fill: red; opacity: 0.9; transform:}
+  70% {fill: red; opacity: 0.9; transform:skew(1deg,2deg);}
   80% {fill: black; transform: skew(0deg); opacity:1;}
 }
 
 @keyframes appear{
   0% {opacity:0;}
   80% {opacity:0;}
-  100% {fill: #black; opacity: 1;}
+  100% {fill: black; opacity: 1;}
 }
