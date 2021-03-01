@@ -206,6 +206,7 @@ ul{
   right:0;
   width:100%;
   height: 100%;
+  border: 0;
 }
 
 .button{
@@ -423,16 +424,22 @@ ul{
     display: block;
   }
 
-  #projectcrity #final #img_summary_dashboard img {
+  #projectcrity #final #summary_dashboard img {
     width: 33%;
+  }
+
+  #projectcrity #final #summary_dashboard {
     margin: auto;
-    display: block;
   }
 
   #projectcrity #final #img_audio_map_view img {
     width: 67%;
     margin: auto;
     display: block;
+  }
+
+  #projectcrity #next li {
+    padding-bottom:15px;
   }
 
 
@@ -523,11 +530,6 @@ Medium Devices (640px and larger)
 
   #aboutpage #about_selfportrait img {
     width: 60%;
-
-  }
-
-  #skills_tools h3{
-    margin-top:0px;
   }
 
   #projectcrity #competitors #img_competitors {
@@ -544,16 +546,8 @@ Medium Devices (640px and larger)
     float: right;
   }
 
-  #projectcrity #persona #user_interviews h4 {
-    margin-top: 0px;
-  }
-
-  #projectcrity #ia h4 {
-    margin-top: 0px;
-  }
-
-  #projectcrity #ia h6 {
-    margin: 0px;
+  #projectcrity #user_interviews #affinity_map {
+    margin-top:23px;
   }
 
 
@@ -577,7 +571,7 @@ Medium Devices (640px and larger)
     width: 100%;
   }
 
-  #projectcrity #final #img_summary_dashboard img {
+  #projectcrity #final #summary_dashboard img {
     width: 100%;
   }
 
