@@ -286,15 +286,14 @@ ul{
 
 #project_logo img{
     width: 50%;
-    float: left;
+    margin: auto;
+    display: block;
     padding: 10px;
 }
 
 #project_logo h3{
-  padding:0px;
-  margin-top: 0px;
-  width:50%;
-  float: right;
+  clear: both;
+  text-align: center;
 }
 
 .row::after{
@@ -304,6 +303,7 @@ ul{
 }
 
 .project_process {
+  padding-top: 15px;
   background-color: #F87575;
   color: #FFFFFF;
 }
@@ -413,6 +413,9 @@ ul{
     display: block;
   }
 
+  #project_rebelharvest #competitors h5 {
+     text-align: center;
+  }
 
 /*Media Queries*/
 
@@ -560,6 +563,22 @@ Medium Devices (640px and larger)
     margin: auto;
   }
 
+  #project_rebelharvest #competitors #venn_diagram {
+     margin-top: 60px;
+  }
+
+  #project_rebelharvest #competitors h5 {
+     clear: both;
+  }
+
+  #problem h5 {
+    margin-top:100px;
+  }
+
+  #problem_p {
+    clear: both;
+    margin-top: 0;
+  }
 }
 
 
