@@ -49,12 +49,14 @@ h3{
   font-family: 'Karla', san-serif;
   font-size: 1.5em;
   font-weight: 600;
+  margin-top: 0;
 }
 
 h4{
   font-family: 'Karla', san-serif;
   font-size: 1.2em;
   font-weight: 400;
+    margin-top: 0;
 }
 
 h5{
@@ -63,12 +65,14 @@ h5{
   font-weight: 800;
   text-align: center;
   clear: both;
+  margin-top: 0;
 }
 
 h6{
   font-family: 'Karla', san-serif;
   font-size: 1em;
   font-weight: 600;
+  margin-top: 0;
 }
 
 .footnote{
@@ -267,6 +271,17 @@ ul{
   width: 100%;
 }
 
+#aboutpage #about_selfportrait img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+
+#aboutpage #resume a {
+  margin: auto;
+}
+
 #my_story h2{
   padding-top:0px;
 }
@@ -276,8 +291,9 @@ ul{
 }
 
 #project_hero {
-  display: inline-block;
+  display: block;
   width: 100%;
+  padding: 15px 0;
 }
 
 
@@ -301,25 +317,29 @@ ul{
 .row::after{
   content:"";
   clear: both;
-  display: table;
+  display: block;
 }
 
 .project_process {
-  padding-top: 15px;
+  padding: 15px 0;
   background-color: #F87575;
   color: #FFFFFF;
 }
 
-.project_process > ol > a {
-  display: inline-block;
-  padding: 5px;
+.project_process ol a {
+  color: #FFFFFF;
 }
 
-.project_process > ol > a:hover, a:focus {
+
+.project_process ol li a:hover, a:focus {
   color: #FFFFFF
 }
 
-.project_process > ol {
+.project_process ol li {
+  display: inline-block;
+}
+
+.project_process ol {
   list-style-type: none;
   padding-left: 0;
 }
@@ -330,6 +350,7 @@ ul{
 }
 
 #projectcrity #competitors #quadrant ul {
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -340,13 +361,12 @@ ul{
   float: left;
 }
 
-#projectcrity #competitors #quadrant ul li {
+#projectcrity #competitors #quadrant ul div {
   width: 90%;
   float: right;
 }
 
-#projectcrity #competitors #quadrant ul div {
-  display: inline-block;
+#projectcrity #competitors #quadrant ul li {
   width: 100%;
 }
 
@@ -359,6 +379,7 @@ ul{
   }
 
 #projectcrity #ia #card_sorting ul {
+    padding-left: 0;
     list-style-type: none;
   }
 
@@ -369,14 +390,13 @@ ul{
     float: left;
   }
 
-#projectcrity #ia #card_sorting ul li {
+#projectcrity #ia #card_sorting ul div {
     width: 90%;
     float: right;
   }
 
 
-#projectcrity #ia #card_sorting ul div {
-    display: inline-block;
+#projectcrity #ia #card_sorting ul li {
     width: 100%;
   }
 
@@ -414,6 +434,8 @@ ul{
     margin: auto;
     display: block;
   }
+
+
 
 
 /*Media Queries*/
@@ -499,6 +521,11 @@ Medium Devices (640px and larger)
     margin-top: 0px;
   }
 
+  #aboutpage #about_selfportrait img {
+    width: 60%;
+
+  }
+
   #skills_tools h3{
     margin-top:0px;
   }
@@ -569,7 +596,7 @@ Medium Devices (640px and larger)
 
 
   #problem h5 {
-    margin-top:100px;
+    margin-top:50px;
   }
 
   #problem_p {
@@ -579,6 +606,10 @@ Medium Devices (640px and larger)
 
   #project_rebelharvest #affinity_map {
     margin-top:50px;
+  }
+
+  .container-iframem {
+    padding-top: 60%;
   }
 }
 
