@@ -49,14 +49,13 @@ h3{
   font-family: 'Karla', san-serif;
   font-size: 1.5em;
   font-weight: 600;
-  margin-top: 0;
 }
 
 h4{
   font-family: 'Karla', san-serif;
   font-size: 1.2em;
   font-weight: 400;
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h5{
@@ -144,6 +143,7 @@ header{
 }
 
 footer{
+  clear: both;
   text-align: center;
   background-color: #FDF0D5;
 }
@@ -221,6 +221,7 @@ ul{
   transition: 0.2s opacity;
 }
 
+
 .button:hover, .button:focus{
   display:inline-block;
   background-color: rgba(23, 190, 187, 0.8);
@@ -247,6 +248,16 @@ ul{
 
 .row{
   margin: 25px 0; /*add margins between content blocks*/
+}
+
+.next_project {
+  margin: 10px 5px;
+  float: right;
+}
+
+.previous_project {
+  margin: 10px 5px;
+  float: left;
 }
 
 /*Page Specific Styling*/
@@ -279,8 +290,8 @@ ul{
   padding: 15px;
 }
 
-#aboutpage #resume a {
-  margin: auto;
+#aboutpage #resume {
+  text-align: center;
 }
 
 #my_story h2{
@@ -322,18 +333,18 @@ ul{
 }
 
 .project_process {
-  padding: 15px 0;
+  padding: 5px 0;
   background-color: #F87575;
   color: #FFFFFF;
 }
 
-.project_process ol a {
-  color: #FFFFFF;
+.project_process h3 {
+  margin: 0 0 10px 0;
 }
 
-
-.project_process ol li a:hover, a:focus {
-  color: #FFFFFF
+.project_process img {
+  width: 40px;
+  padding: 2px;
 }
 
 .project_process ol li {
@@ -341,13 +352,24 @@ ul{
 }
 
 .project_process ol {
+  margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
+}
+
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-container {
   display:flex;
   flex-direction: column-reverse;
+}
+
+#projectcrity .section {
+  padding-top: 120px;
 }
 
 #projectcrity #competitors #quadrant ul {
@@ -401,24 +423,24 @@ ul{
     width: 100%;
   }
 
-  #projectcrity #preference_test #piechart1 {
+#projectcrity #preference_test #piechart1 {
     width: 60%;
     margin: auto;
   }
 
-  #projectcrity #preference_test #piechart2 {
+#projectcrity #preference_test #piechart2 {
     width: 60%;
     margin: auto;
   }
 
 
-  #projectcrity #final #img_recommended_routes img {
+#projectcrity #final #img_recommended_routes img {
     width: 67%;
     margin: auto;
     display: block;
   }
 
-  #projectcrity #final #img_bookmarks img {
+#projectcrity #final #img_bookmarks img {
     width: 67%;
     margin: auto;
     display: block;
@@ -442,10 +464,49 @@ ul{
     padding-bottom:15px;
   }
 
+  #project_rebelharvest #user_flow #legend img{
+    display: block;
+    margin: 10px auto 0;
+    width: 30%;
+  }
+
+  #project_rebelharvest #wireframe img {
+    width:80%;
+    display: block;
+    margin: auto;
+  }
+
+  #project_rebelharvest #mid_prototype img {
+    width:80%;
+    display: block;
+    margin: auto;
+  }
+
+
+
+  #project_rebelharvest #recipe_prototype img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
 
 
 
 /*Media Queries*/
+
+/*================================
+S to M Devices (521px and larger)
+==================================
+*/
+
+@media only screen and (min-width: 520px){
+  .project_process img {
+    width: 60px;
+    padding: 4px;
+  }
+}
+
+
 
 /*================================
 Medium Devices (640px and larger)
@@ -514,6 +575,14 @@ Medium Devices (640px and larger)
     width:16.7%;
   }
 
+  .col-md-80{
+    width:80%;
+  }
+
+  .col-md-20{
+    width:20%;
+  }
+
   .col-md-full{
     width:100%
   }
@@ -526,6 +595,10 @@ Medium Devices (640px and larger)
 
   [id*="home_project"] h3{
     margin-top: 0px;
+  }
+
+  #projectcrity .section {
+    padding-top: 80px;
   }
 
   #aboutpage #about_selfportrait img {
@@ -588,7 +661,6 @@ Medium Devices (640px and larger)
   }
 
 
-
   #problem h5 {
     margin-top:50px;
   }
@@ -605,6 +677,30 @@ Medium Devices (640px and larger)
   .container-iframem {
     padding-top: 60%;
   }
+
+  .project_process img {
+    width: 80px;
+    padding: 4px;
+  }
+
+  #project_rebelharvest #user_flow #legend img{
+    width: 100%;
+  }
+
+  #project_rebelharvest #wireframe img {
+    width:100%;
+    }
+
+  #project_rebelharvest #mid_prototype img {
+    width:100%;
+  }
+
+
+
+  #project_rebelharvest #recipe_prototype img {
+    width: 70%;
+  }
+
 }
 
 
@@ -627,6 +723,7 @@ Large Devices (1024px and larger)
   .col-lg-60{
     width:60%;
   }
+
   .col-lg-40{
     width:40%;
   }
@@ -647,6 +744,11 @@ Large Devices (1024px and larger)
     width: 60%;
     margin: auto;
     display: block;
+    }
+
+  .project_process img {
+      width: 100px;
+      padding: 5px;
     }
 
 
