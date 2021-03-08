@@ -19,26 +19,35 @@
     <!--normalize css-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--fontawesome kit-->
+    <script src="https://kit.fontawesome.com/1fd1174b30.js" crossorigin="anonymous"></script>
+
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
   </head>
+
+
   <body id="homepage">
     <!--header section-->
     <header id="nav">
       <div class="container">
-      <nav>
+          <nav>
           <a href="index.html">
               <picture>
                 <source srcset="img/logo/Logo_Simplified.svg" media="(max-width:767px)">
-                  <img width="50" height="50" src="img/logo/Logo_Complex.svg" alt="Cheeky Chae">
+                  <img src="img/logo/Logo_Complex.svg" alt="Cheeky Chae">
                 </picture></a>
-          <ul>
-            <li><a href="index.html" class="nav">Work</a></li>
-            <li><a href="about.html" class="nav">About</a></li>
-            <li><a href="#contact" class="nav">Contact</a></li>
-          </ul>
-      </nav>
+              <div class="navtoggle" id="myNavtoggle">
+                <ul>
+                  <li><a href="index.html">Work</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                  <li><a href="javascript:void(0);" class="hamburger" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                </ul>
+              </div>
+        </nav>
       </div>
     </header>
 
@@ -50,8 +59,7 @@
           <h1>Hi! My name is Angela,
           <br><span>a Product Manager with a UX certification</span>
           </h1>
-          <p>Having been in the tech space for some time now, I have become to appreciate and value strategy, creativity, and human centered design in the product development process.
-            I also create my own illustration work!</p>
+          <p>I have considerable experience in the tech and data driven spaces which has given me a strong appreciation and ability to implement strategy, creativity, and human centered design in the product management/development process.</p>
             <div>
               <a href="#uxui_projects" class="button">UX/UI Case Studies</a>
               <a href="#illustrations" class="button">Illustrations</a>
