@@ -35,7 +35,7 @@ h1{
   font-family: 'Karla', san-serif;
   font-size: 2.5em;
   font-weight: 800;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 h2{
@@ -100,40 +100,65 @@ main{
 }
 
 nav {
-  padding: 10px 0 0;
+  padding: 15px 0 0;
   display: inline-block;
   width: 100%;
 }
 
-nav > ul {
+nav ul {
   list-style-type: none;
   padding-left: 0;
+  float: right;/*to delete*/
 }
 
-nav > ul > li {
+
+/*nav ul li {
   display: inline-block;
-}
+}*/
 
-nav > ul > li > a{
+.navtoggle li:not(:last-child) {
+  display: none;
+}/*to delete*/
+
+
+nav .hamburger {
+  font-size: 20px;
+}/*to delete*/
+
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(23, 190, 187, 0.4);
+}/*to delete*/
+
+
+nav img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}/*to delete*/
+
+nav ul li a{
   color: #707070;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight:400;
 }
 
-nav > ul > li > a:hover, a:focus {
+nav ul li a:hover, a:focus {
   font-weight: 600;
   color: #17BEBB
 }
 
-nav > ul > li > a:active {
+nav ul li a:active {
   font-weight: 600;
   text-decoration: underline;
   color: rgba(23, 190, 187, 0.4);
 }
 
 header{
-  text-align: center;
+  /*text-align: center;*/
   background-color: #FDF0D5;
   position: fixed;
   box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.20);
@@ -514,25 +539,45 @@ Medium Devices (640px and larger)
 */
 
 @media only screen and (min-width: 640px){
+
+  .navtoggle li:last-child {
+  display: none;
+  }/*to delete*/
+
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }/*to delete*/
+
+  nav {
+    padding: 5px 0 0;
+  }
+
+
+  nav img {
+    width: 80px;
+  }/*to delete*/
+
   header{
     text-align: unset;
   }
-  nav > ul{
+
+  nav ul{
       width: auto;
       float: right;
   }
-  nav > a > picture{
+
+  nav a picture{
     width: auto;
     float: left;
     margin-top: 6px;
   }
+
   main{
     padding-top: 0px;
   }
 
-  h1{
-    padding-top: 80px;
-  }
+
   h2{
     padding-top: 100px;
   }
