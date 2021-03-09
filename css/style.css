@@ -393,6 +393,11 @@ ul{
   padding-top: 120px;
 }
 
+.project_hero {
+  background-image: url("../img/ux_cs_pg/background/backgroundd@2x.png");
+  background-repeat: no-repeat;
+}
+
 #cr_quadrant ul {
   padding-left: 0;
   list-style-type: none;
@@ -467,8 +472,6 @@ ul{
     margin: auto;
   }
 
-
-
   #cr_audio img {
     width: 67%;
     margin: auto;
@@ -505,6 +508,13 @@ ul{
 
   .project_buttons {
     text-align: center;
+  }
+
+  .next_project {
+    margin-bottom: 15px;
+  }
+
+  .previous_project {
     margin-bottom: 15px;
   }
 
