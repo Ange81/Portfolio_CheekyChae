@@ -108,7 +108,8 @@ nav {
 nav ul {
   list-style-type: none;
   padding-left: 0;
-  float: right;/*to delete*/
+  clear: both;
+  margin: auto;
 }
 
 
@@ -122,7 +123,11 @@ nav ul {
 
 
 nav .hamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
   font-size: 20px;
+  margin-top: 5px;
 }/*to delete*/
 
 
@@ -137,6 +142,7 @@ nav img {
   width: 50px;
   height: 50px;
   float: left;
+  margin-bottom: 5px;
 }/*to delete*/
 
 nav ul li a{
@@ -249,41 +255,34 @@ ul{
 
 .button:hover, .button:focus{
   display:inline-block;
-  background-color: rgba(23, 190, 187, 0.8);
+  background-color: #52CECC;
   color: #ffffff;
-  font-family: 'Karla', san-serif;
-  font-weight: 600;
-  padding: 10px;
-  border-radius: 14px;
-  border-bottom: 2px solid #0B6765;
-  opacity: 0.8;
+
 }
 
 .button:active{
   display:inline-block;
-  background-color: rgba(23, 190, 187, 0.4);
+  background-color: #17BEBB;
   color: #ffffff;
   font-family: 'Karla', san-serif;
   font-weight: 600;
   padding: 10px;
-  border-radius: 14px;
   border-bottom: 0px;
   text-decoration: none;
 }
+
 
 .row{
   margin: 25px 0; /*add margins between content blocks*/
 }
 
-.next_project {
-  margin: 10px 5px;
-  float: right;
+.index {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  z-index: 1;
 }
 
-.previous_project {
-  margin: 10px 5px;
-  float: left;
-}
 
 /*Page Specific Styling*/
 
@@ -293,9 +292,6 @@ ul{
 
 #home_hero{
   text-align: center;
-}
-
-#home_hero {
   background-color: #FDF0D5;
   padding: 15px 0;
   display: inline-block;
@@ -308,14 +304,14 @@ ul{
   width: 100%;
 }
 
-#aboutpage #about_selfportrait img {
+#about_selfportrait img {
   width: 80%;
   display: block;
   margin: auto;
   padding: 15px;
 }
 
-#aboutpage #resume {
+#resume {
   text-align: center;
 }
 
@@ -327,26 +323,26 @@ ul{
   padding-top:0px;
 }
 
-#project_hero {
+.project_hero {
   display: block;
   width: 100%;
   padding: 15px 0;
 }
 
 
-#hero_image img{
+.hero_image img{
   display: block;
   margin: auto;
 }
 
-#project_logo img{
+.project_logo img{
     width: 50%;
     margin: auto;
     display: block;
     padding: 10px;
 }
 
-#project_logo h3{
+.project_logo h3{
   clear: both;
   text-align: center;
 }
@@ -393,121 +389,113 @@ ul{
   flex-direction: column-reverse;
 }
 
-#projectcrity .section {
+.section {
   padding-top: 120px;
 }
 
-#projectcrity #competitors #quadrant ul {
+#cr_quadrant ul {
   padding-left: 0;
   list-style-type: none;
 }
 
-#projectcrity #competitors #quadrant ul img {
+#cr_quadrant ul img {
   width: 30px;
   height: 27px;
   padding: 0 5px 0 0 ;
   float: left;
 }
 
-#projectcrity #competitors #quadrant ul div {
+#cr_quadrant ul div {
   width: 90%;
   float: right;
 }
 
-#projectcrity #competitors #quadrant ul li {
+#cr_quadrant ul li {
   width: 100%;
 }
 
 
-#projectcrity #user_flow #legend img {
+#cr_uf_legend img {
     margin-top: 50px;
     margin: auto;
     width: 80%;
     display: block;
   }
 
-#projectcrity #ia #card_sorting ul {
+#cr_card_sorting ul {
     padding-left: 0;
     list-style-type: none;
   }
 
-#projectcrity #ia #card_sorting ul img {
+#cr_card_sorting ul img {
     width: 30px;
     height: 27px;
     padding: 0 5px 0 0 ;
     float: left;
   }
 
-#projectcrity #ia #card_sorting ul div {
+#cr_card_sorting ul div {
     width: 90%;
     float: right;
   }
 
 
-#projectcrity #ia #card_sorting ul li {
+#cr_card_sorting ul li {
     width: 100%;
   }
 
-#projectcrity #preference_test #piechart1 {
+.piechart {
     width: 60%;
     margin: auto;
   }
 
-#projectcrity #preference_test #piechart2 {
-    width: 60%;
-    margin: auto;
-  }
-
-
-#projectcrity #final #img_recommended_routes img {
+  #cr_recommended_routes img {
     width: 67%;
     margin: auto;
     display: block;
   }
 
-#projectcrity #final #img_bookmarks img {
+  #cr_bookmarks img {
     width: 67%;
     margin: auto;
     display: block;
   }
 
-  #projectcrity #final #summary_dashboard img {
+  #cr_summary_dashboard img {
     width: 33%;
-  }
-
-  #projectcrity #final #summary_dashboard {
+    display: block;
     margin: auto;
   }
 
-  #projectcrity #final #img_audio_map_view img {
+
+
+  #cr_audio img {
     width: 67%;
     margin: auto;
     display: block;
   }
 
-  #projectcrity #next li {
+  #cr_next li {
     padding-bottom:15px;
   }
 
-  #project_rebelharvest #user_flow #legend img{
+  #rh_uf_legend img{
     display: block;
     margin: 10px auto 0;
     width: 30%;
   }
 
-  #project_rebelharvest #wireframe img {
+  #rh_wireframe img {
     width:80%;
     display: block;
     margin: auto;
   }
 
-  #project_rebelharvest #mid_prototype img {
+  #rh_prototype img {
     width:80%;
     display: block;
     margin: auto;
   }
-
-
 
   #project_rebelharvest #recipe_prototype img {
     width: 80%;
@@ -515,7 +503,10 @@ ul{
     margin: auto;
   }
 
-
+  .project_buttons {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
 /*Media Queries*/
 
@@ -544,17 +535,26 @@ Medium Devices (640px and larger)
   display: none;
   }/*to delete*/
 
-
   .navtoggle li:not(:last-child) {
   display: inline-block;
   }/*to delete*/
 
+  .navtoggle.responsive{
+    clear: none;
+  }
+
+  .navtoggle.responsive li {
+    border-top: 0;
+    padding-top: 0;
+  }
+
   nav {
-    padding: 5px 0 0;
+    padding: 0;
   }
 
 
   nav img {
+    margin-top: 10px;
     width: 80px;
   }/*to delete*/
 
@@ -567,11 +567,6 @@ Medium Devices (640px and larger)
       float: right;
   }
 
-  nav a picture{
-    width: auto;
-    float: left;
-    margin-top: 6px;
-  }
 
   main{
     padding-top: 0px;
@@ -581,6 +576,7 @@ Medium Devices (640px and larger)
   h2{
     padding-top: 100px;
   }
+
 
   .flex-container {
     display:flex;
@@ -642,80 +638,84 @@ Medium Devices (640px and larger)
     margin-top: 0px;
   }
 
-  #projectcrity .section {
+  .section {
     padding-top: 80px;
   }
 
-  #aboutpage #about_selfportrait img {
+  #about_selfportrait img {
     width: 60%;
   }
 
-  #projectcrity #competitors #img_competitors {
+  #cr_img_competitors {
     width: 80%;
     margin: auto;
     }
 
-  #projectcrity #user_flow #legend img {
+  #cr_uf_legend img {
       float:left;
       width: 100%;
     }
 
-  #projectcrity #user_flow #young_userflow {
+  #cr_userflow1 {
     float: right;
   }
 
-  #projectcrity #user_interviews #affinity_map {
+  #cr_affinitymap {
     margin-top:23px;
   }
 
 
-  #projectcrity #ia #card_sorting img{
+  #cr_card_sorting img{
     width: 50%;
     margin: auto;
     display: block;
   }
 
-  #projectcrity #testing > div > picture > img {
+  #cr_testing > div > picture > img {
     width: 60%;
     margin: auto;
     display: block;
   }
 
-  #projectcrity #final #img_recommended_routes img {
+  #cr_recommended_routes img {
     width: 100%;
   }
 
-  #projectcrity #final #img_bookmarks img {
+  #cr_bookmarks img {
     width: 100%;
   }
 
-  #projectcrity #final #summary_dashboard img {
+  #cr_summary_dashboard img {
     width: 100%;
   }
 
-  #projectcrity #final #img_audio_map_view img {
+  #cr_audio img {
     width: 100%;
   }
 
-  #projectcrity #final #summary_dashboard {
+  #cr_summary_dashboard {
     margin: auto;
   }
 
-  #project_rebelharvest #competitors #venn_diagram {
+  #rh_venn_diagram {
      margin-top: 60px;
   }
 
 
-  #problem h5 {
+  #cr_problem h5 {
     margin-top:50px;
   }
 
-  #problem_p {
+  #rh_problem h5 {
+    margin-top:50px;
+  }
+
+  #cr_problem_p {
     clear: both;
     margin-top: 0;
   }
 
-  #project_rebelharvest #affinity_map {
+  #rh_affinitymap {
     margin-top:50px;
   }
 
@@ -728,23 +728,22 @@ Medium Devices (640px and larger)
     padding: 4px;
   }
 
-  #project_rebelharvest #user_flow #legend img{
+  #rh_uf_legend img{
     width: 100%;
   }
 
-  #project_rebelharvest #wireframe img {
+  #rh_wireframe img {
     width:100%;
     }
 
-  #project_rebelharvest #mid_prototype img {
+  #rh_prototype img {
     width:100%;
   }
 
-
-
-  #project_rebelharvest #recipe_prototype img {
+  #rh_recipe_prototype img {
     width: 70%;
   }
+
 
 }
 
@@ -785,7 +784,7 @@ Large Devices (1024px and larger)
     padding-top: 80px;
   }
 
-  #projectcrity #competitors #img_competitors img {
+  #cr_img_competitors img {
     width: 60%;
     margin: auto;
     display: block;
