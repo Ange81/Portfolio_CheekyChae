@@ -562,6 +562,10 @@ Medium Devices (640px and larger)
     padding: 0;
   }
 
+  nav ul{
+    clear: none;
+    padding-top: 25px;
+  }
 
   nav img {
     margin-top: 10px;
