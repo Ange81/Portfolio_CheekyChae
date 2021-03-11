@@ -112,10 +112,11 @@ nav ul {
   margin: auto;
 }
 
+.test-row {
+  display: flex;
+  align-items: center;
+}
 
-/*nav ul li {
-  display: inline-block;
-}*/
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -150,11 +151,14 @@ nav ul li a{
   padding: 0 15px;
   text-transform: uppercase;
   font-weight:400;
+  display: block;
+  text-align: center;
 }
 
 nav ul li a:hover, a:focus {
   font-weight: 600;
-  color: #17BEBB
+  color: #17BEBB;
+  text-decoration: none;
 }
 
 nav ul li a:active {
@@ -162,6 +166,7 @@ nav ul li a:active {
   text-decoration: underline;
   color: rgba(23, 190, 187, 0.4);
 }
+
 
 header{
   /*text-align: center;*/
@@ -200,7 +205,7 @@ footer{
 
 
 /*Global Styling*/
-*{
+* {
   box-sizing: border-box; /*makes sure border and padding are included in width so entire width does not overflow*/
 }
 
@@ -277,14 +282,24 @@ ul{
 }
 
 .index {
-  position: fixed;
-  right: 20px;
-  bottom: 10px;
+  position: sticky;
+  bottom: 30px;
+  overflow: hidden;
   z-index: 1;
+  padding-bottom: 15px;
+}
+
+.index .button {
+  float: right;
 }
 
 
 /*Page Specific Styling*/
+
+.illustration {
+  display: flex;
+  align-items: flex-end;
+}
 
 #uxui_projects .row{
   padding-bottom:25px; border-bottom:1px  solid #707070;
@@ -334,6 +349,7 @@ ul{
   display: block;
   margin: auto;
 }
+
 
 .project_logo img{
     width: 50%;
@@ -396,6 +412,10 @@ ul{
 .project_hero {
   background-image: url("../img/ux_cs_pg/background/backgroundd@2x.png");
   background-repeat: no-repeat;
+}
+
+#cr_final {
+  background-image: url("../img/ux_cs_pg/background/cr_locationbg@2x.png");
 }
 
 #cr_quadrant ul {
@@ -565,6 +585,8 @@ Medium Devices (640px and larger)
   nav ul{
     clear: none;
     padding-top: 25px;
+    width: auto;
+    float: right;
   }
 
   nav img {
@@ -576,9 +598,19 @@ Medium Devices (640px and larger)
     text-align: unset;
   }
 
-  nav ul{
-      width: auto;
-      float: right;
+  nav ul li {
+    padding-bottom: 10px;
+  }
+
+
+
+  .active {
+    border-bottom: 5px solid #17BEBB;
+  }
+
+  .active a {
+    font-weight: 800;
+    color: #17BEBB;
   }
 
 
