@@ -520,6 +520,12 @@ ul{
     margin: auto;
   }
 
+  #rh_recipe_prototype img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
   #project_rebelharvest #recipe_prototype img {
     width: 80%;
     display: block;
@@ -537,6 +543,93 @@ ul{
   .previous_project {
     margin-bottom: 15px;
   }
+
+#rh_circle1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #F3F3F3;
+    box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+    margin: auto;
+  }
+
+  #rh_circle2{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #FEC481;
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+  #rh_circle3{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #A8CA91;
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+  #rh_circle4{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #264653;
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+  #rh_circle5{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #FFBD12;
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+  #rh_circle6{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #F3722C;
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+
+  #rh_circle7{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(to bottom right, #FEC481, #A8CA91);
+      box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+      margin: auto;
+    }
+
+
+  #rh_ui ul {
+    list-style-type: none;
+
+  }
+
+  .list_inline {
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .list_inline p {
+  font-size: 0.75em;
+  }
+
+  .grid_illustration{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+
 
 /*Media Queries*/
 
@@ -788,6 +881,17 @@ Medium Devices (640px and larger)
 
   #rh_recipe_prototype img {
     width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  .list_inline p {
+  font-size: 1em;
+  }
+
+  .grid_illustration{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
   }
 
 
