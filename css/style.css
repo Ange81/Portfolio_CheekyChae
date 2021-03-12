@@ -71,7 +71,7 @@ h6{
   font-family: 'Karla', san-serif;
   font-size: 1em;
   font-weight: 600;
-  margin-top: 0;
+  margin: 0;
 }
 
 .footnote{
@@ -112,10 +112,7 @@ nav ul {
   margin: auto;
 }
 
-.test-row {
-  display: flex;
-  align-items: center;
-}
+
 
 
 .navtoggle li:not(:last-child) {
@@ -295,6 +292,15 @@ ul{
 
 
 /*Page Specific Styling*/
+#home_hero h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#home_hero h2 {
+  margin-bottom: 0;
+}
+
 
 .illustration {
   display: flex;
@@ -346,6 +352,7 @@ ul{
 
 
 .hero_image img{
+  width: 90%;
   display: block;
   margin: auto;
 }
@@ -662,13 +669,17 @@ ul{
     margin: auto;
   }
 
-#rh_pt_original img{
+#rh_preference_test img{
   width: 80%;
   display: block;
   margin: auto;
 }
 
-#rh_next {
+#rh_preference_test ul{
+  margin-bottom: 40px;
+}
+
+#rh_final {
   clear: both;
 }
 
@@ -736,6 +747,10 @@ Medium Devices (640px and larger)
 
   header{
     text-align: unset;
+  }
+
+  .hero_image img {
+    width: 100%
   }
 
   nav ul li {
@@ -945,8 +960,13 @@ Medium Devices (640px and larger)
     width: 70%;
   }
 
-  #rh_pt_original img{
+  #rh_preference_test img{
     width: 70%;
+  }
+
+  .hero_title {
+    display: flex;
+    align-items: center;
   }
 
 
