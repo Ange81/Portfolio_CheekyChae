@@ -853,8 +853,9 @@ Medium Devices (640px and larger)
     }
 
   #cr_uf_legend img {
-      float:left;
-      width: 100%;
+      display: block;
+      margin: auto;
+      width: 60%;
     }
 
   #cr_userflow1 {
