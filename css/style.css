@@ -629,6 +629,50 @@ ul{
     grid-template-columns: auto auto auto;
   }
 
+  #rh_illustrations {
+    clear: both;
+  }
+  #rh_illustrations img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  }
+
+  #rh_onboarding img{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  #rh_fonts img{
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  #rh_stats img{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  #rh_orderbtn img{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+#rh_pt_original img{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+#rh_next {
+  clear: both;
+}
+
+
 
 
 /*Media Queries*/
@@ -644,6 +688,9 @@ S to M Devices (521px and larger)
     padding: 4px;
   }
 }
+
+
+
 
 
 
@@ -892,6 +939,14 @@ Medium Devices (640px and larger)
   .grid_illustration{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+  }
+
+  #rh_onboarding img{
+    width: 70%;
+  }
+
+  #rh_pt_original img{
+    width: 70%;
   }
 
 
