@@ -68,11 +68,12 @@
                 <source srcset="img/ux_cs_pg/crity/brand/crity_logo@1x.png" media="(max-width:767px)">
                 <img src="img/ux_cs_pg/crity/brand/crity_logo@2x.png" alt="Crity_logo">
               </picture>
-              <h3>A travel app designed for discovering hidden spots in a city</h3>
+              <h3 id="backtotop">A travel app designed for discovering hidden spots in a city</h3>
             </div>
           </div>
         </div>
         </div>
+
 
 
 
@@ -101,11 +102,25 @@
         </div>
       </div>
 
+
         <!--process section-->
         <div id="cr_process" class="project_process">
           <div class="container">
-          <h3>Index</h3>
-          <ol class="project-flex">
+          <h3>Sections</h3>
+          <ol  class="project-flex process_grid">
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_problem">The Problem</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_competitors">Competitors</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_persona">Persona</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_userflow">User Flow</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_ia">Information Architecture</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_wireframe">Wireframes</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_prototype">Prototype</a><li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_testing">User Testing</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_ui">User Interface</a><li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_final">High Fidelity</a></li>
+            <li class="process_circle" style="display: flex; align-items: center;"><a href="#cr_next">Final Thoughts</a></li>
+          </ol>
+          <!--ol class="project-flex">
             <li><a href="#cr_problem"><img src="img/ux_cs_pg/projectprocess/theproblem.png" alt="problem"></a></li>
             <li><a href="#cr_competitors"><img src="img/ux_cs_pg/projectprocess/competitors.png" alt="competitors"></a></li>
             <li><a href="#cr_persona"><img src="img/ux_cs_pg/projectprocess/persona.png" alt="persona"></a></li>
@@ -117,29 +132,33 @@
             <li><a href="#cr_ui"><img src="img/ux_cs_pg/projectprocess/ui.png" alt="UI"></a><li>
             <li><a href="#cr_final"><img src="img/ux_cs_pg/projectprocess/hifi.png" alt="final"></a></li>
             <li><a href="#cr_next"><img src="img/ux_cs_pg/projectprocess/finalthoughts.png" alt="next"></a></li>
-          </ol>
+          </ol-->
           </div>
         </div>
 
+
+        <div class="main_content">
       <!--the problem section-->
         <div id="cr_problem" class="row container section">
+          <h3><span>1</span> &nbsp; The Problem</h3>
           <div class="col-md-50">
-            <h3>The Problem</h3>
               <p>The focus of my design was based on peoples’ interest in learning through gaming opportunities. This developed into combining the idea of one's travel experience and learning about a location, and a scavenger hunt gaming experience that requires a user to search for hidden objects or spots.<br>
               Based on research, the problem statement was defined as follows:</p>
           </div>
           <div class="col-md-50">
               <h5>Gamers, who love travelling, want a fun and exclusive experience that helps them learn about historical facts of a location that is not well known to the public.</h5><br>
           </div>
-          <div id="cr_problem_p">
+          <div id="cr_problem_p" class="indent">
               <p>The hypothesis was that following guide books can be cumbersome, and walking tours can be restricted by schedule or weather conditions. Both options also do not deliver the interactive experience a gamer may seek for.</p>
           </div>
         </div>
 
+
         <!--competitor analysis section-->
         <div id="cr_competitors" class="container section">
+          <h3><span>2</span> &nbsp; Competitor Analysis</h3>
+          <div class="indent">
           <div>
-            <h3>Competitor Analysis</h3>
               <p>As the idea combines the entertainment aspects of a gaming and travelling, and the educational aspects of learning about a location, multiple products and services were reviewed for the  competitive analysis such as:</p>
                 <ul>
                   <li>Game industry focused on scavenger hunts</li>
@@ -159,10 +178,10 @@
             <p class="footnote">* For details of the four competitor prfoiles and SWOT analysis, please click <a href="https://www.scribd.com/document/490610359/Competitors-Profile-SWOT?secret_password=xKxeDOh5UcOE60qem5Fh" target="_blank">here</a>.</p>
           </div>
           <div>
-            <h5>Through competitor analysis and market research, it was clear that there was an opportunity to capture both the fun and learning experience through creating an app that guides users to discover and learn about hidden spots within a city at their own pace and convenience.</h5>
+            <h5>The analysis made it clear that there was an opportunity to capture both the fun and learning experience.</h5>
           </div>
           <div>
-            <p>A market analysis for a broader look at the competitive landscape was conducted as well which categorised potential competitors into 6 different competitor types. The following is a quadrant analysis that maps the different competitor types based on two key measurements: entertainment and education, which are the key elements for the app.</p>
+            <p>A market analysis was also done where potential competitors were categorized into 6 different competitor types. The following is a quadrant analysis with the different competitor types based on two measurements: entertainment and education.</p>
           </div>
           <div>
           <div id="cr_quadrant" class="row">
@@ -174,9 +193,9 @@
               </div>
               <div>
                 <ul>
-                  <li><div><img src="img/icons/A@2x.png" alt="A."><div>Guide books focused on major tour sites: A very competitive space which may deliver value in the context of learning, but because authors tend to pack in a lot of information in text form, there is a lack of the entertainment element. There is also a lack of interactiveness which would make this option less interesting for gamers.</div></div></li>
-                  <li><div><img src="img/icons/B@2x.png" alt="B."><div>Guided walking tours: Also a very competitive space. While the educational element may be high, the fun element can be dependent on the tour guide. Also, rather than the travellers actively participating on tasks, the information flow is usually one way which makes it less interesting for gamers.</div></div></li>
-                  <li><div><img src="img/icons/C@2x.png" alt="C."><div>Walking tour mobile apps: Depending on the app, there is some storytelling which can make it interesting and engaging, but primarily the educational aspect is much stronger and the information flow tends to be one way. Some of the competitors in this space are VoiceMap, SideWalk, and GPSmyCity.</div></div></li>
+                  <li><div><img src="img/icons/A@2x.png" alt="A."><div>Guide books focused on major tour sites: A very competitive space delivers the learning experience, but because a lot of information is in text form, there is a lack of the entertainment and interactiveness which makes this option less interesting for gamers.</div></div></li>
+                  <li><div><img src="img/icons/B@2x.png" alt="B."><div>Guided walking tours: Also a very competitive space. While the educational element may be high, the fun element can be dependent on the tour guide. Also, the information flow is usually one way which makes it less interesting for gamers.</div></div></li>
+                  <li><div><img src="img/icons/C@2x.png" alt="C."><div>Walking tour mobile apps: Depending on the app, storytelling can make this option engaging, but generally the educational aspect is much stronger and the information flow tends to be one way. Some of the competitors in this space are VoiceMap, SideWalk, and GPSmyCity.</div></div></li>
                   <li><div><img src="img/icons/D@2x.png" alt="D."><div>Guide books focused on hidden spots: Users are asked to search for hidden spots that may make this experience engaging. However, there is a lack of interactiveness which makes it less interesting for gamers.</div></div></li>
                   <li><div><img src="img/icons/E@2x.png" alt="E."><div>Scavenger Hunt Apps that focuses on tourism: Since these apps target both the gaming and tourism markets, the idea is very similar to the project. However, most apps in the market are mainly focused on team competition which minimises the experience of actually learning something. Some of the competitors would be Let’s Roam, CityHunt, and Live the City.</div></div></li>
                   <li><div><img src="img/icons/F@2x.png" alt="F."><div>Scavenger Hunt Apps that focuses on gaming: There is a strong element of entertainment that is specifically targeted for gamers. However, the goal for these apps are not designed to learn something new. Some of the competitors would be Geocaching and GooseChase.</div></div></li>
@@ -184,18 +203,17 @@
               </div>
             </div>
           </div>
-
+        </div>
         </div>
 
         <!--persona development section-->
         <div id="cr_persona" class="container section">
-          <div>
-            <h3>Persona Development</h3>
+          <h3><span>3</span> &nbsp; Persona Development</h3>
+          <div class="indent">
             <p>Personas were developed using both quantitative data collected from surveys and qualitative information from user interviews.</p>
-          </div>
-          <div>
             <h4>Survey</h4>
             <p>A user survey was conducted with 26 respondents in total and with interesting differences between the two age groups:</p>
+          </div>
             <div class="row">
               <div class="col-md-60">
                 <picture>
@@ -203,7 +221,6 @@
                     <img src="img/ux_cs_pg/crity/persona/2x/UserSurveyPie@2x.png" alt="piechart">
                   </picture>
                 </div>
-
                 <div>
                   <p>Regardless of age group</p>
                     <ul>
@@ -214,7 +231,6 @@
                     </ul>
                 </div>
               </div>
-            </div>
             <div id="cr_interviews" class="row">
               <div  class="col-md-50">
                 <h4>User Interviews</h4>
@@ -227,7 +243,7 @@
                 </picture>
               </div>
           </div>
-          <div>
+          <div class="indent">
             <h4>Personas & User Journey</h4>
               <p>2 personas were developed as a result of the survey and user interviews.  User journeys for each of the persona were also developed based on the persona’s goals & needs, motivations, frustrations, and lifestyle.</p>
           </div>
@@ -247,12 +263,13 @@
                   <p class="footnote">For Young's User Journey, click <a href="https://www.scribd.com/document/491062494/Young-User-Journey?secret_password=TcECB4eX26zmbi75Wv3z" target="_blank">here</a>.</p>
               </div>
             </div>
-        </div>
+          </div>
+
 
         <!--User Flow section-->
         <div id="cr_userflow" class="container section">
-          <div>
-            <h3>User Flow</h3>
+          <h3><span>4</span> &nbsp; User Flow</h3>
+          <div class="indent">
             <p>User flows for each persona were defined based on the hypothetical journey map which was a reflection of their anticipated behaviour and thinking.</p>
           </div>
           <div class="row">
@@ -281,9 +298,7 @@
 
         <!--information architecture section-->
         <div id="cr_ia" class="container section">
-          <div>
-            <h3>Information Architecture</h3>
-          </div>
+          <h3><span>5</span> &nbsp; Information Architecture</h3>
           <div class="row">
           <div class="col-md-40">
             <h4>Initial Draft</h4>
@@ -296,10 +311,8 @@
             </picture>
           </div>
           </div>
-          <div>
+          <div class="indent">
             <p>However, since the initial draft was based on a hypothesis, an open card sorting was conducted to build the Information Architecture based on how potential users would actually categorise the different elements.</p>
-          </div>
-          <div>
             <p>There were 26 cards in total and the summary of the analysis is as follows:</p>
           </div>
           <div id="cr_card_sorting" class="row">
@@ -342,7 +355,7 @@
             </picture>
           </div>
           </div>
-          <div class="row">
+          <div class="row center_vert">
           <div class="col-md-50">
           <div>
             <h4>Final Sitemap</h4>
@@ -357,17 +370,17 @@
           </div>
           </div>
           <div class="col-md-50">
-          <div>
-            <h5>The information architecture took several iterations based on both hypothesis and user research. It was critical to not only implement changes based on user feedback, but also to consider what makes most sense from a practical point of view.</h5>
-          </div>
+            <h5>The information architecture took several iterations based on both hypothesis and user research.</h5>
           </div>
         </div>
       </div>
 
+
         <!--wireframing & prototyping section-->
         <div id="cr_wireframe" class="container section">
+          <h3><span>6</span> &nbsp; Wireframes</h3>
+          <div class="indent">
           <div>
-            <h3>Wireframes</h3>
             <p>The initial wireframes and prototypes were developed for two tasks:</p>
               <ul>
                 <li>Scenario 1: Searching and downloading routes</li>
@@ -395,11 +408,13 @@
             </div>
           </div>
         </div>
+
+        <div>
         <div id="cr_prototype" class="container section">
-          <div>
-            <h3>Prototype & Mid-Fidelity</h3>
+          <h3><span>7</span> &nbsp; Prototype & Mid-Fidelity</h3>
+          <div class="indent">
             <p>The following are the two tasks on a mid fidelity prototype which was used for the usability testing.</p>
-          </div>
+
           <div>
             <h4>Scenario 1</h4>
             <picture>
@@ -415,14 +430,16 @@
             </picture>
           </div>
         </div>
+        </div>
+      </div>
+
 
         <!--User Testing section-->
         <div id="cr_testing" class="container section">
-          <div>
-            <h3>User Testing</h3>
+            <h3><span>8</span> &nbsp; User Testing</h3>
+            <div class="indent">
             <p>A detailed usability test plan was developed in order to better understand how users interact with the prototype. Issues were analysed and prioritised based on the severity of an error.</p>
-          </div>
-          <div>
+          <div id="cr_testplan">
               <picture>
                 <source srcset="img/ux_cs_pg/crity/usertest/1x/usability_test@1x.png" media="(max-width:767px)">
                   <img src="img/ux_cs_pg/crity/usertest/2x/usability_test@2x.png" alt="Usability Test Plan & Analysis">
@@ -432,8 +449,9 @@
             <h4>Iterations</h4>
             <p>Based on the usability test results and high priority issues that were identified, the following changes were made on the mid-fidelity prototype:</p>
           </div>
+          </div>
           <div class="row">
-          <div class="col-md-50">
+          <div class="col-md-50 iteration_img">
               <h6>Filter Page</h6>
                     <picture>
                       <source srcset="img/ux_cs_pg/crity/usertest/1x/filteriteration@1x.png" media="(max-width:767px)">
@@ -444,7 +462,7 @@
                 <li>Took out “Recommended Routes”</li>
               </ul>
             </div>
-            <div class="col-md-50">
+            <div class="col-md-50 iteration_img">
               <h6>Homepage</h6>
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/usertest/1x/homepageiteration@1x.png" media="(max-width:767px)">
@@ -456,7 +474,7 @@
             </div>
             </div>
             <div class="row">
-            <div class="col-md-50">
+            <div class="col-md-50 iteration_img">
               <h6>Bookmarks Page</h6>
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/usertest/1x/bookmarksiteration@1x.png" media="(max-width:767px)">
@@ -466,7 +484,7 @@
                 <li>Icons were used to visualise hierarchy between Routes and Spots</li>
               </ul>
             </div>
-            <div class="col-md-50">
+            <div class="col-md-50" id="iteration_audio">
               <h6>Audio Page</h6>
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/usertest/1x/audio_iterations@1x.png" media="(max-width:767px)">
@@ -481,13 +499,12 @@
           </div>
 
           <div class="container section">
-            <div>
+            <div class="indent">
               <h4> More Iterations for High-Fidelity Prototype</h4>
               <p>As part of the iterative design process, there were further changes to the design based on user feedback which included preference tests as well. The following are a couple of the tests that took place that made some significant changes to the design:</p>
-            </div>
-          <div>
               <h6>Dark/light Mode Preference Test</h6>
-              <div class="row">
+            </div>
+              <div class="row more_iteration">
                 <div class="col-md-60">
                 <picture>
                   <source srcset="img/ux_cs_pg/crity/preferencetest/1x/dark_light_mode_iterations@1x.png" media="(max-width:767px)">
@@ -517,7 +534,7 @@
       </div>
         <div>
             <h6>Route card designs</h6>
-          <div class="row">
+          <div class="row more_iteration">
             <div class="col-md-60">
               <picture>
                 <source srcset="img/ux_cs_pg/crity/preferencetest/1x/route_card_iterations@1x.png" media="(max-width:767px)">
@@ -549,16 +566,21 @@
 
         <!--design language system section-->
         <div id="cr_ui" class="container section">
-          <h3>Design Language System</h3>
+          <h3><span>9</span> &nbsp; Design Language System</h3>
+        <div class="container-iframe">
+          <iframe class="responsive-iframe" src="https://xd.adobe.com/embed/797d39ad-1bdc-45f4-9d02-eb7a5eb3976d-2c2e/" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="container container-iframe">
-          <iframe class="responsive-iframe" src="https://xd.adobe.com/embed/797d39ad-1bdc-45f4-9d02-eb7a5eb3976d-2c2e/" allowfullscreen title="Crity Design Language System"></iframe>
+        <div class="indent">
+        <p>Or click <a src="https://xd.adobe.com/view/797d39ad-1bdc-45f4-9d02-eb7a5eb3976d-2c2e/" target="blank">here</a>.</p>
         </div>
+        </div>
+
+
 
         <!--High Fidelity section-->
         <div id="cr_final" class="container section">
-          <div>
-            <h3>High Fidelity</h3>
+          <h3><span>10</span> &nbsp; High Fidelity</h3>
+          <div class="indent">
             <p>Here are some of the key features and callouts on the design decisions:</p>
           </div>
           <div class="flex-container row">
@@ -763,14 +785,15 @@
           <div class="container-iframem">
             <iframe class="responsive-iframe" src="https://xd.adobe.com/embed/c9696367-11b6-4845-99f6-b330ac65eab9-9c3a/?fullscreen" allowfullscreen></iframe>
           </div>
-        </div>
+          </div>
+
 
 
 
         <!--final thoughts section-->
         <div id="cr_next" class="container section">
-          <div>
-            <h3>Final Thoughts</h3>
+          <h3><span>11</span> &nbsp; Final Thoughts</h3>
+          <div class="indent">
             <p>There is still a lot of room for improvement for this project. The following are the list of things I would have liked to explore had I been given the time:</p>
           </div>
           <div class="row">
@@ -791,12 +814,10 @@
       </div>
 
       <div class="container index">
-        <a class="button" href="#cr_overview">Back to Top</a>
+        <a class="button" href="#backtotop">Back to Top</a>
       </div>
 
-
-
-
+    </div>
     </div>
     </main>
 
@@ -824,7 +845,7 @@
               </a>
           </div>
           <div class="copyright">
-            <p>Copyright Cheeky Chae 2020</p>
+            <p>Copyright Cheeky Chae 2021</p>
           </div>
         </div>
       </footer>
