@@ -37,7 +37,7 @@ h5{
 
 h1{
   font-family: 'Karla', san-serif;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 600;
   padding-top: 80px;
 }
@@ -252,8 +252,8 @@ ul{
   color: #ffffff;
   font-family: 'Karla', san-serif;
   font-weight: 600;
-  padding: 10px;
-  border-radius: 14px;
+  padding: 8px;
+  border-radius: 10px;
   border-bottom: 2px solid #0B6765;
   transition: 0.2s opacity;
 }
@@ -263,7 +263,6 @@ ul{
   display:inline-block;
   background-color: #52CECC;
   color: #ffffff;
-
 }
 
 .button:active{
@@ -295,11 +294,12 @@ ul{
 }
 
 
+
 /*Page Specific Styling*/
 
 
 #home_hero h1 {
-  padding-top: 80px;
+  padding-top: 100px;
   margin: 0;
 }
 
@@ -318,11 +318,16 @@ ul{
 }
 
 #home_hero{
-  text-align: center;
-  background-color: #FDF0D5;
+  /*text-align: center;*/
+  /*background-color: #FDF0D5;*/
   padding: 15px 0;
   display: inline-block;
   width: 100%;
+}
+
+#hero_button {
+  text-align: center;
+  padding-top: 40px;
 }
 
 #about_hero {
@@ -383,8 +388,9 @@ ul{
 }
 
 .project_process {
-  padding: 5px 0;
-  background-color: #F87575;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(23, 190, 187, 0.7);
   color: #FFFFFF;
 }
 
@@ -425,6 +431,51 @@ ul{
 .project_hero {
   background-image: url("../img/ux_cs_pg/background/backgroundd@2x.png");
   background-repeat: no-repeat;
+}
+
+.main_content h3 {
+  padding-top: 5px;
+  border-top: 2px solid rgba(23, 190, 187, 0.4)
+}
+
+.main_content h3 span {
+  font-size: 2em;
+  color: rgba(23, 190, 187, 0.4);
+}
+
+
+
+  .process_circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+    margin: auto;
+    margin: 5px;
+  }
+
+  .process_circle a {
+      color: #707070;
+      font-size: 0.6em;
+      font-weight: 600;
+      margin: auto;
+    }
+
+
+    .process_circle_style {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .process_circle:hover, .process_circle:focus {
+      background-color: #F8F8F8;
+      box-shadow: 0px 0px 0px 0px;
+    }
+
+#cr_problem h5 {
+  margin-bottom: 0;
 }
 
 #cr_final {
@@ -481,6 +532,15 @@ ul{
 #cr_card_sorting ul li {
     width: 100%;
   }
+
+#cr_wireframe h4 {
+  margin-top: 25.536px;
+}
+
+#cr_ia h5{
+  margin-top: 15px;
+}
+
 
 .piechart {
     width: 60%;
@@ -624,7 +684,19 @@ ul{
 
   #rh_ui ul {
     list-style-type: none;
+  }
 
+  #rh_final iframe {
+    border-radius:20px;
+    display: block;
+    margin: auto;
+    width:200px;
+    height:450px;
+  }
+
+  #rh_final .indent {
+    display: block;
+    margin: auto;
   }
 
   .list_inline {
@@ -687,6 +759,10 @@ ul{
 
 #rh_final {
   clear: both;
+}
+
+#rh_next li {
+  padding: 10px 0;
 }
 
 
@@ -777,6 +853,7 @@ Medium Devices (640px and larger)
 
   main{
     padding-top: 0px;
+    background: #FCFCFC;
   }
 
 
@@ -784,6 +861,9 @@ Medium Devices (640px and larger)
     padding-top: 100px;
   }
 
+  .indent {
+    padding: 10px;
+  }
 
   .flex-container {
     display:flex;
@@ -793,6 +873,11 @@ Medium Devices (640px and larger)
   .grid-container{
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .art_flex {
+    display: flex;
+    flex-direction: row;
   }
 
   .col-md-50{
@@ -849,8 +934,32 @@ Medium Devices (640px and larger)
     padding-top: 80px;
   }
 
+  .process_circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.20);
+    margin: auto;
+    margin: 5px;
+  }
+
+  .process_circle a {
+      color: #707070;
+      font-size: 0.8em;
+      font-weight: 600;
+      margin: auto;
+    }
+
   #about_selfportrait img {
     width: 60%;
+  }
+
+
+
+  #cr_problem_p {
+    clear: both;
+    margin-top: 0px;
   }
 
   #cr_img_competitors {
@@ -879,11 +988,6 @@ Medium Devices (640px and larger)
     display: block;
   }
 
-  #cr_testing > div > picture > img {
-    width: 60%;
-    margin: auto;
-    display: block;
-  }
 
   #cr_recommended_routes img {
     width: 100%;
@@ -905,22 +1009,43 @@ Medium Devices (640px and larger)
     margin: auto;
   }
 
-  #rh_venn_diagram {
-     margin-top: 60px;
+  #cr_testplan {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  #iteration_audio img {
+    width: 90%;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .more_iteration img {
+    width: 70%;
+  }
+
+  #cr_testing .iteration_img img {
+    width: 70%;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
   }
 
 
+
   #cr_problem h5 {
-    margin-top:50px;
+    margin-top: 16px;
   }
 
   #rh_problem h5 {
     margin-top:50px;
   }
 
-  #cr_problem_p {
-    clear: both;
-    margin-top: 0;
+  #rh_final iframe {
+    width:380px;
+    height:800px;
   }
 
   #rh_affinitymap {
@@ -971,7 +1096,7 @@ Medium Devices (640px and larger)
     width: 70%;
   }
 
-  .hero_title {
+  .center_vert {
     display: flex;
     align-items: center;
   }
@@ -987,7 +1112,7 @@ Large Devices (1024px and larger)
 
 @media only screen and (min-width: 1024px){
   .container{
-    max-width: 1200px;
+    max-width: 1024px;
     margin: auto;
   }
 
