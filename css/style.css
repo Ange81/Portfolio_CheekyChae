@@ -39,7 +39,6 @@ h1{
   font-family: 'Karla', san-serif;
   font-size: 2em;
   font-weight: 600;
-  padding-top: 80px;
 }
 
 h2{
@@ -311,6 +310,14 @@ ul{
   margin-bottom: 0;
 }
 
+.about_top {
+  margin-top:0;
+}
+
+#aboutpage h1{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 .illustration {
   display: flex;
@@ -359,11 +366,20 @@ ul{
   padding-top:0px;
 }
 
+#about_hero h1 {
+  padding-top: 80px;
+}
+
 .project_hero {
   display: block;
   width: 100%;
   padding: 15px 0;
 }
+
+.breadcrumb{
+   padding-top:50px;
+}
+
 
 
 .hero_image img{
@@ -398,14 +414,11 @@ ul{
   color: #FFFFFF;
 }
 
+
 .project_process h3 {
-  margin: 0 0 10px 0;
+  margin-top: 0;
 }
 
-.project_process img {
-  width: 40px;
-  padding: 2px;
-}
 
 .project_process ol li {
   display: inline-block;
@@ -777,6 +790,7 @@ ul{
   opacity: 0.6;
 }
 
+
 #illustrations {
   padding-bottom: 80px;
 }
@@ -859,7 +873,9 @@ Medium Devices (640px and larger)
     padding-bottom: 10px;
   }
 
-
+  .breadcrumb {
+     padding-top:80px;
+  }
 
   .active {
     border-bottom: 5px solid #17BEBB;
@@ -954,6 +970,7 @@ Medium Devices (640px and larger)
     padding-top: 80px;
   }
 
+
   .process_circle {
     border-radius: 50%;
     width: 80px;
@@ -975,7 +992,15 @@ Medium Devices (640px and larger)
     width: 60%;
   }
 
+  .about_top {
+     display:flex;
+     align-items:center;
+  }
 
+  #resume {
+    text-align: left;
+    padding-left: 0;
+  }
 
   #cr_problem_p {
     clear: both;
@@ -1053,8 +1078,6 @@ Medium Devices (640px and larger)
     margin: auto;
   }
 
-
-
   #cr_problem h5 {
     margin-top: 16px;
   }
@@ -1123,21 +1146,23 @@ Medium Devices (640px and larger)
 
   #digitalart h1 {
     margin-top: 0;
-    padding-top: 120px;
   }
 
   #drawings h1 {
     margin-top: 0;
-    padding-top: 120px;
   }
 
   #logodesign h1 {
     margin-top: 0;
-    padding-top: 120px;
   }
 
-
+  .artpage .breadcrumb {
+      margin-top:0;
+      padding-top:110px;
+    }
 }
+
+
 
 
 /*================================
@@ -1149,6 +1174,12 @@ Large Devices (1024px and larger)
   .container{
     max-width: 1024px;
     margin: auto;
+  }
+
+  .project_process {
+    position: sticky;
+    top: 40px;
+    z-index: 1;
   }
 
   .grid-container{
@@ -1172,14 +1203,16 @@ Large Devices (1024px and larger)
     width:100%;
   }
 
-  h1{
-    padding-top: 100px;
-  }
+
 
   #cr_img_competitors img {
     width: 60%;
     margin: auto;
     display: block;
+    }
+
+    #about_selfportrait img {
+      width: 80%;
     }
 
   .project_process img {

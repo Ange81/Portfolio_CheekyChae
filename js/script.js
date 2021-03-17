@@ -6,7 +6,7 @@ function menuToggle() {
   else {x.className = "navtoggle";}
 }
 
-  $(window).scroll(function() {
+$(window).scroll(function() {
       if ($(this).scrollTop()>2000) {
           $('.index').fadeIn();
        }
