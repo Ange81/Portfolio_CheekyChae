@@ -141,8 +141,8 @@ nav .hamburger {
 
 
 nav img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   float: left;
   margin-bottom: 5px;
 }/*to delete*/
@@ -298,8 +298,12 @@ ul{
 /*Page Specific Styling*/
 
 
+#home_hero span {
+  background-image: linear-gradient(transparent 60%, rgba(23, 190, 187, 0.2) 50%);
+}
+
 #home_hero h1 {
-  padding-top: 100px;
+  padding-top: 120px;
   margin: 0;
 }
 
@@ -765,6 +769,22 @@ ul{
   padding: 10px 0;
 }
 
+.illustration a {
+  color: #707070;
+}
+
+#homepage .illustration:hover {
+  opacity: 0.6;
+}
+
+#illustrations {
+  padding-bottom: 80px;
+}
+
+#aboutpage .row {
+  margin-bottom: 0px;
+}
+
 
 
 
@@ -817,14 +837,14 @@ Medium Devices (640px and larger)
 
   nav ul{
     clear: none;
-    padding-top: 25px;
+    padding-top: 55px;
     width: auto;
     float: right;
   }
 
   nav img {
-    margin-top: 10px;
-    width: 80px;
+    margin-top: 20px;
+    width: 90px;
   }/*to delete*/
 
   header{
@@ -875,9 +895,9 @@ Medium Devices (640px and larger)
     grid-template-columns: auto auto;
   }
 
-  .art_flex {
-    display: flex;
-    flex-direction: row;
+  .art_grid {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .col-md-50{
@@ -1101,6 +1121,21 @@ Medium Devices (640px and larger)
     align-items: center;
   }
 
+  #digitalart h1 {
+    margin-top: 0;
+    padding-top: 120px;
+  }
+
+  #drawings h1 {
+    margin-top: 0;
+    padding-top: 120px;
+  }
+
+  #logodesign h1 {
+    margin-top: 0;
+    padding-top: 120px;
+  }
+
 
 }
 
@@ -1138,7 +1173,7 @@ Large Devices (1024px and larger)
   }
 
   h1{
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   #cr_img_competitors img {
@@ -1150,6 +1185,11 @@ Large Devices (1024px and larger)
   .project_process img {
       width: 100px;
       padding: 5px;
+    }
+
+  .art_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
     }
 
 
