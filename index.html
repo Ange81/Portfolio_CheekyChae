@@ -1,198 +1,285 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CheekyChae - UX/UI/Illustrations Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon_package_v0.16/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon_package_v0.16/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/logo/favicon_package_v0.16/favicon-16x16.png">
-    <link rel="manifest" href="img/logo/favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="img/logo/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+<head>
+  <meta charset="utf-8">
+  <title>CheekyChae - UX/UI/Illustrations Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--normalize css-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <!--normalize css-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/logo/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="img/logo/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="img/logo/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    <!--fontawesome kit-->
-    <script src="https://kit.fontawesome.com/1fd1174b30.js" crossorigin="anonymous"></script>
+  <!--normalize css-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!--normalize css-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-
-  </head>
+  <!--fontawesome kit-->
+  <script src="https://kit.fontawesome.com/1fd1174b30.js" crossorigin="anonymous"></script>
 
 
-  <body id="homepage">
-    <!--header section-->
-    <header>
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body id="homepage">
+  <!--header section-->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html">
+          <picture>
+            <source srcset="img/logo/Logo_Simplified.svg" media="(max-width:767px)">
+            <img src="img/logo/Logo_Complex.svg" alt="Cheeky Chae">
+          </picture>
+        </a>
+        <div class="navtoggle" id="myNavtoggle">
+          <ul>
+            <li class="active"><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="javascript:void(0);" class="hamburger" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--start of main section-->
+  <main>
+    <!--hero section-->
+    <div id="home_hero">
       <div class="container">
-          <nav>
-          <a href="index.html">
-              <picture>
-                <source srcset="img/logo/Logo_Simplified.svg" media="(max-width:767px)">
-                  <img src="img/logo/Logo_Complex.svg" alt="Cheeky Chae">
-              </picture></a>
-              <div class="navtoggle" id="myNavtoggle">
-                <ul>
-                  <li class="active"><a href="index.html">Work</a></li>
-                  <li><a href="about.html">About</a></li>
-
-                  <li><a href="javascript:void(0);" class="hamburger" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                </ul>
-              </div>
-        </nav>
-      </div>
-    </header>
-
-    <!--start of main section-->
-    <main>
-      <!--hero section-->
-      <div id="home_hero">
-        <div class="container">
-          <h1>Hi! I'm Angela,
-          <br>a <span>Product Manager</span> with <span>UX</span> & <span>Frontend Development Skills</span>.</h1><h3>Check out my <a href="files/Chae-Angela-Resume.pdf" target="_blank">resume</a>.</h3>
-          <!--p>I have considerable experience in the tech and data driven spaces which has given me a strong appreciation and ability to implement strategy, creativity, and human centered design in the product management/development process. This is my <a href="files/Chae-Angela-Resume.pdf" target="_blank">resume</a>.</p-->
-            <div id="hero_button">
-              <a href="#uxui_projects" class="button">Case Studies</a>
-              <a href="#illustrations" class="button">Art Work</a>
-            </div>
+        <h1>Hi! I'm Angela,
+          <br>a <span>Product Manager</span> with <span>UX</span> & <span>Frontend Development Skills</span>.
+        </h1>
+        <h3>Check out my <a href="files/Chae-Angela-Resume.pdf" target="_blank">resume</a>.</h3>
+        <!--p>I have considerable experience in the tech and data driven spaces which has given me a strong appreciation and ability to implement strategy, creativity, and human centered design in the product management/development process. This is my <a href="files/Chae-Angela-Resume.pdf" target="_blank">resume</a>.</p-->
+        <div id="hero_button">
+          <a href="#uxui_projects" class="button">Case Studies</a>
+          <a href="#illustrations" class="button">Art Work</a>
         </div>
       </div>
+    </div>
 
-      <!--projects section-->
-      <div id="uxui_projects">
-        <div class="container">
-          <h2>Case Studies</h2>
-
-
-          <div id="home_project2" class="row"><!--open row that holds (2) columns for second project-->
-            <div class="col-md-50 col-lg-60 col-xl-40"><!--open first column for image-->
-              <picture>
-                <source srcset="img/home_pg/RebelHarvest@1x.jpg" media="(max-width:767px)">
-                <img src="img/home_pg/RebelHarvest@2x.jpg" alt="Rebel Harvest">
-              </picture>
-            </div><!--end first column for image-->
-            <div class="col-md-50 col-lg-40 col-xl-60"><!--open second column for text-->
-              <h3>Rebel Harvest</h3>
-              <h4>Related areas: UX, UI, Illustration</h4>
-              <p>A 10-week team project focusing on user behaviour and UX design. The goal was to design a native app to help reduce food waste by offering wonky fruits and vegetables.</p>
-              <a href="rebelharvest.html" class="button">View Project</a>
-            </div> <!--end second column for text-->
-          </div> <!--close row that holds (2) columns for second project-->
+    <!--projects section-->
+    <div id="uxui_projects">
+      <div class="container">
+        <h2>Case Studies</h2>
 
 
-          <div id="home_project1" class="row"><!--open row that holds (2) columns for first project and open first column for image-->
-            <div class="col-md-50 col-lg-60 col-xl-40">
-              <picture>
-                <source srcset="img/home_pg/Crity@1x.jpg" media="(max-width:767px)">
-                  <img src="img/home_pg/Crity@2x.jpg" alt="CrITY">
-                </picture>
-            </div><!--end first column for image-->
-            <div class="col-md-50 col-lg-40 col-xl-60"><!--open second column for text-->
-              <h3>CrITY</h3>
-              <h4>Related areas: UX, UI, Illustration</h4>
-              <p>An end-to-end design project for a travel/scavenger hunt gaming app. The app is designed for discovering hidden spots in a city.</p>
-              <a href="crity.html" class="button">View Project</a>
-            </div> <!--end second column for text-->
-          </div> <!--close row that holds (2) columns for first project-->
-
-
-          <div id="home_project3" class="row"><!--open row that holds (2) columns for third project-->
-            <div class="col-md-50 col-lg-60 col-xl-40"><!--open first column for image-->
-              <picture>
-                <source srcset="img/home_pg/Meggaball@1x.jpg" media="(max-width:767px)">
-                <img src="img/home_pg/Meggaball@2x.jpg" alt="Meggaball">
-              </picture>
-            </div><!--end first column for image-->
-            <div class="col-md-50 col-lg-40 col-xl-60"><!--open second column for text-->
-              <h3>Meggaball</h3>
-              <h4>Related areas: UX, UI</h4>
-              <p>A freelance project for improving the user experience on an existing site for a fitness programan.</p>
-              <a href="#" class="button">View Project</a>
-            </div> <!--end second column for text-->
-          </div> <!--close row that holds (2) columns for third project-->
-
+        <div id="home_project2" class="row">
+          <!--open row that holds (2) columns for second project-->
+          <div class="col-md-50 col-lg-60 col-xl-40">
+            <!--open first column for image-->
+            <picture>
+              <source srcset="img/home_pg/RebelHarvest@1x.jpg" media="(max-width:767px)">
+              <img src="img/home_pg/RebelHarvest@2x.jpg" alt="Rebel Harvest">
+            </picture>
+          </div>
+          <!--end first column for image-->
+          <div class="col-md-50 col-lg-40 col-xl-60">
+            <!--open second column for text-->
+            <h3>Rebel Harvest</h3>
+            <h4>Related areas: UX, UI, Illustration</h4>
+            <p>A 10-week team project focusing on user behaviour and UX design. The goal was to design a native app to help reduce food waste by offering wonky fruits and vegetables.</p>
+            <a href="rebelharvest.html" class="button">View Project</a>
+          </div>
+          <!--end second column for text-->
         </div>
+        <!--close row that holds (2) columns for second project-->
+
+
+        <div id="home_project1" class="row">
+          <!--open row that holds (2) columns for first project and open first column for image-->
+          <div class="col-md-50 col-lg-60 col-xl-40">
+            <picture>
+              <source srcset="img/home_pg/Crity@1x.jpg" media="(max-width:767px)">
+              <img src="img/home_pg/Crity@2x.jpg" alt="CrITY">
+            </picture>
+          </div>
+          <!--end first column for image-->
+          <div class="col-md-50 col-lg-40 col-xl-60">
+            <!--open second column for text-->
+            <h3>CrITY</h3>
+            <h4>Related areas: UX, UI, Illustration</h4>
+            <p>An end-to-end design project for a travel/scavenger hunt gaming app. The app is designed for discovering hidden spots in a city.</p>
+            <a href="crity.html" class="button">View Project</a>
+          </div>
+          <!--end second column for text-->
+        </div>
+        <!--close row that holds (2) columns for first project-->
+
+
+        <div id="home_project3" class="row">
+          <!--open row that holds (2) columns for third project-->
+          <div class="col-md-50 col-lg-60 col-xl-40">
+            <!--open first column for image-->
+            <picture>
+              <source srcset="img/home_pg/Meggaball@1x.jpg" media="(max-width:767px)">
+              <img src="img/home_pg/Meggaball@2x.jpg" alt="Meggaball">
+            </picture>
+          </div>
+          <!--end first column for image-->
+          <div class="col-md-50 col-lg-40 col-xl-60">
+            <!--open second column for text-->
+            <h3>Meggaball</h3>
+            <h4>Related areas: UX, UI</h4>
+            <p>A freelance project for improving the user experience on an existing site for a fitness programan.</p>
+            <a href="#" class="button">View Project</a>
+          </div>
+          <!--end second column for text-->
+        </div>
+        <!--close row that holds (2) columns for third project-->
+
       </div>
+    </div>
 
-      <!--illustrations section-->
-      <div id="illustrations">
-        <div class="container">
-          <h2>Art Work</h2>
-          <div class="grid-container">
-            <div class="illustration">
-              <a href="logodesign.html">
-            <figure>
-              <img src="img/logo_drawing/cheekychae1.png" alt="Illustration1">
-            <figcaption>Logo & Character Design</figcaption>
-            </figure>
-          </a>
-            </div>
-
-            <div class="illustration">
-              <a href="digitalart.html">
+    <!--illustrations section-->
+    <div id="illustrations">
+      <div class="container">
+        <h2>Art Work</h2>
+        <div class="grid-container">
+          <div class="illustration">
+            <a href="logodesign.html">
               <figure>
-                <img src="img/digitalart/illustration3.jpg" alt="Illustration3">
-              <figcaption>Digital Art Work</figcaption>
+                <img src="img/logo_drawing/cheekychae1.png" alt="Illustration1">
+                <figcaption>Logo & Character Design</figcaption>
               </figure>
             </a>
-            </div>
+          </div>
+
+          <div class="illustration">
+            <a href="digitalart.html">
+              <figure>
+                <img src="img/digitalart/illustration3.jpg" alt="Illustration3">
+                <figcaption>Digital Art Work</figcaption>
+              </figure>
+            </a>
+          </div>
 
           <div class="illustration">
             <a href="drawings.html">
-          <figure>
-            <img src="img/drawings/drawing19.jpg" alt="Drawing19">
-          <figcaption>Drawings</figcaption>
-          </figure>
-        </a>
+              <figure>
+                <img src="img/drawings/drawing19.jpg" alt="Drawing19">
+                <figcaption>Drawings</figcaption>
+              </figure>
+            </a>
           </div>
-        </div>
         </div>
       </div>
+    </div>
 
-    </main>
+  </main>
 
-      <!--footer section-->
-      <footer id="contact">
-        <div class="footer container">
-          <div>
-            <h2>Get in Touch</h2>
-            <p>Want to connect? Please reach out!</p>
-          </div>
-          <div>
-            <a href="mailto:angela@cheekychae.com" class="button">
-              <svg class="email_icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 225"><defs><style>.cls-2{fill:#ffffff}"</style></defs><g id="Layer_2a" data-name="Layer 2"><g id="Layer_1-2a" data-name="Layer 1"><path class="cls-2" d="M276.94,0H22.06C9.89,0,0,10.55,0,23.51v178C0,214.45,9.89,225,22.06,225H276.94c12.17,0,22.06-10.55,22.06-23.51v-178C299,10.55,289.11,0,276.94,0ZM182.28,112.45,280,41.93V183ZM276.76,19a2.83,2.83,0,0,1,1.93,1L149.15,113.5,19.6,20a2.85,2.85,0,0,1,1.94-1ZM18,183v-141l97.71,70.52Zm3.54,23a2.9,2.9,0,0,1-1.94-1l112.26-81,11.82,8.52a7.62,7.62,0,0,0,.9.46c.29.16.56.3.86.43a9.33,9.33,0,0,0,3.7.88h0a9.37,9.37,0,0,0,3.7-.88c.3-.13.57-.27.86-.43a8.48,8.48,0,0,0,.9-.46L166.43,124l112.26,81a2.83,2.83,0,0,1-1.93,1Z"/></g></g></svg>
-              &nbsp; Angela@CheekyChae.com</a>
-          </div><br>
-          <div> <!--social media icons-->
-              <a href="https://www.linkedin.com/in/angelachae/" title="LinkedIn" target="_blank">
-                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.63 227.63"><defs><style>.cls-1{fill:#17bebb;}</style></defs><g id="Layer_2b" data-name="Layer 2"><g id="Layer_1-2b" data-name="Layer 1"><g id="Layer_2-2" data-name="Layer 2"><g id="Layer_2-2-2" data-name="Layer 2-2"><path class="cls-1" d="M113.82,0A113.82,113.82,0,1,0,227.63,113.82,113.82,113.82,0,0,0,113.82,0ZM84.63,110.31v56.37h-25v-71h25Zm-13-24.81A12.35,12.35,0,1,1,84,73.15h0A12.35,12.35,0,0,1,71.63,85.5Zm93,81.18h-21V132.3c0-8.25-.84-18.78-12-18.78s-13,8.92-13,18.14v35h-21v-71h20v10H118c3-5.65,10-9.45,20.55-9.45,17.9,0,24,8.3,25.58,21.65a82.73,82.73,0,0,1,.54,10.19Z"/></g></g></g></g></svg>
-              </a>
-              <a href="https://www.behance.net/angelachae2" title="Behance" target="_blank">
-                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.16 226.16"><defs><style>.cls-1{fill:#17bebb;}</style></defs><g id="Layer_2c" data-name="Layer 2"><g id="Layer_1-2c" data-name="Layer 1"><path class="cls-1" d="M157.55,101.42C143,101.42,141,116,141,116h31S172.13,101.42,157.55,101.42Z"/><path class="cls-1" d="M87.46,116H59.31v25.85H84.24c.42,0,1.05,0,1.8,0,4-.1,11.61-1.26,11.61-12.57C97.65,115.83,87.46,116,87.46,116Z"/><path class="cls-1" d="M113.08,0A113.08,113.08,0,1,0,226.16,113.07,113.07,113.07,0,0,0,113.08,0Zm23.77,69.45h38.77V81.08H136.85Zm-19.16,61.32c0,28.8-30,27.85-30,27.85H38.63V64.28h49.1c14.91,0,26.68,8.23,26.68,25.11s-14.39,18-14.39,18C119,107.35,117.69,130.77,117.69,130.77Zm73.36-1.88h-50.4c0,18.07,17.11,16.93,17.11,16.93,16.17,0,15.6-10.47,15.6-10.47h17.12c0,27.78-33.29,25.87-33.29,25.87-39.93,0-37.36-37.18-37.36-37.18s0-37.36,37.36-37.36C196.56,86.68,191.05,128.89,191.05,128.89Z"/><path class="cls-1" d="M92.85,90.72c0-9.64-6.56-9.64-6.56-9.64h-27v20.67H84.62C89,101.75,92.85,100.35,92.85,90.72Z"/></g></g></svg>
-              </a>
-              <a href="https://www.instagram.com/cheeky.chae/" title="Instagram" target="_blank">
-                <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.64 226.64"><defs><style>.cls-1{fill:#17bebb;fill-rule:evenodd;}</style></defs><g id="Layer_2d" data-name="Layer 2"><g id="Layer_1-2d" data-name="Layer 1"><path class="cls-1" d="M113.32,89.71a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0-89.71A113.32,113.32,0,1,0,226.64,113.32,113.38,113.38,0,0,0,113.32,0Zm70.4,142.52a51.83,51.83,0,0,1-3.3,17.19,36.09,36.09,0,0,1-20.71,20.71,51.83,51.83,0,0,1-17.19,3.3c-7.55.34-10,.43-29.2.43s-21.65-.09-29.2-.43a51.83,51.83,0,0,1-17.19-3.3,36.09,36.09,0,0,1-20.71-20.71,51.83,51.83,0,0,1-3.3-17.19c-.34-7.55-.43-10-.43-29.2s.09-21.65.43-29.2a51.83,51.83,0,0,1,3.3-17.19A36.09,36.09,0,0,1,66.93,46.22a51.83,51.83,0,0,1,17.19-3.3c7.55-.34,10-.43,29.2-.43s21.65.09,29.2.43a51.83,51.83,0,0,1,17.19,3.3,36.09,36.09,0,0,1,20.71,20.71,51.83,51.83,0,0,1,3.3,17.19c.34,7.55.43,10,.43,29.2S184.06,135,183.72,142.52Zm-15.18-71A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62s-.07-21.15-.41-28.62C170.65,77.79,169.5,74,168.54,71.55Zm-55.22,78.14a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Z"/></g></g></svg>
-              </a>
-          </div>
-          <div class="copyright">
-            <p>Copyright Cheeky Chae 2021</p>
-          </div>
-        </div>
-      </footer>
-      <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"></script>
-      <script src="js/script.js"></script>
-  </body>
+  <!--footer section-->
+  <footer id="contact">
+    <div class="footer container">
+      <div>
+        <h2>Get in Touch</h2>
+        <p>Want to connect? Please reach out!</p>
+      </div>
+      <div>
+        <a href="mailto:angela@cheekychae.com" class="button">
+          <svg class="email_icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 225">
+            <defs>
+              <style>
+                .cls-2 {
+                  fill: #ffffff
+                }
+
+                "
+              </style>
+            </defs>
+            <g id="Layer_2a" data-name="Layer 2">
+              <g id="Layer_1-2a" data-name="Layer 1">
+                <path class="cls-2"
+                  d="M276.94,0H22.06C9.89,0,0,10.55,0,23.51v178C0,214.45,9.89,225,22.06,225H276.94c12.17,0,22.06-10.55,22.06-23.51v-178C299,10.55,289.11,0,276.94,0ZM182.28,112.45,280,41.93V183ZM276.76,19a2.83,2.83,0,0,1,1.93,1L149.15,113.5,19.6,20a2.85,2.85,0,0,1,1.94-1ZM18,183v-141l97.71,70.52Zm3.54,23a2.9,2.9,0,0,1-1.94-1l112.26-81,11.82,8.52a7.62,7.62,0,0,0,.9.46c.29.16.56.3.86.43a9.33,9.33,0,0,0,3.7.88h0a9.37,9.37,0,0,0,3.7-.88c.3-.13.57-.27.86-.43a8.48,8.48,0,0,0,.9-.46L166.43,124l112.26,81a2.83,2.83,0,0,1-1.93,1Z" />
+              </g>
+            </g>
+          </svg>
+          &nbsp; Angela@CheekyChae.com</a>
+      </div><br>
+      <div>
+        <!--social media icons-->
+        <a href="https://www.linkedin.com/in/angelachae/" title="LinkedIn" target="_blank">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.63 227.63">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #0F7B79;
+                }
+              </style>
+            </defs>
+            <g id="Layer_2b" data-name="Layer 2">
+              <g id="Layer_1-2b" data-name="Layer 1">
+                <g id="Layer_2-2" data-name="Layer 2">
+                  <g id="Layer_2-2-2" data-name="Layer 2-2">
+                    <path class="cls-1"
+                      d="M113.82,0A113.82,113.82,0,1,0,227.63,113.82,113.82,113.82,0,0,0,113.82,0ZM84.63,110.31v56.37h-25v-71h25Zm-13-24.81A12.35,12.35,0,1,1,84,73.15h0A12.35,12.35,0,0,1,71.63,85.5Zm93,81.18h-21V132.3c0-8.25-.84-18.78-12-18.78s-13,8.92-13,18.14v35h-21v-71h20v10H118c3-5.65,10-9.45,20.55-9.45,17.9,0,24,8.3,25.58,21.65a82.73,82.73,0,0,1,.54,10.19Z" />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://www.behance.net/angelachae2" title="Behance" target="_blank">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.16 226.16">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #0F7B79;
+                }
+              </style>
+            </defs>
+            <g id="Layer_2c" data-name="Layer 2">
+              <g id="Layer_1-2c" data-name="Layer 1">
+                <path class="cls-1" d="M157.55,101.42C143,101.42,141,116,141,116h31S172.13,101.42,157.55,101.42Z" />
+                <path class="cls-1" d="M87.46,116H59.31v25.85H84.24c.42,0,1.05,0,1.8,0,4-.1,11.61-1.26,11.61-12.57C97.65,115.83,87.46,116,87.46,116Z" />
+                <path class="cls-1"
+                  d="M113.08,0A113.08,113.08,0,1,0,226.16,113.07,113.07,113.07,0,0,0,113.08,0Zm23.77,69.45h38.77V81.08H136.85Zm-19.16,61.32c0,28.8-30,27.85-30,27.85H38.63V64.28h49.1c14.91,0,26.68,8.23,26.68,25.11s-14.39,18-14.39,18C119,107.35,117.69,130.77,117.69,130.77Zm73.36-1.88h-50.4c0,18.07,17.11,16.93,17.11,16.93,16.17,0,15.6-10.47,15.6-10.47h17.12c0,27.78-33.29,25.87-33.29,25.87-39.93,0-37.36-37.18-37.36-37.18s0-37.36,37.36-37.36C196.56,86.68,191.05,128.89,191.05,128.89Z" />
+                <path class="cls-1" d="M92.85,90.72c0-9.64-6.56-9.64-6.56-9.64h-27v20.67H84.62C89,101.75,92.85,100.35,92.85,90.72Z" />
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/cheeky.chae/" title="Instagram" target="_blank">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.64 226.64">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #0F7B79;
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <g id="Layer_2d" data-name="Layer 2">
+              <g id="Layer_1-2d" data-name="Layer 1">
+                <path class="cls-1"
+                  d="M113.32,89.71a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0-89.71A113.32,113.32,0,1,0,226.64,113.32,113.38,113.38,0,0,0,113.32,0Zm70.4,142.52a51.83,51.83,0,0,1-3.3,17.19,36.09,36.09,0,0,1-20.71,20.71,51.83,51.83,0,0,1-17.19,3.3c-7.55.34-10,.43-29.2.43s-21.65-.09-29.2-.43a51.83,51.83,0,0,1-17.19-3.3,36.09,36.09,0,0,1-20.71-20.71,51.83,51.83,0,0,1-3.3-17.19c-.34-7.55-.43-10-.43-29.2s.09-21.65.43-29.2a51.83,51.83,0,0,1,3.3-17.19A36.09,36.09,0,0,1,66.93,46.22a51.83,51.83,0,0,1,17.19-3.3c7.55-.34,10-.43,29.2-.43s21.65.09,29.2.43a51.83,51.83,0,0,1,17.19,3.3,36.09,36.09,0,0,1,20.71,20.71,51.83,51.83,0,0,1,3.3,17.19c.34,7.55.43,10,.43,29.2S184.06,135,183.72,142.52Zm-15.18-71A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62s-.07-21.15-.41-28.62C170.65,77.79,169.5,74,168.54,71.55Zm-55.22,78.14a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm57.65-5c-.32-6.91-1.47-10.66-2.43-13.15A23.6,23.6,0,0,0,155.09,58.1c-2.49-1-6.24-2.11-13.15-2.43-7.47-.34-9.71-.41-28.62-.41s-21.15.07-28.62.41C77.79,56,74,57.14,71.55,58.1A23.55,23.55,0,0,0,58.11,71.55C57.14,74,56,77.79,55.67,84.7c-.34,7.47-.41,9.71-.41,28.62s.07,21.15.41,28.62c.32,6.91,1.47,10.66,2.44,13.15a23.49,23.49,0,0,0,13.44,13.44c2.49,1,6.24,2.12,13.15,2.44,7.47.34,9.7.41,28.62.41s21.15-.07,28.62-.41c6.91-.32,10.66-1.47,13.15-2.44a23.55,23.55,0,0,0,13.45-13.44c1-2.49,2.11-6.24,2.43-13.15.34-7.47.41-9.71.41-28.62S171.31,92.17,171,84.7Zm-57.65,65a36.37,36.37,0,1,1,36.37-36.37A36.37,36.37,0,0,1,113.32,149.69ZM151.12,84a8.5,8.5,0,1,1,8.51-8.49A8.49,8.49,0,0,1,151.12,84Zm-37.8,5.7a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Zm0,0a23.61,23.61,0,1,0,23.61,23.61A23.61,23.61,0,0,0,113.32,89.71Z" />
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="copyright">
+        <p>Copyright Cheeky Chae 2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
