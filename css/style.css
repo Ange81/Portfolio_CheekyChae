@@ -207,6 +207,10 @@ footer {
 }
 
 /* Global Styling */
+#contact svg:hover {
+  color: #4AA3A1;
+}
+
 * {
   box-sizing: border-box;
 
@@ -261,7 +265,7 @@ ul {
   font-weight: 600;
   padding: 8px;
   border-radius: 10px;
-  border-bottom: 2px solid #0b6765;
+  border-bottom: 3px solid #082929;
   transition: 0.2s opacity;
 }
 
