@@ -1150,6 +1150,12 @@ Medium Devices (640px and larger)
     margin-top: 0;
   }
 
+  #rh_venn_diagram img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
   .artpage .breadcrumb {
     margin-top: 0;
     padding-top: 110px;
