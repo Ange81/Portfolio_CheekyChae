@@ -3,13 +3,11 @@ Color Used
 Primary Color: yello - hex(#FDF0D5), blue - hex(#17BEBB), pink - hex(#F87575)
 Secondary Color: blue - rgba(23, 190, 187, 0.4), yellow - rgba(253, 240, 213, 0.5)
 Font Color: hex(#707070) */
-
 /*
 Fonts Used
 Headings: Karla Regular & Bold (weight: 400, 600, 800)
 Paragraphs: Lato Regular & Bold (weight: 400,700)
 */
-
 /* General Styling */
 body {
   font-family: 'Lato', san-serif;
@@ -191,7 +189,6 @@ footer {
 
 .container {
   padding: 0 15px;
-
   /* add padding on left & right for each content block */
 }
 
@@ -213,7 +210,6 @@ footer {
 /* Global Styling */
 * {
   box-sizing: border-box;
-
   /* makes sure border and padding are included in width so entire width does not overflow */
 }
 
@@ -231,7 +227,6 @@ ul {
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
-
   /* 16:9 Aspect Ratio */
   z-index: 2;
 }
@@ -241,7 +236,6 @@ ul {
   overflow: hidden;
   width: 100%;
   padding-top: 217%;
-
   /* 8:16 Aspect Ratio */
   z-index: 2;
 }
@@ -289,7 +283,6 @@ ul {
 
 .row {
   margin: 25px 0;
-
   /* add margins between content blocks */
 }
 
@@ -340,7 +333,6 @@ ul {
 
 #home_hero {
   /* text-align: center; */
-
   /* background-color: #FDF0D5; */
   padding: 15px 0;
   display: inline-block;
@@ -781,10 +773,6 @@ ul {
   clear: both;
 }
 
-#rh_next li {
-  padding: 10px 0;
-}
-
 .illustration a {
   color: #707070;
 }
@@ -809,8 +797,97 @@ ul {
   color: #0F7B79;
 }
 
-/* Media Queries */
+#project_meggaball .project_logo img {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
 
+#audit_home img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#mb_ia ul {
+  margin: 0;
+}
+
+.primary_sitemap img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.primary_sitemap {
+  border: 2px solid #FAB511;
+  border-style: dotted;
+  margin-bottom: 20px;
+}
+
+.primary_sitemap h6 {
+  padding: 10px 10px;
+}
+
+.secondary_sitemap img {
+  width: 40%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.secondary_sitemap {
+  border: 2px solid #FAB511;
+  border-style: dotted;
+  margin-bottom: 50px;
+}
+
+.secondary_sitemap h6 {
+  padding: 10px 10px;
+}
+
+.new_classes img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.new_mobile img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.desktop_demo {
+  margin-bottom: 50px;
+}
+
+.desktop_demo video {
+  display: block;
+  margin: auto;
+  width: 260px;
+}
+
+.mobile_demo video {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+.final_thoughts li {
+  padding-bottom: 50px;
+}
+
+.final_thoughts ul {
+  margin: 0;
+}
+
+.final_thoughts h4 {
+  margin-bottom: 10px;
+}
+
+/* Media Queries */
 /* ================================
 S to M Devices (521px and larger)
 ==================================
@@ -969,7 +1046,7 @@ Medium Devices (640px and larger)
     padding-top: 80px;
   }
 
-  .process_circle a{
+  .process_circle a {
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -982,7 +1059,6 @@ Medium Devices (640px and larger)
     font-weight: 600;
     margin: auto;
   }
-
 
   #about_selfportrait img {
     width: 60%;
@@ -1160,6 +1236,30 @@ Medium Devices (640px and larger)
     margin-top: 0;
     padding-top: 110px;
   }
+
+  #mb_process li {
+    padding: 10px;
+  }
+
+  #mb_ia ul {
+    overflow: visible;
+  }
+
+  .new_classes img {
+    width: 100%;
+  }
+
+  .new_mobile img {
+    width: 100%;
+  }
+
+  .desktop_demo video {
+    width: 932px;
+  }
+
+  .mobile_demo video {
+    width: 250px;
+  }
 }
 
 /* ================================
@@ -1208,7 +1308,6 @@ Large Devices (1024px and larger)
   #about_selfportrait img {
     width: 70%;
   }
-
 
   .art_grid {
     display: grid;
