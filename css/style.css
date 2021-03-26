@@ -441,7 +441,7 @@ ul {
 }
 
 .section {
-  padding-top: 120px;
+  padding-top: 0;
 }
 
 .project_hero {
@@ -584,8 +584,16 @@ ul {
   display: block;
 }
 
+#cr_userflow1 {
+  margin-top: 30px;
+}
+
 #cr_next li {
   padding-bottom: 15px;
+}
+
+#cr_userflow1 {
+  margin-top: 0;
 }
 
 #rh_uf_legend img {
@@ -767,6 +775,10 @@ ul {
 
 #rh_preference_test ul {
   margin-bottom: 40px;
+}
+
+#rh_prototype h4 {
+  margin-top:30px;
 }
 
 #rh_final {
@@ -1042,9 +1054,6 @@ Medium Devices (640px and larger)
     margin-top: 0;
   }
 
-  .section {
-    padding-top: 80px;
-  }
 
   .process_circle a {
     border-radius: 50%;
@@ -1281,6 +1290,10 @@ Large Devices (1024px and larger)
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+
+  .section {
+    padding-top: 80px;
   }
 
   .col-lg-60 {
