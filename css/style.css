@@ -1,13 +1,6 @@
 /*
 Color Used
-Primary Color: yello - hex(#FDF0D5), blue - hex(#17BEBB), pink - hex(#F87575)
-Secondary Color: blue - rgba(23, 190, 187, 0.4), yellow - rgba(253, 240, 213, 0.5)
-Font Color: hex(#707070) */
-/*
-Fonts Used
-Headings: Karla Regular & Bold (weight: 400, 600, 800)
-Paragraphs: Lato Regular & Bold (weight: 400,700)
-*/
+
 /* General Styling */
 body {
   font-family: 'Lato', san-serif;
@@ -825,6 +818,79 @@ ul {
   margin: 0;
 }
 
+#cc_circle1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #2f7b79;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+  margin: auto;
+}
+
+#cc_circle2 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #fdf0d5;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+  margin: auto;
+}
+
+#cc_icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#cc_icons svg {
+  padding: 3px;
+}
+
+#cc_colors {
+  margin-bottom: 30px;
+}
+
+#cc_colors ul {
+  margin-top: 3px;
+}
+
+#cc_ui_logo {
+  margin-bottom: 30px;
+}
+
+#cc_logo_complex {
+  width: 30%;
+}
+
+#cc_logo_simple {
+  width: 20%;
+}
+
+#cc_ui_logo p {
+  margin-top:0;
+}
+
+#cc_ui_logo img {
+  padding: 10px;
+}
+
+#cc_launch img {
+  display: block;
+  margin: auto;
+}
+
+#cc_javascript .row {
+  margin-top:0;
+}
+
+#cc_javascript p {
+  margin: 0;
+}
+
+#cc_mediaquery h4{
+  margin-top: 25px;
+}
+
 .primary_sitemap img {
   width: 80%;
   display: block;
@@ -1250,6 +1316,25 @@ Medium Devices (640px and larger)
     padding: 10px;
   }
 
+  #cc_fonts img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  #cc_launch img {
+    width: 60%;
+  }
+
+#cc_javascript img {
+  width: 80%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+#cc_mediaquery h4{
+  margin-top: 0px;
+}
 
   .new_classes img {
     width: 100%;
