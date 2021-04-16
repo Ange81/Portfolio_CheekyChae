@@ -1312,7 +1312,11 @@ Medium Devices (640px and larger)
   }
 
   #mb_process li {
-    padding: 10px;
+    padding: 3px;
+  }
+
+  #cc_process li {
+    padding: 3px;
   }
 
   #cc_fonts img {
