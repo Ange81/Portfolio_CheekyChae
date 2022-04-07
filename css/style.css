@@ -1311,14 +1311,6 @@ Medium Devices (640px and larger)
     padding-top: 110px;
   }
 
-  #mb_process li {
-    padding: 3px;
-  }
-
-  #cc_process li {
-    padding: 3px;
-  }
-
   #cc_fonts img {
     width: 70%;
     display: block;
